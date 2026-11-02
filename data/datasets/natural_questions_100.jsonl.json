@@ -1,0 +1,1367 @@
+{
+  "name": "natural_questions_100.jsonl",
+  "rows": [
+    {
+      "id": 83810,
+      "question": "who made the first periodic table of elements",
+      "context": "The history of the periodic table reflects over a century of growth in the understanding of chemical properties. The most important event in its history occurred in 1869, when the table was published by Dmitri Mendeleev, who built upon earlier discoveries by scientists such as Antoine - Laurent de Lavoisier and John Newlands, but who is nevertheless generally given sole credit for its development.",
+      "answers": [
+        "Dmitri Mendeleev"
+      ],
+      "answer_start": [
+        203
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83811,
+      "question": "when is gang beasts coming out for playstation 4",
+      "context": "Gang Beasts is an upcoming multiplayer beat ' em up party video game developed by Boneloaf and published by Double Fine Presents. The game released on Steam Early Access for Microsoft Windows, OS X, and Linux on 29 August 2014. The game is expected to release on the PlayStation 4 and PlayStation VR during 2017.",
+      "answers": [
+        "2017"
+      ],
+      "answer_start": [
+        307
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83812,
+      "question": "who plays murtaugh's wife on lethal weapon",
+      "context": "Keesha Sharp as Trish Murtaugh, Det. Murtaugh 's loving wife and mother of his three children who works as a defense attorney. In the season one episode \"As Good As It Getz '', Trish quits her job after being passed over for managing partner at her law firm. She was originally played by Darlene Love in the film series.",
+      "answers": [
+        "Keesha Sharp",
+        "Darlene Love"
+      ],
+      "answer_start": [
+        0,
+        288
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83813,
+      "question": "when did the british parliament pass the townshend acts",
+      "context": "The Townshend Acts were a series of British acts passed beginning in 1767 and relating to the British American colonies in North America. The acts are named after Charles Townshend, the Chancellor of the Exchequer, who proposed the program. Historians vary slightly as to which acts they include under the heading \"Townshend Acts '', but five acts are often mentioned: The Revenue Act of 1767, the Indemnity Act (1767), the New York Restraining Act (1767), the Commissioners of Customs Act (1767), and the Vice Admiralty Court Act (1767). The purpose of the Townshend Acts was to raise revenue in the colonies to pay the salaries of governors and judges so that they would remain loyal to Great Britain, to create a more effective means of enforcing compliance with trade regulations, to punish the province of New York for failing to comply with the 1765 Quartering Act, and to establish the precedent that the British Parliament had the right to tax the colonies. The Townshend Acts were met with resistance in the colonies, prompting the occupation of Boston by British troops in 1768, which eventually resulted in the Boston Massacre of 1770.",
+      "answers": [
+        "beginning in 1767"
+      ],
+      "answer_start": [
+        56
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83814,
+      "question": "what river carved the mile deep channel that is the grand canyon",
+      "context": "The Grand Canyon (Hopi: Ongtupqa; Yavapai: Wi: kaʼi: la, Navajo: Tsékooh Hatsoh, Spanish: Gran Cañón) is a steep - sided canyon carved by the Colorado River in Arizona, United States. The Grand Canyon is 277 miles (446 km) long, up to 18 miles (29 km) wide and attains a depth of over a mile (6,093 feet or 1,857 meters).",
+      "answers": [
+        "Colorado River"
+      ],
+      "answer_start": [
+        142
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83815,
+      "question": "where is sao paulo located on a map",
+      "context": "São Paulo Municipality Município de São Paulo Municipality of São Paulo From the top, left to right: São Paulo Cathedral, United Nations Business Center, São Paulo Museum of Art on Paulista Avenue, Paulista Museum, Bandeiras Monument, Octávio Frias de Oliveira Bridge, and overview of the historic downtown from Altino Arantes Building Flag Coat of arms Nickname (s): Terra da Garoa (Land of Drizzle); Sampa; \"Pauliceia '' Motto (s): \"Non ducor, duco '' (Latin) \"I am not led, I lead '' Location in the state of São Paulo São Paulo Location in Brazil Coordinates: 23 ° 33 ′ S 46 ° 38 ′ W ﻿ / ﻿ 23.550 ° S 46.633 ° W ﻿ / - 23.550; - 46.633 Coordinates: 23 ° 33 ′ S 46 ° 38 ′ W ﻿ / ﻿ 23.550 ° S 46.633 ° W ﻿ / - 23.550; - 46.633 Country Brazil State São Paulo Founded January 25, 1554 Named for Paul the Apostle Government Type Mayor - council Mayor João Doria (PSDB) Vice Mayor Bruno Covas (PSDB) Area Municipality 1,521.11 km (587.3039 sq mi) Metro 7,946.96 km (3,068.338 sq mi) Elevation 760 m (2,493.4 ft) Population (2016) 12,038,175 Rank 1st Density 7,913.29 / km (20,495.3 / sq mi) Urban 12,038,175 Metro 21,242,939 Metro density 2,673.09 / km (6,923.3 / sq mi) Demonym (s) Portuguese: paulistano Time zone BRT (UTC − 3) Summer (DST) BRST (UTC − 2) Postal Code (CEP) 01000 - 000 Area code (s) (+ 55) 11 HDI (2014) 0.829 very high GDP (PPP) $477 billion GDP (per capita) $39,624 Website São Paulo, SP",
+      "answers": [
+        "23 ° 33 ′ S 46 ° 38 ′ W ﻿ / ﻿ 23.550 ° S 46.633 ° W",
+        "23 ° 33 ′ S 46 ° 38 ′ W ﻿ / ﻿ 23.550 ° S 46.633 ° W"
+      ],
+      "answer_start": [
+        564,
+        652
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83816,
+      "question": "where was the second half of the revolutionary war fought",
+      "context": "The British turned their attention to conquering the South in 1778, after Loyalists in London assured them of a strong Loyalist base there. A southern campaign also had the advantage of keeping the Royal Navy closer to the Caribbean, where it would be needed to defend lucrative colonies against the Franco - Spanish fleets. On December 29, 1778, an expeditionary corps from New York captured Savannah, and British troops then moved inland to recruit Loyalist support. There was a promising initial turnout in early 1779, but then a large Loyalist militia was defeated at Kettle Creek on February 14 and they had to recognize their dependence upon the British. The British, however, defeated Patriot militia at Brier Creek on March 3, and then launched an abortive assault on Charleston, South Carolina. The operation became notorious for its high degree of looting by British troops, enraging both Loyalists and Patriot colonists.",
+      "answers": [
+        "the South"
+      ],
+      "answer_start": [
+        49
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83817,
+      "question": "difference between judicial review in scotland and england",
+      "context": "Despite the procedural differences, the substantive laws regarding the grounds of judicial review in Scotland are similar to those in other western legal systems, with decisions in one jurisdiction regarded as highly persuasive in the others. There is, however, one substantial difference in Scotland since there is no distinction between review of a public body and a private body, which is different from, for example, judicial review in England and Wales, where review is only possible in the case of a public body or a quasi-public body (West v. Secretary of State for Scotland).",
+      "answers": [
+        "no distinction between review of a public body and a private body"
+      ],
+      "answer_start": [
+        316
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83818,
+      "question": "when is the next episode of the next step coming out",
+      "context": "No. overall No. in season Title Directed by Written by Original air date 155 \"Grave New World '' Derek Ryan Karen McClellan July 16, 2018 (2018 - 07 - 16) (UK) 156 \"Wink It Out '' Derek Ryan Rachael Schaefer July 17, 2018 (2018 - 07 - 17) (UK) 157 \"Dance - Zilla '' Derby Crewe Emma Campbell July 18, 2018 (2018 - 07 - 18) (UK) 158 \"Coup d'Etat '' Derby Crewe Brad Vermunt July 19, 2018 (2018 - 07 - 19) (UK) 159 5 \"Summer Lovin ' '' Derek Ryan Brian Hartigan July 20, 2018 (2018 - 07 - 20) (UK) 160 6 \"Mean Twirls '' Derek Ryan Karl DiPelino July 23, 2018 (2018 - 07 - 23) (UK) 161 7 \"Oh Solo Me - Oh '' Mitchell T. Ness Ryan Spencer July 30, 2018 (2018 - 07 - 30) (UK) 162 8 \"Mash - Up Match - Up '' Mitchell T. Ness Jan Caruana August 6, 2018 (2018 - 08 - 06) (UK) 163 9 \"Amy 's Prom Has Got It Goin ' On '' Samir Rehem Rachael Schaefer August 13, 2018 (2018 - 08 - 13) (UK) 164 10 \"Twinkle Toes '' TBA TBA August 20, 2018 (2018 - 08 - 20) (UK) 165 11 TBA TBA TBA TBA 166 12 TBA TBA TBA TBA 167 13 TBA TBA TBA TBA 168 14 TBA TBA TBA TBA 169 15 TBA TBA TBA TBA 170 16 TBA TBA TBA TBA 171 17 TBA TBA TBA TBA 172 18 TBA TBA TBA TBA 173 19 TBA TBA TBA TBA 174 20 TBA TBA TBA TBA 175 21 TBA TBA TBA TBA 176 22 TBA TBA TBA TBA 177 23 TBA TBA TBA TBA 178 24 TBA TBA TBA TBA 179 25 TBA TBA TBA TBA 180 26 TBA TBA TBA TBA",
+      "answers": [
+        "August 20, 2018"
+      ],
+      "answer_start": [
+        910
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83819,
+      "question": "when did 4th generation intel processors come out",
+      "context": "Haswell is the codename for a processor microarchitecture developed by Intel as the \"fourth - generation core '' successor to the Ivy Bridge microarchitecture. Intel officially announced CPUs based on this microarchitecture on June 4, 2013 at Computex Taipei 2013, while a working Haswell chip was demonstrated at the 2011 Intel Developer Forum. With Haswell, which uses a 22 nm process, Intel also introduced low - power processors designed for convertible or \"hybrid '' ultrabooks, designated by the \"Y '' suffix.",
+      "answers": [
+        "June 4, 2013"
+      ],
+      "answer_start": [
+        227
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83820,
+      "question": "what was the boy version of polly pocket",
+      "context": "Mighty Max was a series of toys that were manufactured by Bluebird Toys PLC in the UK in 1992, and designed by Big Monster Toys. The toys were similar to the earlier Polly Pocket toyline; however, these toys were marketed primarily towards young boys. In Canada and the USA, they were distributed by Irwin Toy Limited and Mattel Inc. respectively. The original toyline consisted mainly of \"Doom Zones '' and \"Horror Heads. '' \"Doom Zones '' were small playsets with a horror theme and featured miniature figurines of menacing creatures and the hero Max, a young boy with blond hair, jeans, a white t - shirt with a red \"M '' on it, and a baseball cap (the color varied based on the playset purchased) which also always had an \"M '' on it. The \"Horror Heads '' were smaller - sized playsets, also shaped like the heads of creatures and contained miniature figures. It was later adapted into a TV series, as well as a tie - in video game produced by Ocean Software for the Super NES and Mega Drive / Genesis.",
+      "answers": [
+        "Mighty Max"
+      ],
+      "answer_start": [
+        0
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83821,
+      "question": "who is left in produce 101 season 2",
+      "context": "Company Name Age Judges evaluation Ranking Ep. 1 Ep. 2 Ep. 3 Episode 5 Ep. 6 Episode 8 Episode 10 Episode 11 Final # # # # Votes # # Votes # Votes # Votes Individual Trainee (개인 연습생) Kim Sang - been (김상빈) 23 46 51 55 60 100,142 39 48 379,753 48 Kim Jae - hwan (김재환) 22 27 18 18 16 569,969 7 9 1,822,842 13 259,776 1,051,735 Kim Chan (김찬) 22 39 40 56 82 69,967 82 Lee In - soo (이인수) 22 33 30 43 57 105,599 56 57 256,851 57 Choi Dong - ha (최동하) 22 38 35 51 63 88,032 63 2able Company (투 에이블 컴퍼니) Ju Won - tak (주 원탁) 22 92 83 94 62 88,474 62 2Y Entertainment Lee Ki - won (이기원) 22 63 65 58 58 103,065 46 53 318,579 53 Ardor and Able (아더 앤 에이블) Roh Tae - hyun (노태현) 25 61 48 24 26 353,043 32 21 945,314 25 143,523 25 Ha Seng - un (하 성운) 24 34 28 23 21 459,912 27 25 838,649 413,654 11 790,302 11 Banana Entertainment (바나나) Yoon Yong - bin (윤용빈) 23 80 73 67 73 77,030 73 Blessing Entertainment (블레싱) Yu Jin - won (유진 원) 21 79 87 70 75 76,303 75 Im Woo - hyeok (임우혁) 24 49 53 57 66 86,710 66 Brand New Music (브랜 뉴 뮤직) Kim Dong - hyun (김동현) 20 42 46 35 39 163,092 41 29 821,551 28 125,155 28 Park Woo - jin (박우진) 19 72 75 38 24 403,690 16 14 1,396,889 6 372,493 6 937,379 6 Lee Dae - hwi (이대휘) 17 7 809,484 10 2,095,314 10 325,990 1,102,005 Lim Young - min (임영민) 23 24 27 31 27 312,983 12 5 2,011,798 17 197,721 15 654,505 15 Brave Entertainment (브레이브 엔터테인먼트) Arredondo Samuel (김 사무엘) 16 6 863,861 17 16 1,306,508 5 378,491 18 391,529 18 C2K Entertainment Kim Seong - lee (김성리) 24 69 60 53 46 133,494 51 47 395,013 47 C9 Entertainment Bae Jin - young (배진영) 18 5 12 10 12 667,298 14 12 1,502,905 389,982 10 807,749 10 Choon Entertainment (춘) Kim Shi - hyun (김시현) 20 Jin Longguo (김용국) 22 44 49 37 34 195,419 35 18 1,190,935 21 184,303 21 Cre. Ker Entertainment (크래커) Joo Hak - nyeon (주 학년) 19 8 6 10 703,391 9 10 1,629,176 18 197,194 19 349,040 19 CS Entertainment Cho Jin - hyung (조진형) 22 85 92 75 72 77,924 72 Cube Entertainment Lai Kuan - lin (라 이관린) 17 10 6 7 9 717,275 5 2,202,665 20 188,940 7 905,875 7 Yu Seon - ho (유선호) 16 22 16 15 15 575,027 11 13 1,502,513 16 209,168 17 551,745 17 FENT (에프 이엔티) Lee Jun - woo (이준우) 20 30 36 33 41 157,041 58 50 343,252 50 Fantagio (판타지 오) Ong Seong - wu (옹 성우) 23 8 819,186 6 7 1,998,849 8 358,656 5 984,756 5 FNC Entertainment Yoo Hoe - seung (유회 승) 23 43 39 49 56 109,060 36 39 527,138 39 Gini Stars Entertainment (지니 스타즈) Kim Do - hyun (김도현) 26 86 69 86 92 64,157 92 Park Hee - seok (박희석) 26 89 66 87 86 68,008 86 Wang Min - hyeok (왕 민혁) 24 98 85 98 89 66,475 89 GNI Entertainment (지엔 아이) Jeong Si - hyun (정시현) 27 48 56 62 77 74,829 77 GON Entertainment Hong Eun - ki (홍은기) 21 29 31 41 36 176,813 38 38 557,008 38 Hanahreum Company (한아름 컴퍼니) Kim Tae - min (김태민) 23 26 33 30 32 260,391 37 59 HF Music Company (HF 뮤직 컴퍼니) Park Woo - dam (박우담) 23 59 57 68 55 112,521 21 28 826,392 35 31,975 35 Woo Jin - young (우진영) 21 55 50 45 42 153,419 40 40 522,149 40 Jeong Won - cheol (정원철) 22 81 72 85 95 57,775 95 Jo Yong - geun (조용근) 23 65 59 71 93 61,660 93 HIM Entertainment Park Sung - woo (박성우) 30 12 13 17 22 452,876 31 37 562,716 37 Hunus Entertainment (후 너스) Kim Sang - kyun (김상균) 23 47 38 47 43 152,329 23 27 830,779 26 140,890 26 I. One Entertainment (아이원) Kim Yeon - kuk (김연국) 23 97 91 92 76 75,768 76 Nam Yoon - sung (남윤성) 22 Ryu Ho - yeon (유호연) 20 96 95 93 87 67,707 87 Choi Hee - soo (최희수) 21 68 79 79 96 55,959 96 IMX Cho Gyu - min (조규민) 25 94 89 97 88 67,359 88 IT Entertainment Lee Seo - kyu (이서규) 20 91 43 50 69 80,052 69 Han Min - ho (한민호) 21 84 96 82 74 77,000 74 Jellyfish Entertainment (젤리 피쉬) Yun Hee - seok (윤희석) 21 25 26 32 30 264,133 45 46 408,503 46 K - Tigers (K 타이거즈) Byun Hyun - min (변 현민) 19 52 70 73 52 116,449 44 45 419,381 45 Kiwi Media Group (키위 미디어 그룹) Kim Dong - bin (김동빈) 17 40 37 25 33 237,033 59 58 256,770 58 Maroo Entertainment (마루 기획) Kwon Hyeop (권협) 20 41 41 52 65 86,745 65 Park Ji - hoon (박지훈) 19 1,044,197 2,181,840 630,198 1,136,014 Han Jong - youn (한종연) 20 Media Line (미디어 라인) Lee Woo - jin (이우진) 15 20 22 21 18 511,463 22 26 836,127 34 47,796 34 MMO Entertainment Kang Daniel (강 다니엘) 22 23 23 12 5 817,245 8 1,948,847 828,148 1,578,837 Kim Jae - han (김재한) 23 83 64 72 81 71,281 81 Yoon Ji - seong (윤지성) 27 35 19 9 844,829 13 15 1,372,652 9 333,974 8 902,098 8 Joo Jin - woo (주진우) 25 77 80 77 45 141,432 42 41 496,934 41 Choi Tae - woong (최태웅) 24 76 71 65 71 78,323 71 Namoo Actors (나무 엑터스) Lee You - jin (이유진) 26 58 42 48 48 130,509 50 54 316,255 54 Narda Entertainment (나르다) Kim Tae - woo (김태우) 25 28 34 44 38 167,726 49 49 367,727 49 ONO Entertainment (오앤 오) Jang Moon - vok (장문 복) 23 5 8 14 597,046 26 32 745,093 27 130,324 27 Oui Entertainment (위) Kim Dong - han (김동한) 20 57 78 78 37 175,107 34 35 629,883 29 120,594 29 Jang Dae - hyeon (장대현) 21 51 54 66 83 69,146 83 Jo Sung - wook (조성욱) 22 87 97 90 91 64,374 91 Pan (팬) Lee Ji - han (이지 한) 20 90 74 88 98 51,123 98 Pledis Entertainment (플레 디스) Kang Dong - ho (강동호) 23 19 14 20 20 472,132 8 11 1,585,712 12 314,807 13 755,436 13 Kim Jong - hyeon (김종현) 23 15 11 13 8 752,149 2,795,491 7 367,052 14 704,148 14 Choi Min - gi (최민기) 23 14 15 19 19 476,249 18 20 1,102,561 15 217,734 20 277,106 20 Hwang Min - hyun (황민현) 23 11 9 16 11 680,322 6 2,004,207 11 315,650 9 862,719 9 Rainbow Bridge World (RBW) Son Dong - myeong (손동명) 19 53 61 69 68 84,469 68 Yeo Hwan - ung (여 환웅) 20 32 32 39 49 126,568 54 42 472,798 42 Lee Gun - min (이건민) 22 56 81 83 94 60,404 94 Lee Keon - hee (이건희) 20 17 24 27 29 269,787 29 30 799,975 33 50,148 33 Choi Jae - woo (최재우) 21 74 94 80 97 52,711 97 S How Entertainment (에스 하우) Kim Nam - hyung (김남형) 25 75 58 46 54 112,841 47 52 328,569 52 Jeong Dong - su (정동수) 27 60 52 36 35 180,209 30 36 587,830 36 Star Road Entertainment (스타 로드) Takada Kenta (타카다 켄타) 23 21 25 29 28 287,263 24 31 783,860 24 146,716 24 Starship Entertainment (스타쉽) Lee Gwang - hyun (이광현) 20 45 47 40 44 145,251 43 44 442,392 44 Jung Se - woon (정세운) 21 13 17 11 13 634,134 15 17 1,284,267 19 196,223 12 769,859 12 STL Entertainment (에스티 엘) Choi Jun - young (최준영) 22 82 98 81 90 66,443 90 The Jackie Chan Group Korea (더 잭키 찬 그룹 코리아) Kim Chan - yul (김찬 율) 26 93 90 96 78 73,320 78 Choi Ha - don (최하 돈) 25 73 86 91 85 68,009 85 The Vibe Label (더 바이브 레이블) Kim Tae - dong (김태동) 21 37 45 28 25 359,771 28 22 877,168 30 110,091 30 Seong Hyun - woo (성현우) 22 54 67 84 61 99,983 61 Yoon Jae - chan (윤재찬) 19 67 55 60 59 101,243 52 55 277,022 55 Ha Min - ho (하민호) 20 50 63 63 47 132,056 60 Total Set (토탈 셋) Yoo Kyoung - mok (유경목) 24 78 62 74 84 68,265 84 Wayz Company (웨이즈 컴퍼니) Jeong Joong - ji (정 중지) 26 64 77 59 64 86,864 64 WH Creative Seo Sung - hyuk (서성혁) 19 95 88 95 51 120,808 19 24 844,163 31 54,415 31 Widmay (위드 메이) Kim Ye - hyeon (김예현) 19 71 93 34 40 159,576 55 33 691,611 32 53,277 32 Wings Entertainment (윙즈) Kim Yong - jin (김용진) 21 88 84 61 53 114,426 53 56 261,354 56 YGKPlus (YG 케이 플러스) Kwon Hyun - bin (권현빈) 21 16 20 22 23 408,701 33 34 645,510 22 160,693 22 Kim Hyeon - woo (김현우) 20 66 82 89 70 79,305 70 Lee Hoo - lim (이후림) 26 62 68 76 80 72,260 80 Jeong Hyo - jun (정효준) 26 36 44 54 67 85,218 67 Yuehua Entertainment (위에 화) Ahn Heong - seop (안형섭) 19 7 7 5 6 810,639 20 19 1,171,439 14 254,984 16 609,085 16 Lee Eui - woong (이의웅) 17 9 10 14 17 520,973 25 23 855,494 23 156,572 23 Justin (저스틴) 16 18 21 26 31 261,653 48 43 458,650 43 Zhu Zheng - ting (정정) 22 31 29 42 50 122,552 57 51 330,058 51 Choi Seung - hyeok (최승혁) 19 70 76 64 79 72,983 79",
+      "answers": [
+        "Kim Shi - hyun",
+        "Kim Tae - min",
+        "Nam Yoon - sung",
+        "Han Jong - youn",
+        "Ha Min - ho"
+      ],
+      "answer_start": [
+        1634,
+        2680,
+        3239,
+        3907,
+        6357
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83822,
+      "question": "the voice of louise from bob's burgers",
+      "context": "Kristen Joy Schaal (/ ʃɑːl /; born January 24, 1978) is an American comedian, actress, voice actress and writer best known for current roles as Carol in The Last Man on Earth (since 2015), as well as for playing Mel in Flight of the Conchords, the over-sexed nurse Hurshe Heartshe on The Heart, She Holler, Mabel Pines in Gravity Falls and Louise Belcher in Bob 's Burgers.",
+      "answers": [
+        "Kristen Joy Schaal"
+      ],
+      "answer_start": [
+        0
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83823,
+      "question": "who printed the first complete edition of the bible",
+      "context": "Early Modern English Bible translations are of between about 1500 and 1800, the period of Early Modern English. This, the first major period of Bible translation into the English language, began with the introduction of the Tyndale Bible. The first complete edition of his New Testament was in 1526. Tyndale used the Greek and Hebrew texts of the New Testament (NT) and Old Testament (OT) in addition to Jerome 's Latin translation. He was the first translator to use the printing press -- this enabled the distribution of several thousand copies of his New Testament translation throughout England. Tyndale did not complete his Old Testament translation. The first printed English translation of the whole bible was produced by Miles Coverdale in 1535, using Tyndale 's work together with his own translations from the Latin Vulgate or German text. After much scholarly debate it is concluded that this was printed in Antwerp and the colophon gives the date as 4th October 1535. This first edition was adapted by Coverdale for his first \"authorised version '', known as the Great Bible, of 1539. Other early printed versions were the Geneva Bible (1560), notable for being the first Bible divided into verses; the Bishop 's Bible (1568), which was an attempt by Elizabeth I to create a new authorised version; and the Authorized King James Version of 1611.",
+      "answers": [
+        "Miles Coverdale"
+      ],
+      "answer_start": [
+        729
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83824,
+      "question": "the prophet who received the revelation of the qur'an was",
+      "context": "Muhammad 's first revelation was an event described in Islam as taking place in 610 AD, during which the Islamic prophet, Muhammad was visited by the archangel Gabriel, who revealed to him the beginnings of what would later become the Quran. The event took place in a cave called Hira, located on the mountain Jabal an - Nour, near Mecca.",
+      "answers": [
+        "Muhammad",
+        "Muhammad"
+      ],
+      "answer_start": [
+        0,
+        122
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83825,
+      "question": "when did the rule of east india company end in the sub-continent",
+      "context": "The East India Company was a private company owned by stockholders and reporting to a board of directors in London. Originally formed as a monopoly on trade, it increasingly took on governmental powers with its own army and judiciary. It seldom turned a profit, as employees diverted funds into their own pockets. The British government had little control, and there was increasing anger at the corruption and irresponsibility of Company officials or \"nabobs '' who made vast fortunes in a few years. Pitt 's India Act of 1784 gave the British government effective control of the private company for the first time. The new policies were designed for an elite civil service career that minimized temptations for corruption. Increasingly Company officials lived in separate compounds according to British standards. The Company 's rule lasted until 1858, when, after the Indian rebellion of 1857, it was abolished. With the Government of India Act 1858, the British government assumed the task of directly administering India in the new British Raj.",
+      "answers": [
+        "1858",
+        "1858"
+      ],
+      "answer_start": [
+        848,
+        947
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83826,
+      "question": "who wrote sare jahan se achha hindustan hamara",
+      "context": "\"Sare Jahan se Accha '' (Urdu: سارے جہاں سے اچھا ‬ ‎, Hindi: सारे जहां से अच्छा; Sāre Jahāṉ se Acchā), formally known as \"Tarānah - i - Hindi '' (Urdu: ترانۂ ہندی ‬ ‎, Hindi: तराना - ए - हिंदी; \"Anthem of the People of India ''), is an Urdu language patriotic song written for children by poet Muhammad Iqbal in the ghazal style of Urdu poetry. The poem was published in the weekly journal Ittehad on 16 August 1904. Publicly recited by Iqbal the following year at Government College, Lahore, British India (now in Pakistan) it quickly became an anthem of opposition to the British Raj. The song, an ode to Hindustan -- the land comprising present - day Bangladesh, India and Pakistan, was later published in 1924 in the Urdu book Bang - i - Dara.",
+      "answers": [
+        "Muhammad Iqbal"
+      ],
+      "answer_start": [
+        294
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83827,
+      "question": "indian air force day is celebrated on which date",
+      "context": "Indian Air Force भारतीय वायु सेना Bhāratīya Vāyu Senā The Crest of the Indian Air Force Founded 8 October 1932; 84 years ago (1932 - 10 - 08) Country India Type Air force Role Aerial warfare Size 140,139 active personnel Approx. 1,720 + aircraft Part of Indian Armed Forces Headquarters New Delhi Motto (s) नभः स्पृशं दीप्तम् (Sanskrit) IAST: Nabhaḥ Spr̥śaṁ Dīptam (Touch the Sky with Glory) Colour Navy blue, sky blue & white Anniversaries Air Force Day: 8 October Engagements Notable operations (show) World War II Indo - Pakistani War of 1947 Congo Crisis Operation Vijay Sino - Indian War Indo - Pakistani War of 1965 Bangladesh Liberation War Operation Meghdoot Operation Poomalai Operation Pawan Operation Cactus Kargil War Website indianairforce.nic.in Commanders Chief of the Air Staff (CAS) Air Chief Marshal Birender Singh Dhanoa, PVSM, AVSM, YSM, VM, ADC Vice Chief of the Air Staff (VCAS) Air Marshal Shirish Baban Deo, PVSM, AVSM, VSM, VM, ADC Notable commanders Marshal of the Indian Air Force Arjan Singh Air Chief Marshal Pratap Chandra Lal Air Marshal Subroto Mukherjee Insignia Air Force Ensign Roundel Fin flash Aircraft flown Attack Jaguar, MiG - 27, Harpy Electronic warfare A-50E / I, DRDO AEW&CS Fighter Su - 30MKI, Mirage 2000, MiG - 29, HAL Tejas, MiG - 21 Helicopter Dhruv, Chetak, Cheetah, Mi - 8, Mi - 17, Mi - 26, Mi - 25 / 35, HAL Light Combat Helicopter, HAL Rudra Reconnaissance Searcher II, Heron Trainer Hawk Mk 132, HJT - 16 Kiran, Pilatus C - 7 Mk II Transport C - 17 Globemaster III, Il - 76, An - 32, HS 748, Do 228, Boeing 737, ERJ 135, C - 130J Tanker Il - 78 MKI",
+      "answers": [
+        "8 October",
+        "8 October"
+      ],
+      "answer_start": [
+        96,
+        456
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83828,
+      "question": "united states court of appeals for the fifth circuit clerk's office",
+      "context": "The court is one of 13 United States courts of appeals. Composed of 17 active judges, it is based at the John Minor Wisdom United States Court of Appeals Building in New Orleans, Louisiana, with the clerk 's office located at the F. Edward Hebert Federal Building in New Orleans.",
+      "answers": [
+        "located at the F. Edward Hebert Federal Building in New Orleans"
+      ],
+      "answer_start": [
+        215
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83829,
+      "question": "who won the battle of antietam north or south",
+      "context": "Date September 17, 1862 (1862 - 09 - 17) Location Washington County, near Sharpsburg, Maryland 39 ° 28 ′ 24 '' N 77 ° 44 ′ 41 '' W ﻿ / ﻿ 39.47333 ° N 77.74472 ° W ﻿ / 39.47333; - 77.74472 Coordinates: 39 ° 28 ′ 24 '' N 77 ° 44 ′ 41 '' W ﻿ / ﻿ 39.47333 ° N 77.74472 ° W ﻿ / 39.47333; - 77.74472 Result Tactically inconclusive; Union strategic victory Emancipation Proclamation issued five days later",
+      "answers": [
+        "Union strategic victory"
+      ],
+      "answer_start": [
+        326
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83830,
+      "question": "who sings the theme song for the greatest american hero",
+      "context": "\"Believe It or Not '' is a song composed by Mike Post (music) and Stephen Geyer (lyrics) and sung by American singer Joey Scarbury. It serves as the theme song for the television series The Greatest American Hero. The track was later included on Scarbury 's 1981 debut album America 's Greatest Hero.",
+      "answers": [
+        "Joey Scarbury"
+      ],
+      "answer_start": [
+        117
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83831,
+      "question": "who did mos def play in cadillac records",
+      "context": "The film stars Adrien Brody as Leonard Chess, Cedric the Entertainer as Willie Dixon, Mos Def as Chuck Berry, Columbus Short as Little Walter, Jeffrey Wright as Muddy Waters, Eamonn Walker as Howlin ' Wolf, and Beyoncé as Etta James. The film was released in North America on December 5, 2008 by TriStar Pictures.",
+      "answers": [
+        "Chuck Berry"
+      ],
+      "answer_start": [
+        97
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83832,
+      "question": "where did the proclamation of 1763 divide british territory",
+      "context": "The Royal Proclamation of 1763 was issued October 7, 1763, by King George III following Great Britain 's acquisition of French territory in North America after the end of the French and Indian War / Seven Years ' War, which forbade all settlement past a line drawn along the Appalachian Mountains. It rendered worthless land grants given by the British government to Americans who fought for the crown against France. The Proclamation angered American colonists who wanted to continue their westward expansion into new farm lands and wanted to keep their control of local government. The Royal Proclamation continues to be of legal importance to First Nations in Canada. The 1763 proclamation line is similar to the Eastern Continental Divide 's path running northwards from Georgia to the Pennsylvania -- New York border, and north - eastwards past the drainage divide on the St. Lawrence Divide from there northwards through New England.",
+      "answers": [
+        "along the Appalachian Mountains"
+      ],
+      "answer_start": [
+        265
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83833,
+      "question": "is the process by which phagocytic cells enter the tissues from capillaries",
+      "context": "To reach the site of infection, phagocytes leave the bloodstream and enter the affected tissues. Signals from the infection cause the endothelial cells that line the blood vessels to make a protein called selectin, which neutrophils stick to on passing by. Other signals called vasodilators loosen the junctions connecting endothelial cells, allowing the phagocytes to pass through the wall. Chemotaxis is the process by which phagocytes follow the cytokine \"scent '' to the infected spot. Neutrophils travel across epithelial cell - lined organs to sites of infection, and although this is an important component of fighting infection, the migration itself can result in disease - like symptoms. During an infection, millions of neutrophils are recruited from the blood, but they die after a few days.",
+      "answers": [
+        "Chemotaxis"
+      ],
+      "answer_start": [
+        392
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83834,
+      "question": "where did they film the book of henry",
+      "context": "Principal photography on the film began in September 2015 in and around New York City, and concluded in November. The music was composed by Michael Giacchino. Stevie Nicks sang a new song in the film.",
+      "answers": [
+        "in and around New York City"
+      ],
+      "answer_start": [
+        58
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83835,
+      "question": "who sings lean with it rock with it",
+      "context": "\"Lean wit It, Rock wit It '' is a song by Atlanta rap group Dem Franchize Boyz from their album On Top of Our Game. The recording features Peanut and Charlay and was produced by Maurice \"Parlae '' Gleaton.",
+      "answers": [
+        "Dem Franchize Boyz"
+      ],
+      "answer_start": [
+        60
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83836,
+      "question": "when did the magic school bus come out",
+      "context": "The Magic School Bus Genre Educational adventure comedy Based on The Magic School Bus by Joanna Cole Bruce Degen Developed by Alison Blank Kristin Laskas Martin Jane Startz Voices of Lily Tomlin Lisa Yamanaka Danny Tamberelli Daniel DeSanto Tara Meyer Erica Luttrell Maia Filar Stuart Stone Renessa Blitz Malcolm - Jamal Warner Theme music composer Peter Lurye Opening theme \"Ride on the Magic School Bus '', performed by Little Richard Country of origin United States Canada Original language (s) English No. of seasons No. of episodes 52 (list of episodes) Production Running time 25 minutes Production company (s) South Carolina ETV Nelvana Scholastic Entertainment Distributor Nelvana Release Original network PBS Kids Picture format SD: 4: 3 Audio format Dolby Surround Original release September 10, 1994 (1994 - 09 - 10) -- December 6, 1997 (1997 - 12 - 06) Chronology Followed by The Magic School Bus Rides Again External links Website",
+      "answers": [
+        "September 10, 1994"
+      ],
+      "answer_start": [
+        792
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83837,
+      "question": "who sang the song gunfight at ok corral",
+      "context": "The film was a big hit and earned $4.7 million on its first run and $6 million on re-release. Its Dimitri Tiomkin score, featuring the song \"Gunfight at the O.K. Corral '', with lyrics by Ned Washington, sung by Frankie Laine, pushes the movie 's momentum relentlessly throughout.",
+      "answers": [
+        "Frankie Laine"
+      ],
+      "answer_start": [
+        212
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83838,
+      "question": "what is the name of different colored eyes",
+      "context": "Heterochromia is a difference in coloration, usually of the iris but also of hair or skin. Heterochromia is a result of the relative excess or lack of melanin (a pigment). It may be inherited, or caused by genetic mosaicism, chimerism, disease, or injury.",
+      "answers": [
+        "Heterochromia",
+        "Heterochromia"
+      ],
+      "answer_start": [
+        0,
+        91
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83839,
+      "question": "when was the last time houston won world series",
+      "context": "The Astros played in the NL from 1962 to 2012. They played in the West Division from 1969 to 1993, and the Central Division from 1994 to 2012. While a member of the NL, the Astros played in one World Series, in 2005, against the Chicago White Sox, in which they were swept in four games. In 2017, they became the first franchise in MLB history to have won a pennant in both the NL and the AL, when they defeated the New York Yankees in the ALCS. They subsequently won the 2017 World Series against the Los Angeles Dodgers, winning four games to three, earning the team, and Texas, its first World Series title.",
+      "answers": [
+        "2017",
+        "2017"
+      ],
+      "answer_start": [
+        291,
+        472
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83840,
+      "question": "who is first credited with trying to find the tangent to a curve in antiquity",
+      "context": "Archimedes developed this method further, while also inventing heuristic methods which resemble modern day concepts somewhat in his The Quadrature of the Parabola, The Method, and On the Sphere and Cylinder. It should not be thought that infinitesimals were put on a rigorous footing during this time, however. Only when it was supplemented by a proper geometric proof would Greek mathematicians accept a proposition as true. It was not until the 17th century that the method was formalized by Cavalieri as the method of Indivisibles and eventually incorporated by Newton into a general framework of integral calculus. Archimedes was the first to find the tangent to a curve other than a circle, in a method akin to differential calculus. While studying the spiral, he separated a point 's motion into two components, one radial motion component and one circular motion component, and then continued to add the two component motions together, thereby finding the tangent to the curve. The pioneers of the calculus such as Isaac Barrow and Johann Bernoulli were diligent students of Archimedes; see for instance C.S. Roero (1983).",
+      "answers": [
+        "Archimedes was the first to find the tangent to a curve other than a circle, in a method akin to differential calculus. While studying the spiral, he separated a point 's motion into two components, one radial motion component and one circular motion component, and then continued to add the two component motions together, thereby finding the tangent to the curve."
+      ],
+      "answer_start": [
+        619
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83841,
+      "question": "when did the new season of wentworth start",
+      "context": "A seventh season was commissioned in April 2018, before the sixth - season premiere, with filming commencing the following week and a premiere set for 2019.",
+      "answers": [
+        "2019"
+      ],
+      "answer_start": [
+        151
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83842,
+      "question": "who plays kirsty sutherland in home and away",
+      "context": "Kirsty Sutherland is a fictional character from the Australian Channel Seven soap opera Home and Away, played by Christie Hayes between 2000 and 2005 and again from 2008 to 2009. Kirsty first appeared on - screen during the episode airing on 19 June 2000 and has been involved in one of the serial 's most controversial storylines in which she knowingly started a relationship with a man who sexually assaulted her sister. Other notable plots include a baby swap plot, two miscarriages and a string of relationships including one with her supposed half - brother. Actress Hayes began playing the role at age thirteen and has quit the serial on two occasions, she made her original departure on 23 February 2005.",
+      "answers": [
+        "Christie Hayes"
+      ],
+      "answer_start": [
+        113
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83843,
+      "question": "who hosted the table tennis 2017 itf women's world cup",
+      "context": "The 2017 ITTF Women 's World Cup was a table tennis competition held in Markham, Ontario, from 27 to 29 October 2017. It was the 21st edition of the ITTF - sanctioned event, and the first time that it had been staged in Canada.",
+      "answers": [
+        "Canada"
+      ],
+      "answer_start": [
+        220
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83844,
+      "question": "what is the name of india nepal border",
+      "context": "The Union of India and the Federal Democratic Republic of Nepal initiated their relationship with the 1950 Indo - Nepal Treaty of Peace and Friendship and accompanying secret letters that defined security relations between the two countries, and an agreement governing both bilateral trade and trade transiting Indian territory. The 1950 treaty and letters exchanged between the then Indian government and Rana rulers of Nepal, stated that \"neither government shall tolerate any threat to the security of the other by a foreign aggressor '' and obligated both sides \"to inform each other of any serious friction or misunderstanding with any neighboring state likely to cause any breach in the friendly relations subsisting between the two governments. '' These accords cemented a \"special relationship '' between India and Nepal. The treaty also granted Nepalese, the same economic and educational opportunities as Indian citizens in India, while accounting for preferential treatment to Indian citizens and businesses compared to other nationalities in Nepal. The Indo - Nepal border is open; Nepalese and Indian nationals may move freely across the border without passports or visas and may live and work in either country. However, Indians are n't allowed to own land - properties or work in government institutions in Nepal, while Nepalese nationals in India are allowed to work in Indian government institutions (except in some states and some civil services (the IFS, IAS, and IPS)). After years of dissatisfaction by the Nepalese government, India in 2014, agreed to revise and adjust the treaty to the reflect the current realities. However, the modality of adjustment has n't been made clear by either side.",
+      "answers": [
+        "Indo - Nepal",
+        "Indo - Nepal"
+      ],
+      "answer_start": [
+        107,
+        1065
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83845,
+      "question": "who plays brittany on young and the restless",
+      "context": "Brittany Hodges is a fictional character from the American CBS soap opera The Young and the Restless. Brittany was introduced on December 1, 1999 by former executive producer Edward J. Scott. The role was first portrayed by actress Vanessa Lee Evigan. Evigan departed on February 25, 2000 after a three - month stint, and was replaced by Lauren Woodland, who debuted on March 7. Brittany 's storylines included relationships with Raul Guittierez (David Lago) and J.T. Hellstrom (Thad Luckinbill). Woodland said that the romance with Raul changed the character who was previously manipulative and sexual.",
+      "answers": [
+        "Vanessa Lee Evigan",
+        "Lauren Woodland"
+      ],
+      "answer_start": [
+        232,
+        338
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83846,
+      "question": "what is the role of the financial action task force",
+      "context": "The Financial Action Task Force (on Money Laundering) (FATF), also known by its French name, Groupe d'action financière (GAFI), is an intergovernmental organization founded in 1989 on the initiative of the G7 to develop policies to combat money laundering. In 2001 its mandate expanded to include terrorism financing. It monitors progress in implementing the FATF Recommendations through \"peer reviews '' (\"mutual evaluations '') of member countries. The FATF Secretariat is housed at the OECD headquarters in Paris.",
+      "answers": [
+        "to develop policies to combat money laundering"
+      ],
+      "answer_start": [
+        209
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83847,
+      "question": "when was first written constitution declared in nepal",
+      "context": "In the 68 years history of constitutional development onto this Constitution, Nepal experienced 7 different constitutions in different time period. Previous constitutions of Nepal were enacted in 1948, 1951, 1959, 1962, 1990 and 2007.",
+      "answers": [
+        "1948"
+      ],
+      "answer_start": [
+        196
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83848,
+      "question": "when did south africa host cricket world cup",
+      "context": "Tournament # Matches Matches Hosted by Nations Other bidders 15 England (15) 1979 15 England (15) 27 England (26) Wales (1) 27 India (17) Pakistan (10) England 1992 39 Australia (25) New Zealand (14) 37 India (17) Pakistan (16) Sri Lanka (4) England South Africa 1999 42 England (37) Scotland (2) Ireland (1) Netherlands (1) Wales (1) 2003 54 South Africa (46) Zimbabwe (6) Kenya (2) 2007 51 West Indies (51) Bahamas Bermuda United States 2011 49 India (29) Sri Lanka (12) Bangladesh (8) Australia New Zealand Pakistan United Arab Emirates 2015 49 Australia (26) New Zealand (23) 2019 48 England (44) Wales (4) 2023? India",
+      "answers": [
+        "2003"
+      ],
+      "answer_start": [
+        335
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83849,
+      "question": "where is the tv show good witch filmed",
+      "context": "Although set in Middleton, USA, it was filmed in Hamilton and Niagara on the Lake, Ontario in Canada. In the sequel, The Good Witch 's Charm, the map on the wall in the police station shows Middleton located northwest of Chicago, in the vicinity of DuPage County. The names of the suburbs and interstates that are west of Chicago can be clearly seen.",
+      "answers": [
+        "Hamilton and Niagara on the Lake, Ontario in Canada"
+      ],
+      "answer_start": [
+        49
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83850,
+      "question": "who won season 13 of the biggest loser",
+      "context": "The Biggest Loser: No Excuses is the thirteenth season of the NBC reality television series entitled The Biggest Loser. The contestants competed to win a $ 250,000 prize, which was awarded to Jeremy Britt, the contestant with the highest percentage of weight lost. It premiered on January 3, 2012. Alongside veteran trainer Bob Harper, Dolvett Quince returned for his second season. The contestants come to the ranch in pairs, but are split up with one person training with Bob and one with Dolvett and the teams competing against each other and their loved ones in challenges.",
+      "answers": [
+        "Jeremy Britt"
+      ],
+      "answer_start": [
+        192
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83851,
+      "question": "who is known as wizard of the north",
+      "context": "John Henry Anderson (1814 -- 1874) was a Scottish professional magician. Anderson is credited with helping bring the art of magic from street performances into theatres and presenting magic performances to entertain and delight the audience.",
+      "answers": [
+        "John Henry Anderson"
+      ],
+      "answer_start": [
+        0
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83852,
+      "question": "when does dana find out terry is batman",
+      "context": "However, as the Justice League Unlimited episode \"Epilogue '' reveals, Terry ultimately grows into full acceptance of his role as Batman, and somewhere along the line discloses his secret to Dana. Despite knowing his secret, Dana shows to have accepted his double life and is willing to be with him, even if her safety is threatened. She is also frustrated with the fact that they have been dating for years and have not married. Although it takes him some time to get over his fears for her safety in the event that his identity is ever compromised, the episode ends with Terry planning to propose to her.",
+      "answers": [
+        "the Justice League Unlimited episode \"Epilogue ''"
+      ],
+      "answer_start": [
+        12
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83853,
+      "question": "where is the pga honda classic played at",
+      "context": "The Honda Classic Tournament information Location Palm Beach Gardens, Florida Established 1972, 46 years ago Course (s) PGA National Golf Club, Champion Course Par 70 Length 7,140 yards (6,529 m) Organized by IMG Tour (s) PGA Tour Format Stroke play Prize fund $ 6.6 million Month played February Tournament record score Aggregate 264 Justin Leonard (2003) To par − 24 Justin Leonard (2003) Current champion Justin Thomas",
+      "answers": [
+        "Palm Beach Gardens, Florida"
+      ],
+      "answer_start": [
+        50
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83854,
+      "question": "who played big on sex and the city",
+      "context": "Christopher David \"Chris '' Noth (/ ˈnoʊθ / NOHTH; born November 13, 1954) is an American actor. He is known for his television roles as Detective Mike Logan on Law & Order (1990 -- 95), Big on Sex and the City (1998 -- 2004), and Governor Peter Florrick on The Good Wife (2009 -- 16). He reprised his role of Mike Logan on Law & Order: Criminal Intent (2005 -- 08), and reprised his role of Big in the films, Sex and the City (2008) and Sex and the City 2 (2010). He was nominated for the Golden Globe Award for Best Supporting Actor on Television for Sex and the City in 1999 and for The Good Wife in 2010. Chris Noth also studied acting at The Neighborhood Playhouse School of the Theatre in New York City.",
+      "answers": [
+        "Christopher David \"Chris '' Noth"
+      ],
+      "answer_start": [
+        0
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83855,
+      "question": "what year was the three musketeers set in",
+      "context": "Set in 1625 -- 1628, it recounts the adventures of a young man named d'Artagnan (based on Charles de Batz - Castelmore d'Artagnan) after he leaves home to travel to Paris, to join the Musketeers of the Guard. Although d'Artagnan is not able to join this elite corps immediately, he befriends the three most formidable musketeers of the age -- Athos, Porthos and Aramis -- and gets involved in affairs of the state and court.",
+      "answers": [
+        "1625 -- 1628"
+      ],
+      "answer_start": [
+        7
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83856,
+      "question": "when did america send troops to europe in world war 2",
+      "context": "On 16 June 1941, after negotiation with Churchill, Roosevelt ordered the United States occupation of Iceland to replace the British invasion forces. On 22 June 1941, the US Navy sent Task Force 19 (TF 19) from Charleston, South Carolina to assemble at Argentia, Newfoundland. TF 19 included 25 warships and the 1st Provisional Marine Brigade of 194 officers and 3714 men from San Diego, California under the command of Brigadier General John Marston. Task Force 19 (TF 19) sailed from Argentia on 1 July. On 7 July, Britain persuaded the Althing to approve an American occupation force under a U.S. - Icelandic defense agreement, and TF 19 anchored off Reykjavík that evening. U.S. Marines commenced landing on 8 July, and disembarkation was completed on 12 July. On 6 August, the U.S. Navy established an air base at Reykjavík with the arrival of Patrol Squadron VP - 73 PBY Catalinas and VP - 74 PBM Mariners. U.S. Army personnel began arriving in Iceland in August, and the Marines had been transferred to the Pacific by March 1942. Up to 40,000 U.S. military personnel were stationed on the island, outnumbering adult Icelandic men (at the time, Iceland had a population of about 120,000.) The agreement was for the US military to remain until the end of the war (although the US military presence in Iceland remained through 2006, as postwar Iceland became a member of NATO).",
+      "answers": [
+        "22 June 1941"
+      ],
+      "answer_start": [
+        152
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83857,
+      "question": "when was briggs stadium changed to tiger stadium",
+      "context": "Over the years, expansion continued to accommodate more people. In 1935, following Navin 's death, new owner Walter Briggs oversaw the expansion of Navin Field to a capacity of 36,000 by extending the upper deck to the foul poles and across right field. By 1938, the city had agreed to move Cherry Street, allowing left field to be double - decked and the now - renamed Briggs Stadium had a capacity of 53,000. In 1961, new owner John Fetzer took control of the stadium and gave it its final name: Tiger Stadium. Under this name, the stadium witnessed World Series titles in 1968 and 1984.",
+      "answers": [
+        "1961"
+      ],
+      "answer_start": [
+        414
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83858,
+      "question": "who won the golden ball of fifa 2018",
+      "context": "Golden Ball World Cup Golden Ball Silver Ball Bronze Ball 1930 Uruguay José Nasazzi Guillermo Stábile José Leandro Andrade 1934 Italy Giuseppe Meazza Matthias Sindelar Oldřich Nejedlý 1938 France Leônidas Silvio Piola György Sárosi 1950 Brazil Zizinho Juan Alberto Schiaffino Ademir 1954 Switzerland Ferenc Puskás Sándor Kocsis Fritz Walter 1958 Sweden Didi Pelé Just Fontaine 1962 Chile Garrincha Josef Masopust Leonel Sánchez 1966 England Bobby Charlton Bobby Moore Eusébio 1970 Mexico Pelé Gérson Gerd Müller 1974 West Germany Johan Cruyff Franz Beckenbauer Kazimierz Deyna 1978 Argentina Mario Kempes Paolo Rossi Dirceu 1982 Spain Paolo Rossi Falcão Karl - Heinz Rummenigge 1986 Mexico Diego Maradona Harald Schumacher Preben Elkjær Larsen 1990 Italy Salvatore Schillaci Lothar Matthäus Diego Maradona 1994 United States Romario Roberto Baggio Hristo Stoichkov 1998 France Ronaldo Davor Šuker Lilian Thuram 2002 Korea / Japan Oliver Kahn Ronaldo Hong Myung - bo 2006 Germany Zinedine Zidane Fabio Cannavaro Andrea Pirlo 2010 South Africa Diego Forlán Wesley Sneijder David Villa 2014 Brazil Lionel Messi Thomas Müller Arjen Robben 2018 Russia Luka Modrić Eden Hazard Antoine Griezmann",
+      "answers": [
+        "Luka Modrić"
+      ],
+      "answer_start": [
+        1147
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83859,
+      "question": "what political party is in power in sweden",
+      "context": "Following the general elections held on 26 September 2014, Stefan Löfven of the Swedish Social Democratic Party was elected Prime Minister of Sweden by the new parliament on 2 October. Together with the Green Party, Löfven presides over a minority government. The Deputy Prime Minister is Isabella Lövin of the Green Party.",
+      "answers": [
+        "Swedish Social Democratic Party",
+        "Green Party",
+        "Green Party"
+      ],
+      "answer_start": [
+        80,
+        203,
+        311
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83860,
+      "question": "cyclone that was formed in bay of bengal in may 2017",
+      "context": "The season officially had an early start compared with the last two seasons, with the formation of Cyclone Maarutha over the Bay of Bengal in mid-April. Cyclone Mora, formed in late May over the Bay of Bengal. At its peak intensity, it was equivalent to a marginal Category 1 hurricane on the Saffir - Simpson hurricane wind scale. The cyclone produced severe flooding across Sri Lanka, India, Myanmar and Bangladesh and caused 15 deaths directly and 208 deaths indirectly. The floods persisted in Bangladesh since a Deep Depression over Bay of Bengal made landfall and killed 156 people in Bangladesh. A depression formed in northwestern Bay of Bengal and produced torrential rainfall. It was followed by a depression over Jharkhand which killed 70 people in West Bengal. Under the influence of strong monsoon surge a disturbance developed over Bay of Bengal travelled westwards and intensified to an unnamed depression. It also affected neighboring Karachi in Pakistan. A strong monsoon surge prevented formation of systems until a deep depression formed over West Bengal in October and caused heavy rainfall. A couple of depression formed between mid October and November which continued the rain spell causing destruction of life and property. Very Severe Cyclonic Storm Ockhi formed in early December and wreaked havoc in the countries where it impacted. It was equivalent to a strong Category 3 hurricane on the Saffir - Simpson scale at peak intensity. The twin storm of Ockhi was a deep depression which originated in Bay of Bengal while its counterpart was in Arabian Sea.",
+      "answers": [
+        "Cyclone Mora"
+      ],
+      "answer_start": [
+        153
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83861,
+      "question": "what is the largest provincial park in ontario",
+      "context": "1970 -- Polar Bear, Ontario 's largest provincial park at 24,000 square kilometres, is created.",
+      "answers": [
+        "Polar Bear"
+      ],
+      "answer_start": [
+        8
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83862,
+      "question": "when did universal social charge start in ireland",
+      "context": "The Universal Social Charge (USC) is a tax on income that replaced both the income levy and the health levy (also known as the health contribution) since 1 January 2011. It is charged on your gross income before any pension contributions or PRSI.",
+      "answers": [
+        "1 January 2011"
+      ],
+      "answer_start": [
+        154
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83863,
+      "question": "where is iron ore mined in the us",
+      "context": "Iron mining in the United States produced 42.5 million metric tons of iron ore in 2015, worth US $3.8 billion. Iron ore was the third - highest - value metal mined in the United States, after gold and copper. Iron ore was mined from nine active mines and three reclamation operations in Michigan, Minnesota, and Utah. Most of the iron ore was mined in northern Minnesota 's Mesabi Range. Net exports (exports minus imports) were 3.9 million tons. US iron ore made up 2.5 percent of the total mined worldwide in 2015. Employment as of 2014 was 5,750 in iron mines and iron ore treatment plants.",
+      "answers": [
+        "Michigan",
+        "Minnesota",
+        "Minnesota",
+        "Utah"
+      ],
+      "answer_start": [
+        287,
+        297,
+        361,
+        312
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83864,
+      "question": "bank of england base rate what does it mean",
+      "context": "The official bank rate (also called the Bank of England base rate or BOEBR) is the interest rate that the Bank of England charges Banks for secured overnight lending. It is the British Government 's key interest rate for enacting monetary policy. It is more analogous to the US discount rate than to the Federal funds rate. The security for the lending can be any of a list of eligible securities (commonly Gilts) and are transacted as overnight repurchase agreements. Changes are recommended by the Monetary Policy Committee and enacted by the Governor.",
+      "answers": [
+        "the interest rate that the Bank of England charges Banks for secured overnight lending",
+        "key interest rate for enacting monetary policy",
+        "overnight repurchase agreements"
+      ],
+      "answer_start": [
+        79,
+        199,
+        436
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83865,
+      "question": "who played worf's son in star trek the next generation",
+      "context": "Brian Eric Bonsall (born December 3, 1981) is an American rock musician, singer, guitarist and former child actor. He is perhaps best known for his role as Andrew \"Andy '' Keaton, the youngest child on the NBC sitcom Family Ties from 1986 until 1989, and Alexander Rozhenko, the son of Worf and K'ehleyr, on Star Trek: The Next Generation from 1992 to 1994.",
+      "answers": [
+        "Brian Eric Bonsall"
+      ],
+      "answer_start": [
+        0
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83866,
+      "question": "who is the actress who plays sansa stark",
+      "context": "Sophie Turner (born 21 February 1996) is an English actress. Turner made her professional acting debut as Sansa Stark on the HBO fantasy television series Game of Thrones (2011 -- present), which brought her international recognition.",
+      "answers": [
+        "Sophie Turner"
+      ],
+      "answer_start": [
+        0
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83867,
+      "question": "the names of the witches in hocus pocus",
+      "context": "Bette Midler as Winifred \"Winnie '' Sanderson, the buck - toothed oldest Sanderson sister and leader of the trio. Kathy Najimy as Mary Sanderson, the middle sister, often complimenting and comforting her domineering older sister, Winnie. She can smell children and hunts them down. Sarah Jessica Parker as Sarah Sanderson, the youngest and most beautiful sister. She has the ability to entrance children with her siren - like singing. Omri Katz as Maximilian \"Max '' Dennison, a teenager originally from Los Angeles, California who moves to Salem, Massachusetts with his family. Max is angry at his parents for making them move to Salem. He is responsible for bringing back the Sanderson sisters 300 years later on Halloween night. Thora Birch as Danielle \"Dani '' Dennison, Max 's spoiled 8 - year - old sister and an enthusiastic trick - or - treater. Dani is addicted to candy and looks up to Max. Vinessa Shaw as Allison, Max 's love interest and a wealthy native Salem resident. Allison forms a close bond with Dani. Sean Murray as Thackery Binx; originally a teenager from 1693, he follows Emily into the woods, where he fails to prevent her death at the hands of the Sanderson sisters. The witches transform him into an immortal cat, voiced by Jason Marsden. Doug Jones as Billy Butcherson, Winifred 's lover and a zombie. He died on May 1, 1693 after Winifred found him sporting with her sister Sarah, poisoned him and sewed his mouth shut with a dull needle, so he could n't tell her secrets, even in death. Charles Rocket as David \"Dave '' Dennison, Max and Dani 's father. Stephanie Faracy as Jennifer \"Jenny '' Dennison, Max and Dani 's mother. Amanda Shepherd as Emily Binx, Thackery 's younger sister. She 's about Dani 's age. She died on October 31, 1693 after the witches drain her life force from her. Larry Bagby as Ernie \"Ice '', the leader of a group of high school delinquents and Jay 's best friend. Tobias Jelinek as Jay, another delinquent and Ernie 's best friend. Steve Voboril as Elijah, a boy from a farm in 1693. Norbert Weisser as Mr. Binx, Emily and Thackery 's father. Kathleen Freeman as Miss Olin, Max 's and Allison 's teacher at Jacob Bailey High School. Garry Marshall (uncredited) as \"The Devil '', a man wearing a devil costume whom the Sanderson sisters assume to be their \"Master ''. Penny Marshall (uncredited) as the \"Devil 's '' wife, who the sisters assume is Medusa due to her curlers, which resemble snakes.",
+      "answers": [
+        "Winifred \"Winnie '' Sanderson",
+        "Mary Sanderson",
+        "Sarah Sanderson"
+      ],
+      "answer_start": [
+        16,
+        130,
+        306
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83868,
+      "question": "who sang 'me you and a dog named boo'",
+      "context": "\"Me and You and a Dog Named Boo '' is the 1971 debut single by Lobo. Written by Lobo under his real name Kent LaVoie, it appears on the Introducing Lobo album.",
+      "answers": [
+        "Lobo",
+        "Lobo",
+        "Lobo"
+      ],
+      "answer_start": [
+        63,
+        80,
+        148
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83869,
+      "question": "which layer of the earth is broken up into tectonic plates",
+      "context": "Plate tectonics (from the Late Latin tectonicus, from the Greek: τεκτονικός \"pertaining to building '') is a scientific theory describing the large - scale motion of seven large plates and the movements of a larger number of smaller plates of the Earth 's lithosphere, since tectonic processes began on Earth between 3 and 3.5 billion years ago. The model builds on the concept of continental drift, an idea developed during the first decades of the 20th century. The geoscientific community accepted plate - tectonic theory after seafloor spreading was validated in the late 1950s and early 1960s.",
+      "answers": [
+        "lithosphere"
+      ],
+      "answer_start": [
+        256
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83870,
+      "question": "who plays anne garcia in santa clarita diet",
+      "context": "Natalie Morales as Anne Garcia, a sheriff 's deputy, Dan 's partner, and very religious. She becomes romantically involved with Lisa after Dan goes missing.",
+      "answers": [
+        "Natalie Morales"
+      ],
+      "answer_start": [
+        0
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83871,
+      "question": "guru gobind singh indraprastha university dwarka nearest metro station",
+      "context": "The Dwarka Sector 14 Metro Station is located on the Blue Line of the Delhi Metro. It is the nearest metro station to National Law University, Delhi one of the national law schools in India and Guru Gobind Singh Indraprastha University, NAAC ' A ' accredited university established by Government of NCT of Delhi.",
+      "answers": [
+        "Dwarka Sector 14 Metro Station"
+      ],
+      "answer_start": [
+        4
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83872,
+      "question": "how many cl trophies does real madrid have",
+      "context": "A total of 22 clubs have won the Champions League / European Cup. Real Madrid hold the record for the most victories, having won the competition 13 times, including the inaugural competition. They have also won the competition the most times in a row, winning it five times from 1956 to 1960. Juventus have been runners - up the most times, losing seven finals. Atlético Madrid is the only team to reach three finals without having won the trophy while Reims and Valencia have finished as runners - up twice without winning. Spain has provided the most champions, with 18 wins from two clubs. Italy have produced 12 winners from three clubs and England have produced 12 winners from five clubs. English teams were banned from the competition for five years following the Heysel disaster in 1985. The current champions are Real Madrid, who beat Liverpool in the 2018 final.",
+      "answers": [
+        "13"
+      ],
+      "answer_start": [
+        145
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83873,
+      "question": "the most important figure in the history of japanese nō theatre is",
+      "context": "Kan'ami Kiyotsugu and his son Zeami Motokiyo brought Noh to what is essentially its present - day form during the Muromachi period (1336 to 1573). Kan'ami was a renowned actor with great versatility fulfilling roles from graceful women and 12 - year - old boys to strong adult males. When Kan'ami first presented his work to 17 - year - old Ashikaga Yoshimitsu, Zeami was a child actor in his play, around age 12. Yoshimitsu fell in love with Zeami and his position of favor at court caused Noh to be performed frequently for Yoshimitsu thereafter.",
+      "answers": [
+        "Kan'ami Kiyotsugu"
+      ],
+      "answer_start": [
+        0
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83874,
+      "question": "what kind of tree does a coconut grow on",
+      "context": "The coconut tree (Cocos nucifera) is a member of the palm tree family (Arecaceae) and the only living species of the genus Cocos. The term \"coconut '' (or the archaic \"cocoanut '') can refer to the whole coconut palm, the seed, or the fruit, which botanically is a drupe, not a nut. The term is derived from the 16th - century Portuguese and Spanish word coco meaning \"head '' or \"skull '' after the three indentations on the coconut shell that resemble facial features.",
+      "answers": [
+        "The coconut tree (Cocos nucifera)"
+      ],
+      "answer_start": [
+        0
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83875,
+      "question": "what is the purpose of online shopping websites",
+      "context": "Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller over the Internet using a web browser. Consumers find a product of interest by visiting the website of the retailer directly or by searching among alternative vendors using a shopping search engine, which displays the same product 's availability and pricing at different e-retailers. As of 2016, customers can shop online using a range of different computers and devices, including desktop computers, laptops, tablet computers and smartphones.",
+      "answers": [
+        "allows consumers to directly buy goods or services from a seller over the Internet using a web browser"
+      ],
+      "answer_start": [
+        55
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83876,
+      "question": "when did baby i'm worth it come out",
+      "context": "\"Worth It '' is a song performed by American girl group Fifth Harmony, featuring American rapper Kid Ink. The song impacted American rhythmic crossover radio on March 2, 2015 as the third and final single from the group 's debut studio album, Reflection (2015). Written by Priscilla Renea and its producers Stargate, \"Worth It '' is a dance - pop & R&B song that incorporates a strong use of Balkan music in its production, the trademark of its producer and songwriter, Ori Kaplan. The lyrics discuss themes of feminism, self - worth and confidence, and include double entendres.",
+      "answers": [
+        "March 2, 2015"
+      ],
+      "answer_start": [
+        161
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83877,
+      "question": "who originally sang have some madeira my dear",
+      "context": "\"Have Some Madeira M'Dear '', also titled \"Madeira, M'Dear? '', is a darkly comic song by Flanders and Swann. It is a song about seduction and alcohol, containing complex and witty wordplay.",
+      "answers": [
+        "Flanders and Swann"
+      ],
+      "answer_start": [
+        90
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83878,
+      "question": "when was pot made illegal in the us",
+      "context": "Cannabis was officially outlawed for any use (medical included) with the passage of the Controlled Substances Act (CSA) of 1970. Multiple efforts to reschedule cannabis under the CSA have failed, and the U.S. Supreme Court has ruled in United States v. Oakland Cannabis Buyers ' Cooperative and Gonzales v. Raich that the federal government has a right to regulate and criminalize cannabis, even for medical purposes. Despite this, states and other jurisdictions have continued to implement policies that conflict with federal law, beginning with the passage of California 's Proposition 215 in 1996. By 2016 a majority of states had legalized medical cannabis, and in 2012 the first states legalized recreational use.",
+      "answers": [
+        "1970"
+      ],
+      "answer_start": [
+        123
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83879,
+      "question": "who played alice boyfriend on the brady bunch",
+      "context": "Allan John Melvin (February 18, 1923 -- January 17, 2008) was an American character actor who appeared in several television shows including numerous recurring roles as varying characters on \"The Andy Griffith Show, '' recurring roles as Corporal Henshaw on The Phil Silvers Show; Sergeant Hacker on Gomer Pyle, USMC; Alice 's boyfriend Sam the Butcher on The Brady Bunch; and Archie Bunker 's friend Barney Hefner on All in the Family and Archie Bunker 's Place.",
+      "answers": [
+        "Allan John Melvin"
+      ],
+      "answer_start": [
+        0
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83880,
+      "question": "who did the motorcycle stunts in the great escape",
+      "context": "James Sherwin \"Bud '' Ekins (May 11, 1930 -- October 6, 2007) was an American professional stuntman in the U.S. Film industry. He is considered to be one of the film industry 's most accomplished stuntmen with a body of work that includes classic films such as The Great Escape and Bullitt. Ekins, acting as stunt double for Steve McQueen while filming The Great Escape, was the rider who performed what is considered to be one of the most famous motorcycle stunts ever performed in a movie. He was recognized for his stunt work by being inducted into the Stuntmen 's Hall of Fame.",
+      "answers": [
+        "James Sherwin \"Bud '' Ekins"
+      ],
+      "answer_start": [
+        0
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83881,
+      "question": "what is the si unit of conductance and conductivity",
+      "context": "Conductivity (or specific conductance) of an electrolyte solution is a measure of its ability to conduct electricity. The SI unit of conductivity is siemens per meter (S / m).",
+      "answers": [
+        "siemens per meter (S / m)"
+      ],
+      "answer_start": [
+        149
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83882,
+      "question": "where is the main office of the ncaa",
+      "context": "National Collegiate Athletic Association Abbreviation NCAA Founded March 31, 1906 (1906 - 03 - 31) (IAAUS) 1910 (NCAA) Legal status Association Headquarters Indianapolis, Indiana Region served United States and Canada Membership 1,281 schools / institutions, conferences, or other associations President Mark Emmert Main organ Board of Governors Website NCAA official website NCAA administrative website",
+      "answers": [
+        "Indianapolis, Indiana"
+      ],
+      "answer_start": [
+        157
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83883,
+      "question": "what do you call the origin of an earthquake",
+      "context": "In its most general sense, the word earthquake is used to describe any seismic event -- whether natural or caused by humans -- that generates seismic waves. Earthquakes are caused mostly by rupture of geological faults, but also by other events such as volcanic activity, landslides, mine blasts, and nuclear tests. An earthquake 's point of initial rupture is called its focus or hypocenter. The epicenter is the point at ground level directly above the hypocenter.",
+      "answers": [
+        "focus",
+        "hypocenter",
+        "hypocenter"
+      ],
+      "answer_start": [
+        372,
+        381,
+        455
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83884,
+      "question": "who played bob and june on night court",
+      "context": "Mike Finneran as Art Fensterman, a bumbling \"fix - it man '' attached to the courthouse. His attempts to fix the courthouse often disrupted Harry 's proceedings in the courtroom. Seen in 37 episodes across all 9 seasons. Martin Garner as Bernie (Seasons 1 -- 3), the operator of the concession stand in the cafeteria, who had a crush on Selma and was often seen trying to persuade her to stop smoking. After Selma died, he tried to court Flo. (When Bernie was not at the stand various extras could be seen running it, including Al Rosen, best known as \"Al '' on Cheers.) Terry Kiser as Al Craven (Seasons 1 and 2), an obnoxious, pushy tabloid reporter who sometimes hung around the courtroom in hopes of discovering a scandalous story. Jason Bernard as Judge Willard (Seasons 1 and 2), an arrogant, humorless Judge who did n't approve of Harry 's antics and tried to have him removed from the bench. Rita Taggart as Carla Bouvier (Seasons 1 and 2), more commonly known as \"Carla B, '' a prostitute who frequently appeared as a defendant and who had a crush on Harry. Ron Ross as Dirk, a wimpy bailiff. Denice Kumagai as Quon Le Duc Robinson (Seasons 2 -- 9), Mac 's wife, a refugee from Vietnam, where she met Mac during his service in the Vietnam War when her family let Mac stay at their home while injured. Quon Le was naive about America and its customs, but was loving and devoted to Mac. Mac originally married her to keep her in the country, claiming he was not in love with her, but that quickly changed. She did n't understand the concept of ' buy now, pay later ', very well, but became more financially responsible after opening a restaurant in Season 3. In Season 4, moments after being sworn in as an American citizen, Quon Le gave birth to her and Mac 's daughter, Renee Flicka Robinson. John Astin as Buddy Ryan (Seasons 3 -- 9), Harry 's eccentric stepfather and a former patient in a psychiatric hospital. His catchphrase was the capper to stories involving his hospital stay or past strange behavior: \"... but I 'm feeling much better now, '' accompanied by a huge leering grin. He was later revealed to be Harry 's biological father, admitting he 'd kept it a secret for fear that the truth would bring Harry 's judicial ability into question. Mel Tormé as himself. In the first episode, Harry Stone was revealed as an almost fanatical admirer of Tormé. The two crossed paths, but Tormé grew to dislike the judge because Harry almost always ended up somehow causing misfortune or problems for his idol. Tormé once played Harry 's guardian angel in an episode modeled after the film \"It 's A Wonderful Life '', where the angel shows Harry how his colleagues could have ended up had he never become a judge. William Utay as Phil Sanders, Dan 's homeless lackey. Later in the series, Phil was killed in an accident involving a large musical instrument. (Due to his fear of musical instruments, he had a special clause in his substantial life insurance policy providing additional benefit in the event of accidental death caused by a musical instrument.) Just before his death, it was revealed that Phil was actually extremely wealthy but chose to live among the poor (a former stockbroker suffering from Howard Hughes syndrome) -- in fact, the show cleverly suggested the New York Harmonic Orchestra was known as the \"PHILharmonic Orchestra '' because Phil was one of its greatest patrons. Utay later played Phil 's evil twin brother Will, who befriended Dan in order to steal all of the Phil Foundation 's money. Will later returned what he 'd stolen along with a lot of additional cash from successful investing and devoted the rest of his life to doing good deeds on Dan 's behalf. Brent Spiner and Annie O'Donnell as Bob and June Wheeler, down - on - their - luck stereotypical Appalachian yokels, who later reveal they are Yugoslavian, although they continue to speak the same way. Bob was a frequent defendant in Harry 's courtroom, usually as the result of a series of freak disasters befalling his family. At one point they ran a concession stand in the courthouse, for which they spent the entire inheritance ($250,000), which \"Granny '' (oft - mentioned but never seen) had left them, forcing them to charge astronomical prices. Leslie Bevis as Sheila, an exotic nymphomaniac who often appeared to entice Dan into a sexual liaison during or after court to his detriment, causing him to suffer a coma in one episode. In her final appearance Sheila rejected Dan for a man who talked very, very slowly. She tells Dan she needs someone who \"knows how to take his time. '' In total Sheila appeared in four episodes. Yakov Smirnoff as Russian immigrant Yakov Korolenko, another frequent visitor to the courtroom. In the first season Harry saved a distraught Yakov from a suicide attempt, and they became good friends ever after. Yakov eventually tried to bring his brother to America, succeeded in getting his wife Sonja and kids out of the Soviet Union, and got his father to immigrate after the Cold War 's end. A running joke on the series was when Judge Stone would mention jail, which had a completely different import to the Soviet immigrant, who would respond with obvious fear: \"Jay - ul? Oh, noooo! No jay - ul! '' Eugene Roche as Jack Sullivan, Christine 's overbearing, blue - collar father. He referred to Harry as \"that nut ''. Daniel Frishman played Dan 's boss, District Attorney Vincent Daniels, in several episodes. Though initially underestimated because he was a little person, he had an extremely tough personality and often had it in for Dan. Bumper Robinson as Leon, an orphan who becomes close to Harry. Ray Abruzzo as Tony Giuliano, a police detective and Christine 's ex-husband. Mary Cadorette as Margaret Turner, Harry 's girlfriend / fiance during season 8. S. Marc Jordan as Jack Griffin (Seasons 8 and 9), the blind operator of the concession stand in the cafeteria. Joleen Lutz as Lisette Hocheiser (Seasons 8 and 9), the ditzy court stenographer. Gilbert Gottfried as Oscar Brown (Season 9), an attorney who filled in for Dan when he was missing. Florence Stanley as Judge Margaret Wilbur who occasionally filled in for Harry; she did not tolerate the staff 's usual eccentricities. (Wilbur was a cross-over character from the NBC situation comedy, My Two Dads, where Bull Shannon had made guest appearances in two episodes.)",
+      "answers": [
+        "Brent Spiner",
+        "Annie O'Donnell"
+      ],
+      "answer_start": [
+        3701,
+        3718
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83885,
+      "question": "tanzania is the only country in the world with a unique gemstone called",
+      "context": "Tanzanite is the blue and violet variety of the mineral zoisite (a calcium aluminium hydroxyl sorosilicate) belonging to the epidote group. The gemstone was discovered by Manuel d'Souza in the Mirerani Hills of Manyara Region in Northern Tanzania in 1967, near the city of Arusha and Mount Kilimanjaro. Tanzanite is only found in Tanzania, in a very small mining area (approximately 7 km long and 2 km wide) near the Mirerani Hills.",
+      "answers": [
+        "Tanzanite",
+        "Tanzanite"
+      ],
+      "answer_start": [
+        0,
+        303
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83886,
+      "question": "who plays randall's dad on this is us",
+      "context": "Milo Ventimiglia as Jack Pearson: Rebecca 's husband, and Kate, Kevin, & Randall 's father. Mandy Moore as Rebecca Pearson (née Malone): Jack 's wife, and Kate, Kevin, & Randall 's mother. Sterling K. Brown as Randall Pearson: Jack & Rebecca 's son, and Kate & Kevin 's brother. Also played by Niles Fitch (age 15) and Lonnie Chavis (ages 8 -- 10). Chrissy Metz as Kate Pearson: Jack & Rebecca 's daughter, and Kevin & Randall 's sister. Also played by Hannah Zeile (age 15) and Mackenzie Hancsicsak (ages 8 -- 10). Justin Hartley as Kevin Pearson: Jack & Rebecca 's son, and Kate & Randall 's brother. Also played by Logan Shroyer (age 15) and Parker Bates (ages 8 -- 10). Susan Kelechi Watson as Beth Pearson: Randall 's wife, and mother of Tess and Annie. Chris Sullivan as Toby Damon: Kate 's fiancé. Ron Cephas Jones as William H. Hill (aka Shakespeare): Randall 's biological father. Also played by Jermel Nakia as a youth. Jon Huertas as Miguel Rivas: Jack 's best friend and Rebecca 's second husband. (recurring season 1; main season 2 -- present) Alexandra Breckenridge as Sophie: Kate 's childhood best friend as well as Kevin 's childhood love and ex-wife. Also played by Amanda Leighton (age 15) and Sophia Coto (age 10). (recurring season 1; main season 2 -- present) Eris Baker as Tess Pearson: Randall and Beth 's older daughter. (recurring season 1; main season 2 -- present) Faithe Herman as Annie Pearson: Randall and Beth 's younger daughter. (recurring season 1; main season 2 -- present)",
+      "answers": [
+        "Ron Cephas Jones"
+      ],
+      "answer_start": [
+        805
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83887,
+      "question": "where did japan sign the articles of surrender",
+      "context": "The Japanese Instrument of Surrender was the written agreement that formalized the surrender of the Empire of Japan, marking the end of World War II. It was signed by representatives from the Empire of Japan, the United States of America, the Republic of China, the United Kingdom of Great Britain and Northern Ireland, the Union of Soviet Socialist Republics, the Commonwealth of Australia, the Dominion of Canada, the Provisional Government of the French Republic, the Kingdom of the Netherlands, and the Dominion of New Zealand. The signing took place on the deck of USS Missouri in Tokyo Bay on September 2, 1945.",
+      "answers": [
+        "on the deck of USS Missouri in Tokyo Bay"
+      ],
+      "answer_start": [
+        555
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83888,
+      "question": "what is the population of the phoenix area",
+      "context": "The Phoenix Metropolitan Area -- often referred to as the Valley of the Sun, the Salt River Valley or Metro Phoenix -- is a metropolitan area, centered on the city of Phoenix, that includes much of the central part of the U.S. State of Arizona. The United States Census Bureau designates the area as the Phoenix - Mesa - Scottsdale Metropolitan Statistical Area (MSA), defining it as Maricopa and Pinal counties. As of the Census Bureau 's 2015 population estimates, Metro Phoenix had 4,574,351 residents, making it the 12th largest Metropolitan Area in the nation by population. The gross domestic product of the Phoenix Metropolitan Area was $215 billion in 2014, 15th largest amongst metro areas in the United States.",
+      "answers": [
+        "4,574,351"
+      ],
+      "answer_start": [
+        485
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83889,
+      "question": "who played jason in the original friday the 13th",
+      "context": "Jason Voorhees is the main character from the Friday the 13th series. He first appeared in Friday the 13th (1980) as the young son of camp cook - turned - murderer Mrs. Voorhees, in which he was portrayed by Ari Lehman. Created by Victor Miller, with contributions by Ron Kurz, Sean S. Cunningham, and Tom Savini, Jason was not originally intended to carry the series as the main antagonist. The character has subsequently been represented in various other media, including novels, video games, comic books, and a cross-over film with another iconic horror film character, Freddy Krueger.",
+      "answers": [
+        "Ari Lehman"
+      ],
+      "answer_start": [
+        208
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83890,
+      "question": "when will a hat in time be released",
+      "context": "A Hat in Time Developer (s) Gears for Breakfast Publisher (s) Humble Bundle Director (s) Jonas Kærlev Designer (s) Jonas Kærlev Aaron Lomas Programmer (s) Jonas Kærlev Artist (s) Jenna Brown William T. Nicholls Luigi Lucarelli Sieger Vink Writer (s) Jonas Kærlev Aaron Lomas Composer (s) Pascal Michael Stiefel Engine Unreal Engine 3 Platform (s) macOS Microsoft Windows PlayStation 4 Xbox One Release Microsoft Windows, macOS WW: October 5, 2017 PlayStation 4 NA: December 5, 2017 EU: December 6, 2017 Xbox One WW: December 7, 2017 Genre (s) Platforming, action - adventure Mode (s) Single - player, multiplayer",
+      "answers": [
+        "October 5, 2017"
+      ],
+      "answer_start": [
+        431
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83891,
+      "question": "when did the i pad 4 come out",
+      "context": "iPad Developer Apple Inc. Manufacturer Foxconn Product family iPad Type Tablet computer Generation 4th Release date November 2, 2012 (2012 - 11 - 02) (show) Australia Austria Belgium Bulgaria Canada Czech Republic Denmark Finland France Germany Hong Kong Hungary Iceland Ireland Italy Japan South Korea Liechtenstein Luxembourg Mexico Netherlands New Zealand Norway Poland Portugal Puerto Rico Romania Singapore Slovakia Slovenia Spain Sweden Switzerland United Kingdom United States November 27, 2012 (2012 - 11 - 27) (show) Israel December 6, 2012 (2012 - 12 - 06) (show) Colombia December 7, 2012 (2012 - 12 - 07) (show) China Malaysia South Africa December 9, 2012 (2012 - 12 - 09) (show) India December 12, 2012 (2012 - 12 - 12) (show) United Arab Emirates December 14, 2012 (2012 - 12 - 14) (show) Brazil Russia Taiwan December 21, 2012 (2012 - 12 - 21) (show) Philippines Discontinued October 16, 2014 (2014 - 10 - 16) Units sold 3 million iPad Minis and fourth - generation iPads were shipped in the first weekend of sale. Operating system Original: iOS 6.0. 1 Current: iOS 10.3. 3, released July 19, 2017 (2017 - 07 - 19) System - on - chip used Apple A6X CPU 1.4 GHz dual core Apple Swift Memory 1 GB LPDDR2 RAM Storage 16, 32, 64 or 128 GB flash memory Display 9.7 inches (250 mm) 2,048 × 1,536 px color IPS LCD display at (264 ppi) with a 4: 3 aspect ratio, fingerprint - resistant oleophobic coating Graphics Quad - core PowerVR SGX554MP4 Input Multi-touch screen, headset controls, proximity and ambient light sensors, 3 - axis accelerometer, 3 - axis gyroscope, digital compass Camera Front: 1.2 MP, 720p HD Rear: OmniVision Technologies OV5650 5.0 MP AF, iSight with Five Element Lens, Hybrid IR filter, video stabilisation, face detection, ƒ / 2.4 aperture Connectivity Wi - Fi 802.11 a / b / g / n at 2.4 GHz and 5 GHz Bluetooth 4.0 GSM UMTS / HSDPA 850, 1900, 2100 MHz GSM / EDGE 850, 900, 1800, 1900 MHz CDMA CDMA / EV - DO Rev. A 800, 1900 MHz GSM LTE 700, 800, 850, 900, 1700, 1800, 1900, 2100, 2600 MHz UMTS / HSDPA / HSPA+ / DC - HSDPA 850, 900, 1900, 2100 MHz GSM / EDGE 850, 900, 1800, 1900 MHz CDMA LTE 700 MHz CDMA / EV - DO Rev. A 800, 1900 MHz UMTS / HSDPA / HSPA+ / DC - HSDPA 850, 900, 1900, 2100 MHz GSM / EDGE 850, 900, 1800, 1900 MHz Power Built - in rechargeable Li - Po battery 11,560 mAh 3.7 V 42.5 W ⋅ h (153 kJ) Online services App Store, iTunes Store, iBookstore, iCloud, Game Center 9.50 in (241 mm) (height) 7.31 in (186 mm) (width) 0.37 in (9.4 mm) (depth) Weight Wi - Fi model: 1.44 lb (650 g) Wi - Fi + Cellular model: 1.46 lb (660 g) Predecessor iPad (3rd generation) Successor iPad Air Related articles iPad (2017) Website www.apple.com/ipad",
+      "answers": [
+        "November 2, 2012"
+      ],
+      "answer_start": [
+        116
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83892,
+      "question": "what country on chinas border is mostly desert",
+      "context": "The Gobi Desert (/ ˈɡoʊ. bi /; Mongolian: Говь, Gowĭ, (ɢɔwj), \"semidesert ''; Chinese: 戈壁; pinyin: Gēbì, Xiao'erjing: قْبِ, (kɤ́. pî), Dungan: Гәби) is a large desert region in Asia. It covers parts of northern and northwestern China, and of southern Mongolia. The desert basins of the Gobi are bounded by the Altai Mountains and the grasslands and steppes of Mongolia on the north, by the Taklamakan Desert to the west, by the Hexi Corridor and Tibetan Plateau to the southwest, and by the North China Plain to the southeast. The Gobi is notable in history as part of the great Mongol Empire, and as the location of several important cities along the Silk Road.",
+      "answers": [
+        "Mongolia",
+        "Mongolia",
+        "Mongolia"
+      ],
+      "answer_start": [
+        31,
+        251,
+        360
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83893,
+      "question": "when is the prince of england getting married",
+      "context": "The wedding of Prince Harry and Meghan Markle was held on 19 May 2018 in St George 's Chapel at Windsor Castle in the United Kingdom. The groom, Prince Harry, is a member of the British royal family; the bride, Meghan Markle, is an American and former actress. On the morning of the wedding, Prince Harry 's grandmother, Queen Elizabeth II, conferred upon him the titles of Duke of Sussex, Earl of Dumbarton and Baron Kilkeel. On her marriage, Markle became Duchess of Sussex. The Archbishop of Canterbury, Justin Welby, officiated at the wedding using the standard Anglican church service for Holy Matrimony published in Common Worship, the liturgical text of the Church of England.",
+      "answers": [
+        "19 May 2018"
+      ],
+      "answer_start": [
+        58
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83894,
+      "question": "an area of land near a river that may be covered with water during a flood is called a",
+      "context": "A floodplain or flood plain is an area of land adjacent to a stream or river which stretches from the banks of its channel to the base of the enclosing valley walls, and which experiences flooding during periods of high discharge. The soils usually consist of levees, silts, and sands deposited during floods. Levees are the heaviest materials (usually pebble - size) and they are deposited first; silts and sands are finer materials.",
+      "answers": [
+        "floodplain or flood plain"
+      ],
+      "answer_start": [
+        2
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83895,
+      "question": "when did huddersfield get promoted to the premier league",
+      "context": "On 29 May 2017, the club successfully earned promotion to the Premier League for the first time (since the rebranding in 1992) and the English top flight for the first time since 1972, beating Reading 4 -- 3 on penalties following a 0 -- 0 draw after extra time in the Championship play - off Final.",
+      "answers": [
+        "29 May 2017"
+      ],
+      "answer_start": [
+        3
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83896,
+      "question": "when did the ipod 5th generation come out",
+      "context": "The fifth generation iPod Touch (stylized and marketed as the iPod touch, and colloquially known as the iPod Touch 5G or iPod Touch 5) was unveiled at Apple 's media event alongside the iPhone 5 on September 12, 2012 and was released on October 11, 2012. An all - purpose pocket computer designed and marketed by Apple Inc. with a touchscreen - based user interface, it succeeded the 4th generation iPod Touch. It is compatible with up to iOS 9.3. 5 which was released on the 25th of August 2016",
+      "answers": [
+        "October 11, 2012"
+      ],
+      "answer_start": [
+        237
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83897,
+      "question": "which type of import policy was adopted before economic reforms in india",
+      "context": "Indian economic policy after independence was influenced by the colonial experience (which was seen by Indian leaders as exploitative in nature) and by those leaders ' exposure to Fabian socialism. Policy tended towards protectionism, with a strong emphasis on import substitution industrialization under state monitoring, state intervention at the micro level in all businesses especially in labour and financial markets, a large public sector, business regulation, and central planning. Five - Year Plans of India resembled central planning in the Soviet Union. Steel, mining, machine tools, water, telecommunications, insurance, and electrical plants, among other industries, were effectively nationalised in the mid-1950s. Elaborate licences, regulations and the accompanying red tape, commonly referred to as Licence Raj, were required to set up business in India between 1947 and 1990.",
+      "answers": [
+        "import substitution industrialization under state monitoring"
+      ],
+      "answer_start": [
+        261
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83898,
+      "question": "who plays charlie in all dogs go to heaven",
+      "context": "All Dogs Go to Heaven is a 1989 animated musical comedy - drama film directed and produced by Don Bluth, and released by United Artists and Goldcrest Films. It tells the story of Charlie B. Barkin (voiced by Burt Reynolds), a German Shepherd that is murdered by his former friend, Carface (voiced by Vic Tayback, in his final film role), but withdraws from his place in Heaven to return to Earth, where his best friend, Itchy Itchiford (voiced by Dom DeLuise) still lives, and they team up with a young orphan girl named Anne - Marie (voiced by Judith Barsi, in her final film role), who teaches them an important lesson about kindness, friendship and love.",
+      "answers": [
+        "Burt Reynolds"
+      ],
+      "answer_start": [
+        208
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83899,
+      "question": "how much did it cost to make avatar movie",
+      "context": "Development of Avatar began in 1994, when Cameron wrote an 80 - page treatment for the film. Filming was supposed to take place after the completion of Cameron 's 1997 film Titanic, for a planned release in 1999, but, according to Cameron, the necessary technology was not yet available to achieve his vision of the film. Work on the language of the film 's extraterrestrial beings began in 2005, and Cameron began developing the screenplay and fictional universe in early 2006. Avatar was officially budgeted at $237 million. Other estimates put the cost between $280 million and $310 million for production and at $150 million for promotion. The film made extensive use of new motion capture filming techniques, and was released for traditional viewing, 3D viewing (using the RealD 3D, Dolby 3D, XpanD 3D, and IMAX 3D formats), and for \"4D '' experiences in select South Korean theaters. The stereoscopic filmmaking was touted as a breakthrough in cinematic technology.",
+      "answers": [
+        "$237 million"
+      ],
+      "answer_start": [
+        513
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83900,
+      "question": "what episode does cole come back in charmed",
+      "context": "Cole Turner is a fictional character on the WB television series Charmed, portrayed by series regular Julian McMahon between seasons three and five. McMahon returned for a guest appearance in the show 's seventh season, for its 150th episode. Charmed is a series which focuses on three good witches, the prophesied \"Charmed Ones '', sisters who battle the forces of evil. Cole is an adversary - turned - ally of the sisters introduced in the third season and a love interest of main character Phoebe Halliwell, portrayed by Alyssa Milano. Like the show 's main characters, Cole also possessed a number of magical abilities; the most commonly used were the power to teleport and the power to throw projective energy balls which could stun or kill.",
+      "answers": [
+        "150th"
+      ],
+      "answer_start": [
+        228
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83901,
+      "question": "what movie is the song i will remember you from",
+      "context": "\"I Will Remember You '' is a song written by Sarah McLachlan, Séamus Egan and Dave Merenda. The song first appeared on the soundtrack for the movie The Brothers McMullen in 1995 and 1996 where it peaked at # 65 on the Billboard Hot 100 chart & # 10 in Canada and was featured on her remix album Rarities, B - Sides and Other Stuff. The original inspiration came from Seamus Egan 's instrumental song, \"Weep Not for the Memories '', which appeared on his album A Week in January (1990). McLachlan and Merenda added lyrics and modified the melody for her version. It was re-released and became a hit when McLachlan released a live version of the song on her 1999 album Mirrorball placing at # 14 in the US on July 20, 1999, after reaching the Top 40 on June 8 and it peaked again at # 10 in Canada.",
+      "answers": [
+        "The Brothers McMullen"
+      ],
+      "answer_start": [
+        148
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83902,
+      "question": "how many islands are there in the polynesian triangle",
+      "context": "Polynesia (UK: / ˌpɒlɪˈniːziə /, US: / - ʒə /; from Greek: πολύς polys \"many '' and Greek: νῆσος nēsos \"island '') is a subregion of Oceania, made up of more than 1,000 islands scattered over the central and southern Pacific Ocean. The indigenous people who inhabit the islands of Polynesia are termed Polynesians, and share many similar traits including language family, culture, and beliefs. Historically, they had a strong tradition of sailing and using stars to navigate at night. The largest country in Polynesia is New Zealand.",
+      "answers": [
+        "more than 1,000 islands"
+      ],
+      "answer_start": [
+        153
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83903,
+      "question": "who plays sax on walk on the wild side",
+      "context": "The baritone saxophone solo played over the fadeout of the song is performed by Ronnie Ross, who had taught David Bowie to play the saxophone during Bowie 's childhood.",
+      "answers": [
+        "Ronnie Ross"
+      ],
+      "answer_start": [
+        80
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83904,
+      "question": "when was nordic combined added to the olympics",
+      "context": "The Nordic combined events have been contested at the Winter Olympic Games since 1924. The first competition involved 18 km cross-country skiing, followed by ski jumping.",
+      "answers": [
+        "1924"
+      ],
+      "answer_start": [
+        81
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83905,
+      "question": "what's the name of the cheshire cat in alice in wonderland",
+      "context": "The Cheshire Cat (/ ˈtʃɛʃər / or / ˈtʃɛʃɪər /) is a fictional cat popularised by Lewis Carroll in Alice 's Adventures in Wonderland and known for its distinctive mischievous grin. While most often celebrated in Alice - related contexts, the Cheshire Cat predates the 1865 novel and has transcended the context of literature and become enmeshed in popular culture, appearing in various forms of media, from political cartoons to television, as well as cross-disciplinary studies, from business to science. One of its distinguishing features is that from time to time its body disappears, the last thing visible being its iconic grin.",
+      "answers": [
+        "The Cheshire Cat",
+        "the Cheshire Cat"
+      ],
+      "answer_start": [
+        0,
+        237
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83906,
+      "question": "who lights the national christmas tree in america",
+      "context": "The National Christmas Tree is a large evergreen tree located in the northeast quadrant of The Ellipse near the White House in Washington, D.C. Each year since 1923, the tree has been decorated as a Christmas tree. Every early December, the tree is traditionally lit by the President of the United States. Every president since Franklin D. Roosevelt has made formal remarks during the tree lighting ceremony. Since 1954, the event has marked the start of month - long festivities known as the Pageant of Peace. Smaller trees representing the U.S. states, District of Columbia, and the five territories around the National Christmas Tree are referred to as the Pathway to Peace.",
+      "answers": [
+        "the President of the United States"
+      ],
+      "answer_start": [
+        270
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83907,
+      "question": "where was last of the mohicans filmed north carolina",
+      "context": "Despite the film taking place in upstate New York, according to the film credits, it was filmed mostly in the Blue Ridge Mountains of North Carolina. Locations used include Lake James, Chimney Rock Park and The Biltmore Estate. Some of the waterfalls that were used in the movie include Hooker Falls, Triple Falls, Bridal Veil Falls, and High Falls, all located in the DuPont State Recreational Forest. Another of these falls was Linville Falls, in the mountains of North Carolina. Scenes of Albany were shot in Asheville, NC at The Manor on Charlotte St.",
+      "answers": [
+        "Blue Ridge Mountains"
+      ],
+      "answer_start": [
+        110
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83908,
+      "question": "what does the dog mean in hi ho cherry-o",
+      "context": "Dog: Replace cherries on tree: two if the player has at least that many in his / her basket, one if he / she has only one (no effect if player 's basket is empty)",
+      "answers": [
+        "Replace cherries on tree: two if the player has at least that many in his / her basket, one if he / she has only one (no effect if player 's basket is empty)"
+      ],
+      "answer_start": [
+        5
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    },
+    {
+      "id": 83909,
+      "question": "who holds the record for most triple doubles in a season",
+      "context": "A triple - double is the accumulation of a double - digit number total in three of the five categories in a game. The most common way to achieve a triple - double is through points, rebounds, and assists. Oscar Robertson leads the all - time NBA list with 181 career triple - doubles and is, with Russell Westbrook, one of only two players ever to average a triple - double for a season. Westbrook currently holds the record for most triple - doubles in a season with 42 and is the only person to average a triple - double for two consecutive seasons.",
+      "answers": [
+        "Oscar Robertson"
+      ],
+      "answer_start": [
+        205
+      ],
+      "split": "train",
+      "source": "LLukas22/nq-simplified (derived from Natural Questions)"
+    }
+  ]
+}

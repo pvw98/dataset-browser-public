@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dataset Browser</title>
+  <style>
+    :root { color-scheme: light; --ink:#18231f; --muted:#738079; --line:#e3e9e5; --paper:#f6f8f5; --white:#fff; --green:#176b50; --mint:#e9f4ef; --amber:#f5eee0; }
+    * { box-sizing:border-box }
+    body { margin:0; color:var(--ink); background:var(--paper); font:14px/1.5 ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif }
+    button,input { font:inherit }
+    .app { display:grid; grid-template-columns:280px minmax(0,1fr); min-height:100vh }
+    aside { padding:26px 18px; background:#fff; border-right:1px solid var(--line) }
+    .brand { display:flex; align-items:center; gap:11px; margin:0 0 30px 4px }
+    .mark { display:grid; place-items:center; width:34px;height:34px;border-radius:11px;background:var(--green);color:white;font-weight:800 }
+    .brand strong { display:block;font-size:15px;letter-spacing:-.02em }
+    .brand small { color:var(--muted) }
+    .section-label { margin:0 8px 9px; color:var(--muted);font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase }
+    #dataset-list { display:grid; gap:5px }
+    .dataset-button { display:flex;align-items:center;justify-content:space-between;width:100%;padding:10px 11px;border:0;border-radius:10px;background:transparent;color:var(--ink);text-align:left;cursor:pointer }
+    .dataset-button:hover { background:#f3f6f3 }
+    .dataset-button.active { background:var(--mint);color:var(--green);font-weight:700 }
+    .dataset-button .count { color:var(--muted);font-size:11px;font-variant-numeric:tabular-nums }
+    main { min-width:0;padding:34px clamp(20px,4vw,58px) 70px }
+    .topline { display:flex;align-items:center;justify-content:space-between;gap:16px;color:var(--muted);font-size:12px }
+    .local-pill { padding:5px 9px;border:1px solid var(--line);border-radius:999px;background:#fff }
+    h1 { margin:20px 0 5px;font-size:clamp(25px,3vw,36px);line-height:1.12;letter-spacing:-.045em }
+    .subtitle { margin:0;color:var(--muted) }
+    .overview-card { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:18px 0 4px;padding:15px 17px;border:1px solid #dce9e1;border-radius:12px;background:#fff }
+    .overview-item { min-width:0 }
+    .overview-label { color:var(--green);font-size:10px;font-weight:850;letter-spacing:.09em;text-transform:uppercase }
+    .overview-item p { margin:5px 0 0;color:#46534c;font-size:13px;line-height:1.55 }
+    .context-source-links { display:flex;gap:10px;flex-wrap:wrap;margin-top:8px }
+    .context-source-links a { color:var(--green);font-size:12px;font-weight:750;text-decoration:none }
+    .context-source-links a:hover { text-decoration:underline }
+    .my-notes { margin:15px 0 4px;padding:17px 19px;border:1px solid #e3c988;border-left:5px solid #bd8b28;border-radius:12px;background:#fff9e9 }
+    .notes-heading { display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 12px;font-size:16px;letter-spacing:-.02em }
+    .notes-rating { padding:4px 10px;border:1px solid #e3c988;border-radius:999px;background:#fff;color:#785916;font-size:12px;font-weight:800;white-space:nowrap }
+    .notes-grid { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 22px }
+    .notes-item { min-width:0 }
+    .notes-item.wide { grid-column:1/-1 }
+    .notes-label { color:#785916;font-size:10px;font-weight:850;letter-spacing:.09em;text-transform:uppercase }
+    .notes-item p { margin:3px 0 0;color:#463d2b;font-size:13px;line-height:1.5 }
+    .landing-page { max-width:1280px;margin:8px auto 0 }
+    .landing-page h1 { margin-top:20px }
+    .landing-note { margin:0 0 20px;color:var(--muted) }
+    .comparison-wrap { overflow:auto;border:1px solid var(--line);border-radius:14px;background:#fff }
+    .comparison-table { width:100%;border-collapse:collapse;min-width:790px;text-align:left }
+    .comparison-table th { padding:12px 14px;background:#f2f6f2;color:#66736b;font-size:10px;font-weight:850;letter-spacing:.09em;text-transform:uppercase }
+    .comparison-table td { padding:12px 14px;border-top:1px solid var(--line);vertical-align:middle;line-height:1.45 }
+    .comparison-table tr:hover td { background:#f9fbf9 }
+    .comparison-table td:first-child { min-width:170px;font-weight:700 }
+    .open-dataset { padding:0;border:0;background:transparent;color:var(--green);font:inherit;font-weight:800;text-align:left;cursor:pointer }
+    .open-dataset:hover { text-decoration:underline }
+    .rating-cell { white-space:nowrap;font-weight:800;color:#785916 }
+    .table-yes { color:var(--green);font-weight:750 }
+    .table-no { color:var(--muted) }
+    .back-link { padding:0;border:0;background:transparent;color:var(--green);font:inherit;font-weight:750;cursor:pointer }
+    .dataset-stats { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:22px 0 7px }
+    .stat-card { min-width:0;padding:13px 15px;border:1px solid var(--line);border-radius:11px;background:#fff }
+    .stat-label { color:var(--muted);font-size:10px;font-weight:800;letter-spacing:.09em;text-transform:uppercase }
+    .stat-value { margin-top:4px;font-size:16px;font-weight:750;letter-spacing:-.02em;overflow-wrap:anywhere }
+    .stats-note { display:flex;justify-content:space-between;align-items:flex-start;gap:15px;margin:0 0 24px;color:var(--muted);font-size:12px }
+    .stats-note a { flex:none;color:var(--green);font-weight:700;text-decoration:none }
+    .stats-note a:hover { text-decoration:underline }
+    .toolbar { display:flex;align-items:center;gap:12px;margin:28px 0 12px;flex-wrap:wrap }
+    .dimension-tabs { display:grid;gap:10px;flex:1 }
+    .filter-group { display:flex;align-items:center;gap:7px;flex-wrap:wrap }
+    .filter-group-label { min-width:180px;color:var(--muted);font-size:11px;font-weight:750 }
+    .tab { padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:white;color:#59665f;cursor:pointer;white-space:nowrap }
+    .tab:hover { border-color:#afc7bb }
+    .tab.active { border-color:var(--green);background:var(--green);color:#fff }
+    .tab .tab-count { margin-left:6px;opacity:.72;font-variant-numeric:tabular-nums }
+    .filter-label { color:var(--muted);font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.08em }
+    .value-row { display:flex;align-items:center;gap:11px;margin-bottom:20px }
+    .search { width:min(100%,280px);margin-left:auto;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:white;outline:none }
+    .search:focus { border-color:#83ad99;box-shadow:0 0 0 3px #176b5015 }
+    .workspace { display:grid;grid-template-columns:240px minmax(0,1fr);gap:17px;align-items:start }
+    .list-card,.detail-card { border:1px solid var(--line);border-radius:15px;background:var(--white);overflow:hidden }
+    .list-head { display:flex;justify-content:space-between;padding:14px 15px;border-bottom:1px solid var(--line);font-size:12px;font-weight:750 }
+    #record-list { max-height:calc(100vh - 310px);min-height:220px;overflow:auto;padding:7px }
+    .record-button { display:flex;align-items:center;gap:10px;width:100%;padding:9px;border:0;border-radius:9px;background:transparent;text-align:left;color:var(--ink);cursor:pointer }
+    .record-button:hover { background:#f4f7f4 }
+    .record-button.active { background:var(--mint) }
+    .record-number { display:grid;place-items:center;flex:none;width:27px;height:27px;border-radius:8px;background:#f0f3f0;color:#637168;font-size:11px;font-weight:750 }
+    .record-button.active .record-number { background:var(--green);color:#fff }
+    .record-title { min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:12px }
+    .record-position { color:var(--muted);font-size:12px;font-variant-numeric:tabular-nums }
+    .detail-card { padding:clamp(18px,3vw,30px) }
+    .detail-header { display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:18px }
+    .detail-kicker { color:var(--muted);font-size:11px;font-weight:750;letter-spacing:.09em;text-transform:uppercase }
+    .nav-buttons { display:flex;gap:7px }
+    .prompt-card { margin:0 0 24px;padding:18px;border:1px solid #dce9e1;border-radius:13px;background:#f8fbf8 }
+    .prompt-title { margin:0 0 13px;color:var(--green);font-size:12px;font-weight:850;letter-spacing:.1em;text-transform:uppercase }
+    .prompt-part { margin-top:9px;border:1px solid var(--line);border-radius:9px;background:#fff;overflow:hidden }
+    .prompt-part.evidence { background:#fbf8f1 }
+    .prompt-part.answer { background:var(--mint) }
+    .prompt-part .field-label { background:transparent }
+    .prompt-part .field-value { max-height:260px }
+    .wiki-pages { padding:10px 12px;max-height:520px;overflow:auto }
+    .wiki-page { margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--line) }
+    .wiki-page:last-child { border-bottom:0 }
+    .wiki-page-title { margin:0 0 6px;font-size:13px }
+    .wiki-extract { max-height:160px;overflow:auto;white-space:pre-wrap }
+    .wiki-table-details { margin:7px 0;border:1px solid var(--line);border-radius:7px;background:#fff }
+    .wiki-table-details summary { padding:7px 9px;cursor:pointer;color:var(--green);font-size:12px;font-weight:700 }
+    .wiki-table-wrap { overflow:auto;padding:0 8px 8px }
+    .wiki-table { border-collapse:collapse;font-size:12px;white-space:normal }
+    .wiki-table th,.wiki-table td { max-width:360px;padding:5px 7px;border:1px solid var(--line);text-align:left;vertical-align:top }
+    .wiki-table th { background:#f5f8f5 }
+    .wiki-note { margin-top:6px;color:var(--muted);font-size:11px }
+    .context-doc { margin:8px 0;border:1px solid var(--line);border-radius:8px;background:#fff }
+    .context-doc summary { padding:9px 11px;cursor:pointer;font-weight:700 }
+    .context-doc.supporting summary { color:var(--green) }
+    .context-doc.distractor summary { color:#67736c }
+    .context-sentences { margin:0;padding:0 18px 11px 34px }
+    .context-sentences li { margin:5px 0;white-space:pre-wrap }
+    .icon-button { display:grid;place-items:center;width:34px;height:34px;border:1px solid var(--line);border-radius:9px;background:white;cursor:pointer }
+    .icon-button:hover { background:var(--paper) }
+    .primary-field { margin:0 0 21px;font-size:20px;line-height:1.45;letter-spacing:-.02em;white-space:pre-wrap;overflow-wrap:anywhere }
+    .field-block { margin-top:13px;border:1px solid var(--line);border-radius:11px;overflow:hidden }
+    .field-label { padding:9px 12px;background:#f8faf8;color:#637168;font-size:10px;font-weight:800;letter-spacing:.1em;text-transform:uppercase }
+    .field-value { padding:12px 13px;white-space:pre-wrap;overflow-wrap:anywhere;max-height:420px;overflow:auto }
+    .field-value.answer { background:var(--mint) }
+    .field-value.evidence { background:#fbf8f1 }
+    .all-fields { margin-top:22px;border-top:1px solid var(--line);padding-top:14px }
+    .all-fields summary { color:var(--green);font-weight:750;cursor:pointer }
+    .variant-heading { margin:20px 0 8px;color:var(--green);font-size:12px }
+    .raw-grid { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:12px }
+    .raw-field { min-width:0;border:1px solid var(--line);border-radius:9px;overflow:hidden }
+    .raw-field .field-label { text-transform:none;letter-spacing:0 }
+    .raw-field .field-value { max-height:260px;font:12px/1.55 ui-monospace,SFMono-Regular,Menlo,monospace }
+    .empty,.loading { padding:28px;color:var(--muted);text-align:center }
+    .error { margin:30px 0;padding:18px;border:1px solid #ead6d0;border-radius:12px;background:#fff7f4;color:#8b3425 }
+    @media(max-width:900px) { .app{grid-template-columns:220px minmax(0,1fr)} .workspace{grid-template-columns:190px minmax(0,1fr)} }
+    @media(max-width:680px) { .app{display:block} aside{border-right:0;border-bottom:1px solid var(--line);padding:14px} .brand{margin-bottom:14px} #dataset-list{display:flex;overflow:auto} .dataset-button{width:auto;min-width:max-content} main{padding:23px 14px 45px} .dataset-stats,.overview-card,.notes-grid{grid-template-columns:1fr} .stats-note{display:block} .stats-note a{display:inline-block;margin-top:8px} .workspace{grid-template-columns:1fr} #record-list{display:flex;max-height:none;min-height:0;overflow:auto} .record-button{width:auto;min-width:72px;justify-content:center} .record-title{display:none} .list-head{display:none} .raw-grid{grid-template-columns:1fr} .search{margin-left:0} }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside>
+      <div class="brand"><div class="mark">D</div><div><strong>Dataset Browser</strong><small>Research samples</small></div></div>
+      <div class="section-label">Datasets</div>
+      <nav id="dataset-list" aria-label="Datasets"><div class="loading">Loading datasets …</div></nav>
+    </aside>
+    <main>
+      <section id="landing-page" class="landing-page" aria-label="Dataset comparison">
+        <div class="topline"><span>Research samples · Dataset overview</span><span class="local-pill">● Local only</span></div>
+        <h1>Dataset overview</h1>
+        <p class="landing-note">Compare the available datasets by rating, real-world application, answer format, and whether their examples include tables. Select a dataset to browse its examples.</p>
+        <div class="comparison-wrap"><table class="comparison-table">
+          <thead><tr><th>Dataset</th><th>Rating</th><th>Real-world application</th><th>Answer format</th><th>Tables</th></tr></thead>
+          <tbody id="comparison-rows"></tbody>
+        </table></div>
+      </section>
+      <section id="dataset-view" hidden>
+      <div class="topline"><span><button id="back-to-landing" class="back-link" type="button">← All datasets</button> <span id="breadcrumb">Datasets</span></span><span class="local-pill">● Local only</span></div>
+      <h1 id="dataset-title">Dataset Browser</h1>
+      <p class="subtitle" id="dataset-subtitle">Select a dataset on the left.</p>
+      <section id="dataset-overview" class="overview-card" hidden aria-label="Dataset overview">
+        <div class="overview-item"><div class="overview-label">Question format</div><p id="question-format"></p></div>
+        <div class="overview-item"><div class="overview-label">Internal organization</div><p id="dataset-organization"></p></div>
+        <div id="context-availability-item" class="overview-item" hidden><div class="overview-label">Context availability</div><p id="context-availability"></p><div id="context-source-links" class="context-source-links"></div></div>
+      </section>
+      <section id="my-notes" class="my-notes" hidden aria-label="My dataset notes"></section>
+      <section id="dataset-stats" hidden aria-label="Dataset statistics"></section>
+      <section id="browser" hidden>
+        <div class="toolbar"><span class="filter-label">Filter</span><div id="dimension-tabs" class="dimension-tabs"></div></div>
+        <div class="value-row"><input id="search" class="search" type="search" placeholder="Search examples …" aria-label="Search examples"></div>
+        <div class="workspace">
+          <section class="list-card"><div class="list-head"><span>Examples</span><span id="visible-count"></span></div><div id="record-list"></div></section>
+          <article id="record-detail" class="detail-card"><div class="empty">Select an example.</div></article>
+        </div>
+      </section>
+      </section>
+      <div id="error" class="error" hidden></div>
+    </main>
+  </div>
+  <script>
+    const state = { datasets: [], dataset: null, rows: [], entries: [], dimensions: [], filters: {}, index: 0, visible: [] };
+    const $ = (id) => document.getElementById(id);
+    const hiddenDatasetFiles = new Set(["halueval_100.jsonl", "legal_hallucinations_100.jsonl"]);
+    const qKeys = ["question", "claim", "query", "Question", "user_query", "prompt"];
+    const aKeys = ["answer", "answers", "right_answer", "right_response", "right_summary", "Ground Truth", "example_correct_answer", "label", "llm_output", "hallucinated_answer", "hallucinated_response", "hallucinated_summary"];
+    const evidenceKeys = ["evidence", "evidences", "supporting_facts", "justification", "hallucination_spans"];
+    const contextKeys = ["context", "wikipedia_context", "wiki_context", "knowledge", "document", "fact_checking_article"];
+    function pretty(value) { return typeof value === "string" ? value : JSON.stringify(value, null, 2); }
+    function escText(node, value) { node.textContent = value == null ? "—" : pretty(value); }
+    function keyTitle(key) {
+      if (key === "answer_verbatim_in_context") return "Gold answer appears verbatim in context";
+      if (key === "has_answer") return "Answerability";
+      return key.replaceAll("_", " ").replace(/\b\w/g, c => c.toUpperCase());
+    }
+    function categoryValue(row, field) {
+      const value = row[field];
+      return typeof value === "boolean" ? (value ? "True" : "False") : String(value);
+    }
+    function categoryLabel(field, value) {
+      if (field === "has_answer" && value.toLowerCase() === "true") return "Answerable";
+      if (field === "has_answer" && value.toLowerCase() === "false") return "Unanswerable";
+      if (state.dataset?.name === "legal_hallucinations_100.jsonl" && field === "task") {
+        const labels = {
+          affirm_reverse: "Affirm or reverse",
+          case_existence: "Real case?",
+          citation_retrieval: "Citation retrieval",
+          court_id: "Court identification",
+          cited_precedent: "Cited precedent",
+          fake_case_existence: "Invented case?",
+          fake_dissent: "False dissent premise",
+          fake_year_overruled: "False overruled premise",
+          majority_author: "Majority opinion author",
+          quotation: "Exact quotation",
+          year_overruled: "Year overruled",
+          task: "Uncategorized task row"
+        };
+        return labels[value] || value;
+      }
+      return value;
+    }
+    function displayRecord(row) {
+      if (state.dataset?.name !== "fever_100.jsonl" || !row.wikipedia_context || typeof row.wikipedia_context !== "object") return row;
+      const wikipedia_context = Object.fromEntries(Object.entries(row.wikipedia_context).map(([title, page]) => {
+        const { tables, ...textOnlyPage } = page || {};
+        return [title, textOnlyPage];
+      }));
+      return { ...row, wikipedia_context };
+    }
+    function makeButton(label, className, onClick, count) {
+      const button = document.createElement("button"); button.type = "button"; button.className = className; button.textContent = label;
+      if (count !== undefined) { const span = document.createElement("span"); span.className = "tab-count"; span.textContent = count; button.append(span); }
+      button.addEventListener("click", onClick); return button;
+    }
+    async function initialize() {
+      try {
+        const response = await fetch("./data/catalog.json"); if (!response.ok) throw new Error("Could not load datasets.");
+        state.datasets = await response.json(); renderDatasetList(); renderComparisonTable();
+        $("back-to-landing").addEventListener("click", showLanding);
+        if (state.datasets.some(dataset => !hiddenDatasetFiles.has(dataset.name))) showLanding();
+        else throw new Error("No JSONL files found in the dataset folder.");
+      } catch (error) { showError(error.message); }
+    }
+    function showLanding() {
+      state.dataset = null;
+      $("landing-page").hidden = false;
+      $("dataset-view").hidden = true;
+      renderDatasetList();
+    }
+    function renderComparisonTable() {
+      const body = $("comparison-rows"); body.replaceChildren();
+      const datasets = state.datasets.filter(item => !hiddenDatasetFiles.has(item.name));
+      for (const dataset of datasets) {
+        const metadata = dataset.metadata || {}, row = document.createElement("tr");
+        const nameCell = document.createElement("td"), open = document.createElement("button");
+        open.type = "button"; open.className = "open-dataset"; open.textContent = dataset.title;
+        open.addEventListener("click", () => selectDataset(dataset.name)); nameCell.append(open); row.append(nameCell);
+        const rating = document.createElement("td"); rating.className = "rating-cell"; rating.textContent = metadata.rating || "Not rated"; row.append(rating);
+        for (const key of ["real_world_application", "answer_format_summary"]) {
+          const cell = document.createElement("td"); cell.textContent = metadata[key] || "Not specified"; row.append(cell);
+        }
+        const tables = document.createElement("td"); tables.className = metadata.contains_tables ? "table-yes" : "table-no";
+        tables.textContent = metadata.contains_tables ? "Yes" : "No"; row.append(tables);
+        body.append(row);
+      }
+    }
+    function renderDatasetList() {
+      const list = $("dataset-list"); list.replaceChildren();
+      for (const dataset of state.datasets.filter(item => !hiddenDatasetFiles.has(item.name))) {
+        const button = document.createElement("button"); button.className = "dataset-button" + (state.dataset?.name === dataset.name ? " active" : "");
+        const name = document.createElement("span"); name.textContent = dataset.title;
+        const count = document.createElement("span"); count.className = "count"; count.textContent = dataset.count;
+        button.append(name, count); button.addEventListener("click", () => selectDataset(dataset.name)); list.append(button);
+      }
+    }
+    async function selectDataset(name) {
+      try {
+        const response = await fetch("./data/datasets/" + encodeURIComponent(name) + ".json"); if (!response.ok) throw new Error("Could not load dataset.");
+        const data = await response.json(), meta = state.datasets.find(d => d.name === name);
+        state.dataset = meta; state.rows = data.rows; state.dimensions = meta.categories || [];
+        state.entries = name.startsWith("vitaminc_") ? vitaminCFamilies(data.rows) : data.rows.map((row, index) => ({ row, rows: [row], indices: [index] }));
+        state.filters = Object.fromEntries(state.dimensions.map(group => [group.field, "*"])); state.index = 0;
+        $("dataset-title").textContent = meta.title; $("breadcrumb").textContent = "Datasets / " + meta.title;
+        const sampleDescription = name.startsWith("vitaminc_") ? `${data.rows.length} claim-evidence pairs in ${state.entries.length} revision groups` : `${data.rows.length} examples`;
+        $("dataset-subtitle").textContent = `${sampleDescription} · ${name}`; $("browser").hidden = false; $("error").hidden = true;
+        $("landing-page").hidden = true; $("dataset-view").hidden = false;
+        renderDatasetOverview(meta.metadata || {});
+        renderMyNotes(meta.metadata?.my_notes || {});
+        renderDatasetStats(meta, data.rows.length);
+        $("search").value = ""; renderDatasetList(); renderTabs(); renderRecords();
+      } catch (error) { showError(error.message); }
+    }
+    function renderTabs() {
+      const dimensions = $("dimension-tabs"); dimensions.replaceChildren();
+      dimensions.closest(".toolbar").hidden = !state.dimensions.length;
+      for (const group of state.dimensions) {
+        const row = document.createElement("div"); row.className = "filter-group";
+        const label = document.createElement("span"); label.className = "filter-group-label"; label.textContent = keyTitle(group.field); row.append(label);
+        for (const value of ["*", ...group.values]) {
+          const count = state.entries.filter(entry => entryMatchesFilters(entry, { [group.field]: value })).length;
+          const active = (state.filters[group.field] || "*") === value;
+          row.append(makeButton(value === "*" ? "All" : categoryLabel(group.field, value), "tab" + (active ? " active" : ""), () => {
+            state.filters[group.field] = value; renderTabs(); renderRecords();
+          }, count));
+        }
+        dimensions.append(row);
+      }
+    }
+    function entryMatchesFilters(entry, overrides = {}) {
+      return entry.rows.some(row => state.dimensions.every(group => {
+        const selected = Object.hasOwn(overrides, group.field) ? overrides[group.field] : (state.filters[group.field] || "*");
+        return selected === "*" || categoryValue(row, group.field) === selected;
+      }));
+    }
+    function vitaminCFamilies(rows) {
+      const groups = new Map();
+      rows.forEach((row, index) => {
+        const key = String(row.case_id ?? row.unique_id ?? index);
+        if (!groups.has(key)) groups.set(key, { row, rows: [], indices: [], key });
+        const group = groups.get(key); group.rows.push(row); group.indices.push(index);
+      });
+      return [...groups.values()];
+    }
+    function formatBytes(size) {
+      if (!Number.isFinite(size) || size < 0) return "—";
+      if (size < 1024) return `${size} Bytes`;
+      const units = ["KB", "MB", "GB"], value = size / 1024;
+      const level = Math.min(Math.floor(Math.log(value) / Math.log(1024)), units.length - 1);
+      return `${(value / Math.pow(1024, level)).toFixed(1)} ${units[level]}`;
+    }
+    function renderDatasetOverview(metadata) {
+      const area = $("dataset-overview");
+      const format = metadata.question_format || "Question format information is not available.";
+      const organization = metadata.internal_organization || "Subset information is not available.";
+      $("question-format").textContent = format;
+      $("dataset-organization").textContent = organization;
+      const contextItem = $("context-availability-item");
+      contextItem.hidden = !metadata.context_availability;
+      if (metadata.context_availability) {
+        $("context-availability").textContent = metadata.context_availability;
+        const links = $("context-source-links"); links.replaceChildren();
+        for (const item of metadata.context_sources || []) {
+          const link = document.createElement("a"); link.href = item.url; link.target = "_blank"; link.rel = "noreferrer"; link.textContent = item.label + " ↗"; links.append(link);
+        }
+      }
+      area.hidden = false;
+    }
+    function renderMyNotes(notes) {
+      const area = $("my-notes"); area.replaceChildren(); area.hidden = false;
+      const heading = document.createElement("h2"); heading.className = "notes-heading";
+      const title = document.createElement("span"); title.textContent = "My notes";
+      const rating = document.createElement("span"); rating.className = "notes-rating"; rating.textContent = notes.rating || "Not rated";
+      heading.append(title, rating); area.append(heading);
+      const grid = document.createElement("div"); grid.className = "notes-grid";
+      for (const [key, label] of [["pros", "Pros"], ["cons", "Cons"], ["conclusion", "Conclusion"]]) {
+        const item = document.createElement("div"); item.className = "notes-item";
+        const name = document.createElement("div"); name.className = "notes-label"; name.textContent = label;
+        const text = document.createElement("p"); text.textContent = notes[key] || "No notes added yet.";
+        item.append(name, text); grid.append(item);
+      }
+      if (notes.note) {
+        const item = document.createElement("div"); item.className = "notes-item wide";
+        const name = document.createElement("div"); name.className = "notes-label"; name.textContent = "Note";
+        const text = document.createElement("p"); text.textContent = notes.note;
+        item.append(name, text); grid.append(item);
+      }
+      area.append(grid);
+    }
+    function renderDatasetStats(dataset, localCount) {
+      const area = $("dataset-stats"), metadata = dataset.metadata || {};
+      area.replaceChildren(); area.hidden = false;
+      const grid = document.createElement("div"); grid.className = "dataset-stats";
+      const addStat = (label, value) => {
+        const card = document.createElement("div"); card.className = "stat-card";
+        const heading = document.createElement("div"); heading.className = "stat-label"; heading.textContent = label;
+        const amount = document.createElement("div"); amount.className = "stat-value"; amount.textContent = value || "—";
+        card.append(heading, amount); grid.append(card);
+      };
+      addStat("First released", metadata.year ? String(metadata.year) : "Not specified");
+      addStat("Original size", metadata.original_size || "Not specified");
+      addStat("Local sample", `${localCount} examples · ${formatBytes(dataset.file_size_bytes)}`);
+      area.append(grid);
+      const note = document.createElement("div"); note.className = "stats-note";
+      const description = document.createElement("span"); description.textContent = metadata.note || "The local example count and file size are read from the JSONL file.";
+      note.append(description);
+      if (metadata.source) {
+        const source = document.createElement("a"); source.href = metadata.source; source.target = "_blank"; source.rel = "noreferrer"; source.textContent = "Dataset source ↗"; note.append(source);
+      }
+      area.append(note);
+    }
+    function filteredRows() {
+      const search = $("search").value.trim().toLocaleLowerCase();
+      return state.entries.map((entry, index) => ({entry,index})).filter(({entry}) => {
+        const categoryOk = entryMatchesFilters(entry);
+        const searchOk = !search || JSON.stringify(entry.rows).toLocaleLowerCase().includes(search);
+        return categoryOk && searchOk;
+      });
+    }
+    function renderRecords() {
+      const list = $("record-list"), items = filteredRows(); state.visible = items; list.replaceChildren();
+      $("visible-count").textContent = items.length;
+      if (!items.length) { list.innerHTML = '<div class="empty">No matches.</div>'; $("record-detail").innerHTML = '<div class="empty">Adjust the filters or search query.</div>'; return; }
+      if (!items.some(item => item.index === state.index)) state.index = items[0].index;
+      for (let i = 0; i < items.length; i++) {
+        const item = items[i], entry = item.entry, row = entry.row; const button = document.createElement("button");
+        const familyTitle = entry.rows.length > 1 ? `Revision ${entry.key} · ${entry.rows.length} claims` : getQuestion(row);
+        button.className = "record-button" + (item.index === state.index ? " active" : ""); button.title = familyTitle;
+        const number = document.createElement("span"); number.className = "record-number"; number.textContent = String(i + 1);
+        const title = document.createElement("span"); title.className = "record-title"; title.textContent = familyTitle || `Example ${i + 1}`;
+        button.append(number, title); button.addEventListener("click", () => { state.index = item.index; renderRecords(); }); list.append(button);
+      }
+      const selected = items.find(item => item.index === state.index);
+      renderDetail(selected.entry.row, items.findIndex(item => item.index === state.index), items.length, selected.entry);
+    }
+    function firstValue(row, keys) { for (const key of keys) if (row[key] !== undefined && row[key] !== null && row[key] !== "") return row[key]; return null; }
+    function getQuestion(row) { return String(firstValue(row, qKeys) || ""); }
+    function renderDetail(row, position, total, entry) {
+      row = displayRecord(row);
+      const card = $("record-detail"); card.replaceChildren();
+      const header = document.createElement("div"); header.className = "detail-header";
+      const kicker = document.createElement("div"); kicker.className = "detail-kicker"; kicker.textContent = `Example ${position + 1} of ${total}`;
+      const nav = document.createElement("div"); nav.className = "nav-buttons";
+      nav.append(makeButton("←", "icon-button", () => move(-1)), makeButton("→", "icon-button", () => move(1)));
+      header.append(kicker, nav); card.append(header);
+      const twoWiki = state.dataset?.name.startsWith("2wikimultihopqa_");
+      if (twoWiki) renderTwoWikiPromptPreview(card, row);
+      else if (state.dataset?.name.startsWith("vitaminc_") && entry.rows.length > 1) renderVitaminFamilyPreview(card, entry);
+      else renderPromptPreview(card, row);
+      if (!twoWiki) {
+        const question = document.createElement("h2"); question.className = "primary-field"; escText(question, firstValue(row, qKeys) || "No separate question field"); card.append(question);
+        const priority = [...new Set([...contextKeys, ...evidenceKeys, ...aKeys])];
+        for (const key of priority) if (row[key] !== undefined && row[key] !== null && row[key] !== "") addField(card, key, row[key], aKeys.includes(key) ? "answer" : evidenceKeys.includes(key) ? "evidence" : "");
+      }
+      const sourceRows = entry?.rows || [row];
+      const details = document.createElement("details"); details.className = "all-fields"; const summary = document.createElement("summary"); summary.textContent = `Show all fields (${sourceRows.length} variants)`; details.append(summary);
+      sourceRows.forEach((sourceRow, variantIndex) => {
+        if (sourceRows.length > 1) { const heading = document.createElement("h4"); heading.className = "variant-heading"; heading.textContent = `Variante ${variantIndex + 1} · ${sourceRow.label || sourceRow.unique_id || ""}`; details.append(heading); }
+        const grid = document.createElement("div"); grid.className = "raw-grid";
+        for (const [key, value] of Object.entries(displayRecord(sourceRow))) { const block = document.createElement("section"); block.className = "raw-field"; addField(block, key, value); grid.append(block); }
+        details.append(grid);
+      });
+      card.append(details);
+    }
+    function renderTwoWikiPromptPreview(parent, row) {
+      const preview = document.createElement("section"); preview.className = "prompt-card";
+      const heading = document.createElement("h3"); heading.className = "prompt-title"; heading.textContent = "Example prompt"; preview.append(heading);
+      addPromptPart(preview, "Question", row.question, "");
+      const context = row.context || {}, titles = context.title || [], sentences = context.sentences || [];
+      const supporting = new Set((row.supporting_facts || {}).title || []);
+      const supportingCount = titles.filter(page => supporting.has(page)).length;
+      const section = document.createElement("section"); section.className = "prompt-part evidence";
+      const label = document.createElement("div"); label.className = "field-label";
+      label.textContent = `Context · ${titles.length} pages (${supportingCount} supporting, ${titles.length - supportingCount} distractors)`; section.append(label);
+      const body = document.createElement("div"); body.className = "wiki-pages";
+      titles.forEach((page, index) => {
+        const isSupporting = supporting.has(page);
+        const details = document.createElement("details"); details.className = "context-doc " + (isSupporting ? "supporting" : "distractor");
+        const summary = document.createElement("summary"); summary.textContent = `${isSupporting ? "Supporting page" : "Distractor page"} · ${page}`; details.append(summary);
+        const list = document.createElement("ul"); list.className = "context-sentences";
+        for (const sentence of sentences[index] || []) { const item = document.createElement("li"); item.textContent = sentence; list.append(item); }
+        details.append(list); body.append(details);
+      });
+      section.append(body); preview.append(section); parent.append(preview);
+    }
+    function renderVitaminFamilyPreview(parent, entry) {
+      const preview = document.createElement("section"); preview.className = "prompt-card";
+      const title = document.createElement("h3"); title.className = "prompt-title"; title.textContent = `VitaminC · shared revision · ${entry.rows.length} claim-evidence pairs`; preview.append(title);
+      const byEvidence = new Map();
+      for (const row of entry.rows) {
+        const evidence = String(row.evidence || "");
+        if (!byEvidence.has(evidence)) byEvidence.set(evidence, []);
+        byEvidence.get(evidence).push(row);
+      }
+      let evidenceNumber = 0;
+      for (const [evidence, rows] of byEvidence) {
+        evidenceNumber++;
+        addPromptPart(preview, `Evidence ${evidenceNumber}`, evidence, "evidence");
+        for (let i = 0; i < rows.length; i++) {
+          const row = rows[i];
+          addPromptPart(preview, `Question / claim ${i + 1}`, row.claim, "");
+          addPromptPart(preview, `Gold answer · ${row.label || "Missing label"}`, row.label || null, "answer");
+        }
+      }
+      parent.append(preview);
+    }
+    function renderPromptPreview(parent, row) {
+      const preview = document.createElement("section"); preview.className = "prompt-card";
+      const title = document.createElement("h3"); title.className = "prompt-title"; title.textContent = "Example prompt"; preview.append(title);
+      const question = firstValue(row, qKeys);
+      addPromptPart(preview, "Question", question, "");
+      const omitTopEvidence = ["fever_100.jsonl", "feverous_100.jsonl"].includes(state.dataset?.name);
+      const evidenceFields = ["evidence", "evidences", "supporting_facts", "context", "wikipedia_context", "wiki_context", "knowledge", "document"]
+        .filter(key => !omitTopEvidence || !["evidence", "evidences", "supporting_facts"].includes(key));
+      const seen = new Set();
+      let hasEvidence = false;
+      for (const key of evidenceFields) {
+        const value = row[key];
+        if (value === undefined || value === null || value === "") continue;
+        const fingerprint = JSON.stringify(value);
+        if (seen.has(fingerprint)) continue;
+        seen.add(fingerprint);
+        hasEvidence = true;
+        if (key === "wikipedia_context" && value && typeof value === "object") renderWikipediaContext(preview, value);
+        else addPromptPart(preview, keyTitle(key), value, "evidence");
+      }
+      if (!hasEvidence) addPromptPart(preview, "Evidence", "No evidence passage is included in this dataset.", "evidence");
+      const answerKey = aKeys.find(key => row[key] !== undefined && row[key] !== null && row[key] !== "");
+      addPromptPart(preview, "Gold answer" + (answerKey ? ` · ${keyTitle(answerKey)}` : ""), answerKey ? row[answerKey] : null, "answer");
+      parent.append(preview);
+    }
+    function renderWikipediaContext(parent, pages) {
+      const part = document.createElement("section"); part.className = "prompt-part evidence";
+      const label = document.createElement("div"); label.className = "field-label"; label.textContent = "Wikipedia context (prose and tables)"; part.append(label);
+      const content = document.createElement("div"); content.className = "wiki-pages";
+      for (const [title, page] of Object.entries(pages)) {
+        const section = document.createElement("section"); section.className = "wiki-page";
+        const heading = document.createElement("h4"); heading.className = "wiki-page-title"; heading.textContent = title; section.append(heading);
+        if (page.extract) { const extract = document.createElement("div"); extract.className = "wiki-extract"; extract.textContent = page.extract; section.append(extract); }
+        for (const table of page.tables || []) {
+          const details = document.createElement("details"); details.className = "wiki-table-details";
+          const summary = document.createElement("summary"); summary.textContent = `Table ${table.index + 1}${table.caption ? ` · ${table.caption}` : ""} · ${(table.rows || []).length} rows`; details.append(summary);
+          const wrap = document.createElement("div"); wrap.className = "wiki-table-wrap";
+          const grid = document.createElement("table"); grid.className = "wiki-table";
+          for (const row of table.rows || []) {
+            const tr = document.createElement("tr");
+            for (const cell of row) {
+              const td = document.createElement(cell.tag === "th" ? "th" : "td"); td.textContent = cell.text || "";
+              if (cell.rowspan > 1) td.rowSpan = cell.rowspan;
+              if (cell.colspan > 1) td.colSpan = cell.colspan;
+              tr.append(td);
+            }
+            grid.append(tr);
+          }
+          wrap.append(grid); details.append(wrap); section.append(details);
+        }
+        if (page.source) { const note = document.createElement("div"); note.className = "wiki-note"; note.textContent = page.source; section.append(note); }
+        content.append(section);
+      }
+      part.append(content); parent.append(part);
+    }
+    function addPromptPart(parent, labelText, value, extraClass) {
+      const part = document.createElement("section"); part.className = "prompt-part" + (extraClass ? " " + extraClass : "");
+      const label = document.createElement("div"); label.className = "field-label"; label.textContent = labelText;
+      const content = document.createElement("div"); content.className = "field-value"; escText(content, value);
+      part.append(label, content); parent.append(part);
+    }
+    function addField(parent, key, value, extraClass="") {
+      const block = document.createElement("section"); block.className = "field-block";
+      const label = document.createElement("div"); label.className = "field-label"; label.textContent = keyTitle(key);
+      const content = document.createElement("div"); content.className = "field-value" + (extraClass ? " " + extraClass : ""); escText(content, value);
+      block.append(label, content); parent.append(block);
+    }
+    function move(delta) {
+      const items = filteredRows(); if (!items.length) return;
+      let position = items.findIndex(item => item.index === state.index); position = (position + delta + items.length) % items.length;
+      state.index = items[position].index; renderRecords();
+    }
+    function showError(message) { $("error").textContent = message; $("error").hidden = false; }
+    $("search").addEventListener("input", renderRecords);
+    document.addEventListener("keydown", event => { if (event.target.matches("input,textarea")) return; if (event.key === "ArrowRight") move(1); if (event.key === "ArrowLeft") move(-1); });
+    initialize();
+  </script>
+</body>
+</html>

@@ -1,0 +1,1559 @@
+{
+  "name": "squad_v2_100.jsonl",
+  "rows": [
+    {
+      "id": "57377aac1c45671900574479",
+      "title": "Force",
+      "context": "The notion \"force\" keeps its meaning in quantum mechanics, though one is now dealing with operators instead of classical variables and though the physics is now described by the Schrödinger equation instead of Newtonian equations. This has the consequence that the results of a measurement are now sometimes \"quantized\", i.e. they appear in discrete portions. This is, of course, difficult to imagine in the context of \"forces\". However, the potentials V(x,y,z) or fields, from which the forces generally can be derived, are treated similar to classical position variables, i.e., .",
+      "question": "What equation currently decribes the physics of force.",
+      "answers": {
+        "text": [
+          "Schrödinger",
+          "Newtonian equations",
+          "the Schrödinger equation",
+          "Schrödinger",
+          "Schrödinger equation"
+        ],
+        "answer_start": [
+          178,
+          210,
+          174,
+          178,
+          178
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5a57eee0770dc0001aeefed9",
+      "title": "Geology",
+      "context": "The principle of inclusions and components states that, with sedimentary rocks, if inclusions (or clasts) are found in a formation, then the inclusions must be older than the formation that contains them. For example, in sedimentary rocks, it is common for gravel from an older formation to be ripped up and included in a newer layer. A similar situation with igneous rocks occurs when xenoliths are found. These foreign bodies are picked up as magma or lava flows, and are incorporated, later to cool in the matrix. As a result, xenoliths are older than the rock which contains them.",
+      "question": "Where is the gravel from that is found in xenoliths?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "570963a5200fba1400367f35",
+      "title": "Sky_(United_Kingdom)",
+      "context": "Sky UK Limited (formerly British Sky Broadcasting or BSkyB) is a British telecommunications company which serves the United Kingdom. Sky provides television and broadband internet services and fixed line telephone services to consumers and businesses in the United Kingdom. It is the UK's largest pay-TV broadcaster with 11 million customers as of 2015. It was the UK's most popular digital TV service until it was overtaken by Freeview in April 2007. Its corporate headquarters are based in Isleworth.",
+      "question": "How many customers does Sky UK Limited have as a pay-TV broadcaster as of 2015?",
+      "answers": {
+        "text": [
+          "11 million",
+          "11 million",
+          "11 million customers"
+        ],
+        "answer_start": [
+          321,
+          321,
+          321
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5ad28a54d7d075001a4299aa",
+      "title": "Rhine",
+      "context": "The Rhine-Meuse Delta, the most important natural region of the Netherlands begins near Millingen aan de Rijn, close to the Dutch-German border with the division of the Rhine into Waal and Nederrijn. Since the Rhine contributes most of the water, the shorter term Rhine Delta is commonly used. However, this name is also used for the river delta where the Rhine flows into Lake Constance, so it is clearer to call the larger one Rhine-Meuse delta, or even Rhine–Meuse–Scheldt delta, as the Scheldt ends in the same delta.",
+      "question": "What ends in the same delta?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5acfeba077cf76001a6864c4",
+      "title": "Islamism",
+      "context": "Another factor in the early 1990s that worked to radicalize the Islamist movement was the Gulf War, which brought several hundred thousand US and allied non-Muslim military personnel to Saudi Arabian soil to put an end to Saddam Hussein's occupation of Kuwait. Prior to 1990 Saudi Arabia played an important role in restraining the many Islamist groups that received its aid. But when Saddam, secularist and Ba'athist dictator of neighboring Iraq, attacked Saudi Arabia (his enemy in the war), western troops came to protect the Saudi monarchy. Islamists accused the Saudi regime of being a puppet of the west.",
+      "question": " What did the Gulf War do on purpose in the early 1990s?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5728dafe3acd2414000e0060",
+      "title": "Civil_disobedience",
+      "context": "However, this definition is disputed by Thoreau's political philosophy pitching the conscience vs. the collective. The individual is the final judge of right and wrong. More than this, since only individuals act, only individuals can act unjustly. When the government knocks on the door, it is an individual in the form of a postman or tax collector whose hand hits the wood. Before Thoreau’s imprisonment, when a confused taxman had wondered aloud about how to handle his refusal to pay, Thoreau had advised, “Resign.” If a man chose to be an agent of injustice, then Thoreau insisted on confronting him with the fact that he was making a choice. But if government is “the voice of the people,” as it is often called, shouldn’t that voice be heeded? Thoreau admits that government may express the will of the majority but it may also express nothing more than the will of elite politicians. Even a good form of government is “liable to be abused and perverted before the people can act through it.” Moreover, even if a government did express the voice of the people, this fact would not compel the obedience of individuals who disagree with what is being said. The majority may be powerful but it is not necessarily right. What, then, is the proper relationship between the individual and the government?",
+      "question": "What advise did Thoreau give the tax collector when unable to perform his duty?",
+      "answers": {
+        "text": [
+          "Resign",
+          "Resign",
+          "Resign",
+          "Resign",
+          "Resign"
+        ],
+        "answer_start": [
+          511,
+          511,
+          511,
+          511,
+          511
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "56de4b074396321400ee2793",
+      "title": "Normans",
+      "context": "In England, the period of Norman architecture immediately succeeds that of the Anglo-Saxon and precedes the Early Gothic. In southern Italy, the Normans incorporated elements of Islamic, Lombard, and Byzantine building techniques into their own, initiating a unique style known as Norman-Arab architecture within the Kingdom of Sicily.",
+      "question": "What architecture type came after Norman in England?",
+      "answers": {
+        "text": [
+          "Early Gothic",
+          "Early Gothic",
+          "Early Gothic"
+        ],
+        "answer_start": [
+          108,
+          108,
+          108
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5ad01e4677cf76001a686aa6",
+      "title": "Southern_California",
+      "context": "Within southern California are two major cities, Los Angeles and San Diego, as well as three of the country's largest metropolitan areas. With a population of 3,792,621, Los Angeles is the most populous city in California and the second most populous in the United States. To the south and with a population of 1,307,402 is San Diego, the second most populous city in the state and the eighth most populous in the nation.",
+      "question": "What are two of the three major cities located in southern California?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5a666b43846392001a1e1c0f",
+      "title": "Civil_disobedience",
+      "context": "In cases where the criminalized behavior is pure speech, civil disobedience can consist simply of engaging in the forbidden speech. An example would be WBAI's broadcasting the track \"Filthy Words\" from a George Carlin comedy album, which eventually led to the 1978 Supreme Court case of FCC v. Pacifica Foundation. Threatening government officials is another classic way of expressing defiance toward the government and unwillingness to stand for its policies. For example, Joseph Haas was arrested for allegedly sending an email to the Lebanon, New Hampshire city councilors stating, \"Wise up or die.\"",
+      "question": "What did George Carlin send to the city council in New Hampshire?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5a38c911a4b263001a8c1922",
+      "title": "1973_oil_crisis",
+      "context": "The USSR's invasion of Afghanistan was only one sign of insecurity in the region, also marked by increased American weapons sales, technology, and outright military presence. Saudi Arabia and Iran became increasingly dependent on American security assurances to manage both external and internal threats, including increased military competition between them over increased oil revenues. Both states were competing for preeminence in the Persian Gulf and using increased revenues to fund expanded militaries. By 1979, Saudi arms purchases from the US exceeded five times Israel's. Another motive for the large scale purchase of arms from the US by Saudi Arabia was the failure of the Shah during January 1979 to maintain control of Iran, a non-Arabic but largely Shiite Muslim nation, which fell to a theocratic Islamist government under the Ayatollah Ruhollah Khomeini in the wake of the 1979 Iranian Revolution. Saudi Arabia, on the other hand, is an Arab, largely Sunni Muslim nation headed by a near absolutist monarchy. In the wake of the Iranian revolution the Saudis were forced to deal with the prospect of internal destabilization via the radicalism of Islamism, a reality which would quickly be revealed in the seizure of the Grand Mosque in Mecca by Wahhabi extremists during November 1979 and a Shiite revolt in the oil rich Al-Hasa region of Saudi Arabia in December of the same year. In November 2010, Wikileaks leaked confidential diplomatic cables pertaining to the United States and its allies which revealed that the late Saudi King Abdullah urged the United States to attack Iran in order to destroy its potential nuclear weapons program, describing Iran as \"a snake whose head should be cut off without any procrastination.\"",
+      "question": "What is another reason that Al-Hasa was buying weapons from Russia?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5705f36452bb891400689719",
+      "title": "Southern_California",
+      "context": "The state is most commonly divided and promoted by its regional tourism groups as consisting of northern, central, and southern California regions. The two AAA Auto Clubs of the state, the California State Automobile Association and the Automobile Club of Southern California, choose to simplify matters by dividing the state along the lines where their jurisdictions for membership apply, as either northern or southern California, in contrast to the three-region point of view. Another influence is the geographical phrase South of the Tehachapis, which would split the southern region off at the crest of that transverse range, but in that definition, the desert portions of north Los Angeles County and eastern Kern and San Bernardino Counties would be included in the southern California region due to their remoteness from the central valley and interior desert landscape.",
+      "question": "Other than the Automobile Club of Southern California, what other AAA Auto Club chose to simplify the divide?",
+      "answers": {
+        "text": [
+          "California State Automobile Association",
+          "the California State Automobile Association",
+          "California State Automobile Association"
+        ],
+        "answer_start": [
+          189,
+          185,
+          189
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5729f1fcaf94a219006aa6d6",
+      "title": "Immune_system",
+      "context": "Both B cells and T cells carry receptor molecules that recognize specific targets. T cells recognize a \"non-self\" target, such as a pathogen, only after antigens (small fragments of the pathogen) have been processed and presented in combination with a \"self\" receptor called a major histocompatibility complex (MHC) molecule. There are two major subtypes of T cells: the killer T cell and the helper T cell. In addition there are regulatory T cells which have a role in modulating immune response. Killer T cells only recognize antigens coupled to Class I MHC molecules, while helper T cells and regulatory T cells only recognize antigens coupled to Class II MHC molecules. These two mechanisms of antigen presentation reflect the different roles of the two types of T cell. A third, minor subtype are the γδ T cells that recognize intact antigens that are not bound to MHC receptors.",
+      "question": "Helper and regulatory T cells can only recognize antigens coupled to what kind of molecules?",
+      "answers": {
+        "text": [
+          "Class II MHC molecules",
+          "Class II MHC",
+          "Class II MHC molecules"
+        ],
+        "answer_start": [
+          650,
+          650,
+          650
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5a0c677bf5590b0018dab3ee",
+      "title": "Amazon_rainforest",
+      "context": "Following the Cretaceous–Paleogene extinction event, the extinction of the dinosaurs and the wetter climate may have allowed the tropical rainforest to spread out across the continent. From 66–34 Mya, the rainforest extended as far south as 45°. Climate fluctuations during the last 34 million years have allowed savanna regions to expand into the tropics. During the Oligocene, for example, the rainforest spanned a relatively narrow band. It expanded again during the Middle Miocene, then retracted to a mostly inland formation at the last glacial maximum. However, the rainforest still managed to thrive during these glacial periods, allowing for the survival and evolution of a broad diversity of species.",
+      "question": "What type of climate stop reinforced from spreading across the continent?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5733fb7bd058e614000b6700",
+      "title": "French_and_Indian_War",
+      "context": "Newcastle replaced him in January 1756 with Lord Loudoun, with Major General James Abercrombie as his second in command. Neither of these men had as much campaign experience as the trio of officers France sent to North America. French regular army reinforcements arrived in New France in May 1756, led by Major General Louis-Joseph de Montcalm and seconded by the Chevalier de Lévis and Colonel François-Charles de Bourlamaque, all experienced veterans from the War of the Austrian Succession. During that time in Europe, on May 18, 1756, England formally declared war on France, which expanded the war into Europe, which was later to be known as the Seven Years' War.",
+      "question": "Who led New France reinforcements in 1756?",
+      "answers": {
+        "text": [
+          "Major General Louis-Joseph de Montcalm",
+          "Major General Louis-Joseph de Montcalm",
+          "Lord Loudoun",
+          "Major General Louis-Joseph de Montcalm",
+          "Major General Louis-Joseph de Montcalm"
+        ],
+        "answer_start": [
+          305,
+          305,
+          44,
+          305,
+          305
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5ad14012645df0001a2d13b0",
+      "title": "European_Union_law",
+      "context": "Although it is generally accepted that EU law has primacy, not all EU laws give citizens standing to bring claims: that is, not all EU laws have \"direct effect\". In Van Gend en Loos v Nederlandse Administratie der Belastingen it was held that the provisions of the Treaties (and EU Regulations) are directly effective, if they are (1) clear and unambiguous (2) unconditional, and (3) did not require EU or national authorities to take further action to implement them. Van Gend en Loos, a postal company, claimed that what is now TFEU article 30 prevented the Dutch Customs Authorities charging tariffs, when it imported urea-formaldehyde plastics from Germany to the Netherlands. After a Dutch court made a reference, the Court of Justice held that even though the Treaties did not \"expressly\" confer a right on citizens or companies to bring claims, they could do so. Historically, international treaties had only allowed states to have legal claims for their enforcement, but the Court of Justice proclaimed \"the Community constitutes a new legal order of international law\". Because article 30 clearly, unconditionally and immediately stated that no quantitative restrictions could be placed on trade, without a good justification, Van Gend en Loos could recover the money it paid for the tariff. EU Regulations are the same as Treaty provisions in this sense, because as TFEU article 288 states, they are ‘directly applicable in all Member States’. Moreover, member states comes under a duty not to replicate Regulations in their own law, in order to prevent confusion. For instance, in Commission v Italy the Court of Justice held that Italy had breached a duty under the Treaties, both by failing to operate a scheme to pay farmers a premium to slaughter cows (to reduce dairy overproduction), and by reproducing the rules in a decree with various additions. \"Regulations,\" held the Court of Justice, \"come into force solely by virtue of their publication\" and implementation could have the effect of \"jeopardizing their simultaneous and uniform application in the whole of the Union.\" On the other hand, some Regulations may themselves expressly require implementing measures, in which case those specific rules should be followed.",
+      "question": "What is generally not accepted about EU law?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5a67e5278476ee001a58a760",
+      "title": "Private_school",
+      "context": "As of 2012, quality private schools in the United States charged substantial tuition, close to $40,000 annually for day schools in New York City, and nearly $50,000 for boarding schools. However, tuition did not cover operating expenses, particularly at boarding schools. The leading schools such as the Groton School had substantial endowments running to hundreds of millions of dollars supplemented by fundraising drives. Boarding schools with a reputation for quality in the United States have a student body drawn from throughout the country, indeed the globe, and a list of applicants which far exceeds their capacity.",
+      "question": "How much did the Groton School charge per student for tuition in 2012?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5729f4273f37b319004785ff",
+      "title": "Economic_inequality",
+      "context": "Wealth concentration is a theoretical[according to whom?] process by which, under certain conditions, newly created wealth concentrates in the possession of already-wealthy individuals or entities. According to this theory, those who already hold wealth have the means to invest in new sources of creating wealth or to otherwise leverage the accumulation of wealth, thus are the beneficiaries of the new wealth. Over time, wealth condensation can significantly contribute to the persistence of inequality within society. Thomas Piketty in his book Capital in the Twenty-First Century argues that the fundamental force for divergence is the usually greater return of capital (r) than economic growth (g), and that larger fortunes generate higher returns [pp. 384 Table 12.2, U.S. university endowment size vs. real annual rate of return]",
+      "question": "What do larger fortunes generate?",
+      "answers": {
+        "text": [
+          "higher returns",
+          "higher returns",
+          "higher returns"
+        ],
+        "answer_start": [
+          738,
+          738,
+          738
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5acfe99177cf76001a686456",
+      "title": "Islamism",
+      "context": "Maududi also believed that Muslim society could not be Islamic without Sharia, and Islam required the establishment of an Islamic state. This state should be a \"theo-democracy,\" based on the principles of: tawhid (unity of God), risala (prophethood) and khilafa (caliphate). Although Maududi talked about Islamic revolution, by \"revolution\" he meant not the violence or populist policies of the Iranian Revolution, but the gradual changing the hearts and minds of individuals from the top of society downward through an educational process or da'wah.",
+      "question": " What is the French translation of tawhid?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "57377862c3c5551400e51ef4",
+      "title": "Force",
+      "context": "A simple case of dynamic equilibrium occurs in constant velocity motion across a surface with kinetic friction. In such a situation, a force is applied in the direction of motion while the kinetic friction force exactly opposes the applied force. This results in zero net force, but since the object started with a non-zero velocity, it continues to move with a non-zero velocity. Aristotle misinterpreted this motion as being caused by the applied force. However, when kinetic friction is taken into consideration it is clear that there is no net force causing constant velocity motion.",
+      "question": "What directly opposes the force applied to move an object across a surface?",
+      "answers": {
+        "text": [
+          "kinetic friction force",
+          "kinetic friction force",
+          "kinetic friction force",
+          "kinetic friction",
+          "kinetic friction force"
+        ],
+        "answer_start": [
+          189,
+          189,
+          189,
+          189,
+          189
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "572883a33acd2414000dfa7b",
+      "title": "Yuan_dynasty",
+      "context": "At the same time the Mongols imported Central Asian Muslims to serve as administrators in China, the Mongols also sent Han Chinese and Khitans from China to serve as administrators over the Muslim population in Bukhara in Central Asia, using foreigners to curtail the power of the local peoples of both lands. Han Chinese were moved to Central Asian areas like Besh Baliq, Almaliq, and Samarqand by the Mongols where they worked as artisans and farmers. Alans were recruited into the Mongol forces with one unit called \"Right Alan Guard\" which was combined with \"recently surrendered\" soldiers, Mongols, and Chinese soldiers stationed in the area of the former Kingdom of Qocho and in Besh Balikh the Mongols established a Chinese military colony led by Chinese general Qi Kongzhi (Ch'i Kung-chih). After the Mongol conquest of Central Asia by Genghis Khan, foreigners were chosen as administrators and co-management with Chinese and Qara-Khitays (Khitans) of gardens and fields in Samarqand was put upon the Muslims as a requirement since Muslims were not allowed to manage without them. The Mongol appointed Governor of Samarqand was a Qara-Khitay (Khitan), held the title Taishi, familiar with Chinese culture his name was Ahai",
+      "question": "Where in Central Asia did the Han Chinese move?",
+      "answers": {
+        "text": [
+          "Besh Baliq, Almaliq, and Samarqand",
+          "Besh Baliq, Almaliq, and Samarqand",
+          "Bukhara"
+        ],
+        "answer_start": [
+          361,
+          361,
+          211
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5728eef92ca10214002daab4",
+      "title": "Civil_disobedience",
+      "context": "Sometimes the prosecution proposes a plea bargain to civil disobedients, as in the case of the Camden 28, in which the defendants were offered an opportunity to plead guilty to one misdemeanor count and receive no jail time. In some mass arrest situations, the activists decide to use solidarity tactics to secure the same plea bargain for everyone. But some activists have opted to enter a blind plea, pleading guilty without any plea agreement in place. Mohandas Gandhi pleaded guilty and told the court, \"I am here to . . . submit cheerfully to the highest penalty that can be inflicted upon me for what in law is a deliberate crime and what appears to me to be the highest duty of a citizen.\"",
+      "question": "Which famous Indian took a plea and put himself at the mercy of the courts?",
+      "answers": {
+        "text": [
+          "Mohandas Gandhi",
+          "Mohandas Gandhi",
+          "Mohandas Gandhi",
+          "Mohandas Gandhi",
+          "Gan"
+        ],
+        "answer_start": [
+          456,
+          456,
+          456,
+          456,
+          465
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "572a1046af94a219006aa78f",
+      "title": "Economic_inequality",
+      "context": "Economist Joseph Stiglitz presented evidence in 2009 that both global inequality and inequality within countries prevent growth by limiting aggregate demand. Economist Branko Milanovic, wrote in 2001 that, \"The view that income inequality harms growth – or that improved equality can help sustain growth – has become more widely held in recent years. ... The main reason for this shift is the increasing importance of human capital in development. When physical capital mattered most, savings and investments were key. Then it was important to have a large contingent of rich people who could save a greater proportion of their income than the poor and invest it in physical capital. But now that human capital is scarcer than machines, widespread education has become the secret to growth.\"",
+      "question": "What are both Branko Milanovic and Joseph Stiglitz?",
+      "answers": {
+        "text": [
+          "Economist",
+          "Economist",
+          "Economist"
+        ],
+        "answer_start": [
+          158,
+          158,
+          0
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5a6683d5f038b7001ab0bf22",
+      "title": "Civil_disobedience",
+      "context": "Many of the same decisions and principles that apply in other criminal investigations and arrests arise also in civil disobedience cases. For example, the suspect may need to decide whether or not to grant a consent search of his property, and whether or not to talk to police officers. It is generally agreed within the legal community, and is often believed within the activist community, that a suspect's talking to criminal investigators can serve no useful purpose, and may be harmful. However, some civil disobedients have nonetheless found it hard to resist responding to investigators' questions, sometimes due to a lack of understanding of the legal ramifications, or due to a fear of seeming rude. Also, some civil disobedients seek to use the arrest as an opportunity to make an impression on the officers. Thoreau wrote, \"My civil neighbor, the tax-gatherer, is the very man I have to deal with--for it is, after all, with men and not with parchment that I quarrel--and he has voluntarily chosen to be an agent of the government. How shall he ever know well that he is and does as an officer of the government, or as a man, until he is obliged to consider whether he will treat me, his neighbor, for whom he has respect, as a neighbor and well-disposed man, or as a maniac and disturber of the peace, and see if he can get over this obstruction to his neighborliness without a ruder and more impetuous thought or speech corresponding with his action.\"",
+      "question": "What did Thoreau believe about talking to police officers?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "57303048947a6a140053d255",
+      "title": "Islamism",
+      "context": "The U.S. government has engaged in efforts to counter Islamism, or violent Islamism, since 2001. These efforts were centred in the U.S. around public diplomacy programmes conducted by the State Department. There have been calls to create an independent agency in the U.S. with a specific mission of undermining Islamism and jihadism. Christian Whiton, an official in the George W. Bush administration, called for a new agency focused on the nonviolent practice of \"political warfare\" aimed at undermining the ideology. U.S. Defense Secretary Robert Gates called for establishing something similar to the defunct U.S. Information Agency, which was charged with undermining the communist ideology during the Cold War.",
+      "question": "What department in the U.S. spearheaded the efforts against Islamism? ",
+      "answers": {
+        "text": [
+          "State",
+          "State Department",
+          "State"
+        ],
+        "answer_start": [
+          188,
+          188,
+          188
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "56ddde6b9a695914005b9629",
+      "title": "Normans",
+      "context": "The Normans (Norman: Nourmands; French: Normands; Latin: Normanni) were the people who in the 10th and 11th centuries gave their name to Normandy, a region in France. They were descended from Norse (\"Norman\" comes from \"Norseman\") raiders and pirates from Denmark, Iceland and Norway who, under their leader Rollo, agreed to swear fealty to King Charles III of West Francia. Through generations of assimilation and mixing with the native Frankish and Roman-Gaulish populations, their descendants would gradually merge with the Carolingian-based cultures of West Francia. The distinct cultural and ethnic identity of the Normans emerged initially in the first half of the 10th century, and it continued to evolve over the succeeding centuries.",
+      "question": "When were the Normans in Normandy?",
+      "answers": {
+        "text": [
+          "10th and 11th centuries",
+          "in the 10th and 11th centuries",
+          "10th and 11th centuries",
+          "10th and 11th centuries"
+        ],
+        "answer_start": [
+          94,
+          87,
+          94,
+          94
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5728fc9e1d04691400778f15",
+      "title": "Civil_disobedience",
+      "context": "Courts have distinguished between two types of civil disobedience: \"Indirect civil disobedience involves violating a law which is not, itself, the object of protest, whereas direct civil disobedience involves protesting the existence of a particular law by breaking that law.\" During the Vietnam War, courts typically refused to excuse the perpetrators of illegal protests from punishment on the basis of their challenging the legality of the Vietnam War; the courts ruled it was a political question. The necessity defense has sometimes been used as a shadow defense by civil disobedients to deny guilt without denouncing their politically motivated acts, and to present their political beliefs in the courtroom. However, court cases such as U.S. v. Schoon have greatly curtailed the availability of the political necessity defense. Likewise, when Carter Wentworth was charged for his role in the Clamshell Alliance's 1977 illegal occupation of the Seabrook Station Nuclear Power Plant, the judge instructed the jury to disregard his competing harms defense, and he was found guilty. Fully Informed Jury Association activists have sometimes handed out educational leaflets inside courthouses despite admonitions not to; according to FIJA, many of them have escaped prosecution because \"prosecutors have reasoned (correctly) that if they arrest fully informed jury leafleters, the leaflets will have to be given to the leafleter's own jury as evidence.\"",
+      "question": "Why are people who distribute leaflets inside courthouses not been arrested?",
+      "answers": {
+        "text": [
+          "the leaflets will have to be given to the leafleter's own jury as evidence",
+          "if they arrest fully informed jury leafleters, the leaflets will have to be given to the leafleter's own jury as evidence",
+          "the leaflets will have to be given to the leafleter's own jury as evidence",
+          "the leaflets will have to be given to the leafleter's own jury as evidence",
+          "the leaflets will have to be given to the leafleter's own jury as evidence"
+        ],
+        "answer_start": [
+          1377,
+          1330,
+          1377,
+          1377,
+          1377
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5a25b230ef59cd001a623c52",
+      "title": "Construction",
+      "context": "The Standard Industrial Classification and the newer North American Industry Classification System have a classification system for companies that perform or otherwise engage in construction. To recognize the differences of companies in this sector, it is divided into three subsectors: building construction, heavy and civil engineering construction, and specialty trade contractors. There are also categories for construction service firms (e.g., engineering, architecture) and construction managers (firms engaged in managing construction projects without assuming direct financial responsibility for completion of the construction project).",
+      "question": "Who has a system for companies that have financial responsibility of completing a project?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5ad4f28c5b96ef001a10a733",
+      "title": "Warsaw",
+      "context": "Throughout its existence, Warsaw has been a multi-cultural city. According to the 1901 census, out of 711,988 inhabitants 56.2% were Catholics, 35.7% Jews, 5% Greek orthodox Christians and 2.8% Protestants. Eight years later, in 1909, there were 281,754 Jews (36.9%), 18,189 Protestants (2.4%) and 2,818 Mariavites (0.4%). This led to construction of hundreds of places of religious worship in all parts of the town. Most of them were destroyed in the aftermath of the Warsaw Uprising of 1944. After the war, the new communist authorities of Poland discouraged church construction and only a small number were rebuilt.",
+      "question": "What percentage of Poland's population was Protestant in 1901?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "571cd88ddd7acb1400e4c18d",
+      "title": "Oxygen",
+      "context": "People who climb mountains or fly in non-pressurized fixed-wing aircraft sometimes have supplemental O\n2 supplies.[h] Passengers traveling in (pressurized) commercial airplanes have an emergency supply of O\n2 automatically supplied to them in case of cabin depressurization. Sudden cabin pressure loss activates chemical oxygen generators above each seat, causing oxygen masks to drop. Pulling on the masks \"to start the flow of oxygen\" as cabin safety instructions dictate, forces iron filings into the sodium chlorate inside the canister. A steady stream of oxygen gas is then produced by the exothermic reaction.",
+      "question": "What event would necessitate airline passengers to need a supplemental supply of oxygen? ",
+      "answers": {
+        "text": [
+          "cabin depressurization",
+          "cabin depressurization",
+          "cabin depressurization",
+          "cabin depressurization",
+          "depressurization"
+        ],
+        "answer_start": [
+          251,
+          251,
+          251,
+          251,
+          257
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5728d7c54b864d1900164f50",
+      "title": "Civil_disobedience",
+      "context": "LeGrande writes that \"the formulation of a single all-encompassing definition of the term is extremely difficult, if not impossible. In reviewing the voluminous literature on the subject, the student of civil disobedience rapidly finds himself surrounded by a maze of semantical problems and grammatical niceties. Like Alice in Wonderland, he often finds that specific terminology has no more (or no less) meaning than the individual orator intends it to have.\" He encourages a distinction between lawful protest demonstration, nonviolent civil disobedience, and violent civil disobedience.",
+      "question": "What type of civil disobedience is accompanied by aggression?",
+      "answers": {
+        "text": [
+          "violent civil disobedience",
+          "violent civil disobedience",
+          "violent",
+          "violent",
+          "violent"
+        ],
+        "answer_start": [
+          563,
+          563,
+          563,
+          563,
+          563
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "572940246aef051400154bed",
+      "title": "Intergovernmental_Panel_on_Climate_Change",
+      "context": "The IPCC concentrates its activities on the tasks allotted to it by the relevant WMO Executive Council and UNEP Governing Council resolutions and decisions as well as on actions in support of the UNFCCC process. While the preparation of the assessment reports is a major IPCC function, it also supports other activities, such as the Data Distribution Centre and the National Greenhouse Gas Inventories Programme, required under the UNFCCC. This involves publishing default emission factors, which are factors used to derive emissions estimates based on the levels of fuel consumption, industrial production and so on.",
+      "question": "What is used to estimate emissions?",
+      "answers": {
+        "text": [
+          "default emission factors",
+          "default emission factors",
+          "default emission factors"
+        ],
+        "answer_start": [
+          465,
+          465,
+          465
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "57287ddf3acd2414000dfa40",
+      "title": "Yuan_dynasty",
+      "context": "While the existence of these central government departments and the Six Ministries (which had been introduced since the Sui and Tang dynasties) gave a Sinicized image in the Yuan administration, the actual functions of these ministries also reflected how Mongolian priorities and policies reshaped and redirected those institutions. For example, the authority of the Yuan legal system, the Ministry of Justice, did not extend to legal cases involving Mongols and Semuren, who had separate courts of justice. Cases involving members of more than one ethnic group were decided by a mixed board consisting of Chinese and Mongols. Another example was the insignificance of the Ministry of War compared with native Chinese dynasties, as the real military authority in Yuan times resided in the Privy Council.",
+      "question": "When had the Six Ministries existed?",
+      "answers": {
+        "text": [
+          "since the Sui and Tang dynasties",
+          "Sui and Tang dynasties",
+          "since the Sui and Tang dynasties"
+        ],
+        "answer_start": [
+          110,
+          120,
+          110
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "57113ba6b654c5140001fc22",
+      "title": "Steam_engine",
+      "context": "Lead fusible plugs may be present in the crown of the boiler's firebox. If the water level drops, such that the temperature of the firebox crown increases significantly, the lead melts and the steam escapes, warning the operators, who may then manually suppress the fire. Except in the smallest of boilers the steam escape has little effect on dampening the fire. The plugs are also too small in area to lower steam pressure significantly, depressurizing the boiler. If they were any larger, the volume of escaping steam would itself endanger the crew.[citation needed]",
+      "question": "After the operators are warned by the escape of the steam, what may they then do?",
+      "answers": {
+        "text": [
+          "manually suppress the fire",
+          "manually suppress the fire",
+          "manually suppress the fire"
+        ],
+        "answer_start": [
+          244,
+          244,
+          244
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5a67a898f038b7001ab0c3f6",
+      "title": "Private_school",
+      "context": "The Education Service Contracting scheme of the government provides financial assistance for tuition and other school fees of students turned away from public high schools because of enrollment overflows. The Tuition Fee Supplement is geared to students enrolled in priority courses in post-secondary and non-degree programmes, including vocational and technical courses. The Private Education Student Financial Assistance is made available to underprivileged, but deserving high school graduates, who wish to pursue college/technical education in private colleges and universities.",
+      "question": "What does The Private Education Student Financial Assistance help current high school students who are turned away do?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5a678aa6f038b7001ab0c2a3",
+      "title": "Private_school",
+      "context": "The secondary level includes schools offering years 7 through 12 (year twelve is known as lower sixth) and year 13 (upper sixth). This category includes university-preparatory schools or \"prep schools\", boarding schools and day schools. Tuition at private secondary schools varies from school to school and depends on many factors, including the location of the school, the willingness of parents to pay, peer tuitions and the school's financial endowment. High tuition, schools claim, is used to pay higher salaries for the best teachers and also used to provide enriched learning environments, including a low student to teacher ratio, small class sizes and services, such as libraries, science laboratories and computers. Some private schools are boarding schools and many military academies are privately owned or operated as well.",
+      "question": "What is the tuititon used for at military academies?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "57097051ed30961900e84135",
+      "title": "Sky_(United_Kingdom)",
+      "context": "BSkyB's digital service was officially launched on 1 October 1998 under the name Sky Digital, although small-scale tests were carried out before then. At this time the use of the Sky Digital brand made an important distinction between the new service and Sky's analogue services. Key selling points were the improvement in picture and sound quality, increased number of channels and an interactive service branded Open.... now called Sky Active, BSkyB competed with the ONdigital (later ITV Digital) terrestrial offering and cable services. Within 30 days, over 100,000 digiboxes had been sold, which help bolstered BSkyB's decision to give away free digiboxes and minidishes from May 1999.",
+      "question": "Who did BSkyB compete with initially?",
+      "answers": {
+        "text": [
+          "ONdigital",
+          "ONdigital",
+          "ONdigital"
+        ],
+        "answer_start": [
+          470,
+          470,
+          470
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5ad10ece645df0001a2d0b9c",
+      "title": "European_Union_law",
+      "context": "Although the European Union does not have a codified constitution, like every political body it has laws which \"constitute\" its basic governance structure. The EU's primary constitutional sources are the Treaty on European Union (TEU) and the Treaty on the Functioning of the European Union (TFEU), which have been agreed or adhered to among the governments of all 28 member states. The Treaties establish the EU's institutions, list their powers and responsibilities, and explain the areas in which the EU can legislate with Directives or Regulations. The European Commission has the initiative to propose legislation. During the ordinary legislative procedure, the Council (which are ministers from member state governments) and the European Parliament (elected by citizens) can make amendments and must give their consent for laws to pass. The Commission oversees departments and various agencies that execute or enforce EU law. The \"European Council\" (rather than the Council, made up of different government Ministers) is composed of the Prime Ministers or executive Presidents of the member states. It appoints the Commissioners and the board of the European Central Bank. The European Court of Justice is the supreme judicial body which interprets EU law, and develops it through precedent. The Court can review the legality of the EU institutions' actions, in compliance with the Treaties. It can also decide upon claims for breach of EU laws from member states and citizens.",
+      "question": "What governing body appoints commissioners and the board of American Central Bank?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5ad408aa604f3c001a3fff02",
+      "title": "Yuan_dynasty",
+      "context": "The system of bureaucracy created by Kublai Khan reflected various cultures in the empire, including that of the Han Chinese, Khitans, Jurchens, Mongols, and Tibetan Buddhists. While the official terminology of the institutions may indicate the government structure was almost purely that of native Chinese dynasties, the Yuan bureaucracy actually consisted of a mix of elements from different cultures. The Chinese-style elements of the bureaucracy mainly came from the native Tang, Song, as well as Khitan Liao and Jurchen Jin dynasties. Chinese advisers such as Liu Bingzhong and Yao Shu gave strong influence to Kublai's early court, and the central government administration was established within the first decade of Kublai's reign. This government adopted the traditional Chinese tripartite division of authority among civil, military, and censorial offices, including the Central Secretariat (Zhongshu Sheng) to manage civil affairs, the Privy Council (Chinese: 樞密院) to manage military affairs, and the Censorate to conduct internal surveillance and inspection. The actual functions of both central and local government institutions, however, showed a major overlap between the civil and military jurisdictions, due to the Mongol traditional reliance on military institutions and offices as the core of governance. Nevertheless, such a civilian bureaucracy, with the Central Secretariat as the top institution that was (directly or indirectly) responsible for most other governmental agencies (such as the traditional Chinese-style Six Ministries), was created in China. At various times another central government institution called the Department of State Affairs (Shangshu Sheng) that mainly dealt with finance was established (such as during the reign of Külüg Khan or Emperor Wuzong), but was usually abandoned shortly afterwards.",
+      "question": " What kind of division of power did Kublai's government never have?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5ad4fbeb5b96ef001a10a886",
+      "title": "Warsaw",
+      "context": "Like many cities in Central and Eastern Europe, infrastructure in Warsaw suffered considerably during its time as an Eastern Bloc economy – though it is worth mentioning that the initial Three-Year Plan to rebuild Poland (especially Warsaw) was a major success, but what followed was very much the opposite. However, over the past decade Warsaw has seen many improvements due to solid economic growth, an increase in foreign investment as well as funding from the European Union. In particular, the city's metro, roads, sidewalks, health care facilities and sanitation facilities have improved markedly.",
+      "question": "When has Bloc seen many improvements?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5ad4bea25b96ef001a109efa",
+      "title": "Warsaw",
+      "context": "The first fortified settlements on the site of today's Warsaw were located in Bródno (9th/10th century) and Jazdów (12th/13th century). After Jazdów was raided by nearby clans and dukes, a new similar settlement was established on the site of a small fishing village called Warszowa. The Prince of Płock, Bolesław II of Masovia, established this settlement, the modern-day Warsaw, in about 1300. In the beginning of the 14th century it became one of the seats of the Dukes of Masovia, becoming the official capital of Masovian Duchy in 1413. 14th-century Warsaw's economy rested on mostly crafts and trade. Upon the extinction of the local ducal line, the duchy was reincorporated into the Polish Crown in 1526.",
+      "question": "When was the Bolelsaw Duchy reincorporated into the Polish Crown?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5729f5a03f37b31900478605",
+      "title": "Immune_system",
+      "context": "Gamma delta T cells (γδ T cells) possess an alternative T cell receptor (TCR) as opposed to CD4+ and CD8+ (αβ) T cells and share the characteristics of helper T cells, cytotoxic T cells and NK cells. The conditions that produce responses from γδ T cells are not fully understood. Like other 'unconventional' T cell subsets bearing invariant TCRs, such as CD1d-restricted Natural Killer T cells, γδ T cells straddle the border between innate and adaptive immunity. On one hand, γδ T cells are a component of adaptive immunity as they rearrange TCR genes to produce receptor diversity and can also develop a memory phenotype. On the other hand, the various subsets are also part of the innate immune system, as restricted TCR or NK receptors may be used as pattern recognition receptors. For example, large numbers of human Vγ9/Vδ2 T cells respond within hours to common molecules produced by microbes, and highly restricted Vδ1+ T cells in epithelia respond to stressed epithelial cells.",
+      "question": "Gamma delta T cells share the characteristics of what other types of T cells?",
+      "answers": {
+        "text": [
+          "helper T cells, cytotoxic T cells and NK cells",
+          "helper T cells, cytotoxic T cells",
+          "helper T cells"
+        ],
+        "answer_start": [
+          152,
+          152,
+          152
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "570d4e6cb3d812140066d66f",
+      "title": "Victoria_(Australia)",
+      "context": "The Premier of Victoria is the leader of the political party or coalition with the most seats in the Legislative Assembly. The Premier is the public face of government and, with cabinet, sets the legislative and political agenda. Cabinet consists of representatives elected to either house of parliament. It is responsible for managing areas of government that are not exclusively the Commonwealth's, by the Australian Constitution, such as education, health and law enforcement. The current Premier of Victoria is Daniel Andrews.",
+      "question": "Who can be in the Victorian cabinet?",
+      "answers": {
+        "text": [
+          "representatives",
+          "representatives elected to either house of parliament",
+          "representatives elected to either house of parliament"
+        ],
+        "answer_start": [
+          250,
+          250,
+          250
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5ad54a375b96ef001a10ac49",
+      "title": "Computational_complexity_theory",
+      "context": "For a precise definition of what it means to solve a problem using a given amount of time and space, a computational model such as the deterministic Turing machine is used. The time required by a deterministic Turing machine M on input x is the total number of state transitions, or steps, the machine makes before it halts and outputs the answer (\"yes\" or \"no\"). A Turing machine M is said to operate within time f(n), if the time required by M on each input of length n is at most f(n). A decision problem A can be solved in time f(n) if there exists a Turing machine operating in time f(n) that solves the problem. Since complexity theory is interested in classifying problems based on their difficulty, one defines sets of problems based on some criteria. For instance, the set of problems solvable within time f(n) on a deterministic Turing machine is then denoted by DTIME(f(n)).",
+      "question": "How is Turing machine M said not to operate?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5ad26d27d7d075001a4293c4",
+      "title": "Rhine",
+      "context": "Lake Constance consists of three bodies of water: the Obersee (\"upper lake\"), the Untersee (\"lower lake\"), and a connecting stretch of the Rhine, called the Seerhein (\"Lake Rhine\"). The lake is situated in Germany, Switzerland and Austria near the Alps. Specifically, its shorelines lie in the German states of Bavaria and Baden-Württemberg, the Austrian state of Vorarlberg, and the Swiss cantons of Thurgau and St. Gallen. The Rhine flows into it from the south following the Swiss-Austrian border. It is located at approximately 47°39′N 9°19′E﻿ / ﻿47.650°N 9.317°E﻿ / 47.650; 9.317.",
+      "question": "How many bodies of water make up the Obersee?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "57286d7d4b864d19001649e3",
+      "title": "University_of_Chicago",
+      "context": "In the arts and entertainment, minimalist composer Philip Glass, dancer, choreographer and leader in the field of dance anthropology Katherine Dunham, Bungie founder and developer of the Halo video game series Alex Seropian, Serial host Sarah Koenig, actor Ed Asner, Pulitzer Prize for Criticism winning film critic and the subject of the 2014 documentary film Life Itself Roger Ebert, director, writer, and comedian Mike Nichols, film director and screenwriter Philip Kaufman, and Carl Van Vechten, photographer and writer, are graduates.",
+      "question": "What American actor is also a university graduate?",
+      "answers": {
+        "text": [
+          "Ed Asner",
+          "Ed Asner",
+          "Ed Asner"
+        ],
+        "answer_start": [
+          257,
+          257,
+          257
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5737821cc3c5551400e51f1c",
+      "title": "Force",
+      "context": "The development of fundamental theories for forces proceeded along the lines of unification of disparate ideas. For example, Isaac Newton unified the force responsible for objects falling at the surface of the Earth with the force responsible for the orbits of celestial mechanics in his universal theory of gravitation. Michael Faraday and James Clerk Maxwell demonstrated that electric and magnetic forces were unified through one consistent theory of electromagnetism. In the 20th century, the development of quantum mechanics led to a modern understanding that the first three fundamental forces (all except gravity) are manifestations of matter (fermions) interacting by exchanging virtual particles called gauge bosons. This standard model of particle physics posits a similarity between the forces and led scientists to predict the unification of the weak and electromagnetic forces in electroweak theory subsequently confirmed by observation. The complete formulation of the standard model predicts an as yet unobserved Higgs mechanism, but observations such as neutrino oscillations indicate that the standard model is incomplete. A Grand Unified Theory allowing for the combination of the electroweak interaction with the strong force is held out as a possibility with candidate theories such as supersymmetry proposed to accommodate some of the outstanding unsolved problems in physics. Physicists are still attempting to develop self-consistent unification models that would combine all four fundamental interactions into a theory of everything. Einstein tried and failed at this endeavor, but currently the most popular approach to answering this question is string theory.:212–219",
+      "question": "What type of physics model did Einstein fail to make?",
+      "answers": {
+        "text": [
+          "self-consistent unification",
+          "self-consistent unification models",
+          "self-consistent unification",
+          "self-consistent unification models that would combine all four fundamental interactions"
+        ],
+        "answer_start": [
+          1441,
+          1441,
+          1441,
+          1441
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5729f1fcaf94a219006aa6d7",
+      "title": "Immune_system",
+      "context": "Both B cells and T cells carry receptor molecules that recognize specific targets. T cells recognize a \"non-self\" target, such as a pathogen, only after antigens (small fragments of the pathogen) have been processed and presented in combination with a \"self\" receptor called a major histocompatibility complex (MHC) molecule. There are two major subtypes of T cells: the killer T cell and the helper T cell. In addition there are regulatory T cells which have a role in modulating immune response. Killer T cells only recognize antigens coupled to Class I MHC molecules, while helper T cells and regulatory T cells only recognize antigens coupled to Class II MHC molecules. These two mechanisms of antigen presentation reflect the different roles of the two types of T cell. A third, minor subtype are the γδ T cells that recognize intact antigens that are not bound to MHC receptors.",
+      "question": "What class of T cells recognizes intact antigens that are not associated with MHC receptors?",
+      "answers": {
+        "text": [
+          "γδ T cells",
+          "γδ",
+          "γδ T cells"
+        ],
+        "answer_start": [
+          806,
+          806,
+          806
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5acfec2077cf76001a6864f3",
+      "title": "Islamism",
+      "context": "While Qutb's ideas became increasingly radical during his imprisonment prior to his execution in 1966, the leadership of the Brotherhood, led by Hasan al-Hudaybi, remained moderate and interested in political negotiation and activism. Fringe or splinter movements inspired by the final writings of Qutb in the mid-1960s (particularly the manifesto Milestones, a.k.a. Ma'alim fi-l-Tariq) did, however, develop and they pursued a more radical direction. By the 1970s, the Brotherhood had renounced violence as a means of achieving its goals.",
+      "question": " When was Qutb born?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5ad286fdd7d075001a429903",
+      "title": "Force",
+      "context": "Newton's laws and Newtonian mechanics in general were first developed to describe how forces affect idealized point particles rather than three-dimensional objects. However, in real life, matter has extended structure and forces that act on one part of an object might affect other parts of an object. For situations where lattice holding together the atoms in an object is able to flow, contract, expand, or otherwise change shape, the theories of continuum mechanics describe the way forces affect the material. For example, in extended fluids, differences in pressure result in forces being directed along the pressure gradients as follows:",
+      "question": "Whose mechanics affected three dimensional objects?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5a638e4468151a001a922379",
+      "title": "Victoria_(Australia)",
+      "context": "Victoria is the centre of dairy farming in Australia. It is home to 60% of Australia's 3 million dairy cattle and produces nearly two-thirds of the nation's milk, almost 6.4 billion litres. The state also has 2.4 million beef cattle, with more than 2.2 million cattle and calves slaughtered each year. In 2003–04, Victorian commercial fishing crews and aquaculture industry produced 11,634 tonnes of seafood valued at nearly A$109 million. Blacklipped abalone is the mainstay of the catch, bringing in A$46 million, followed by southern rock lobster worth A$13.7 million. Most abalone and rock lobster is exported to Asia.",
+      "question": "How many spotted dairy cows are there in Australia?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5a592f3f3e1742001a15cfff",
+      "title": "Geology",
+      "context": "Sir Charles Lyell first published his famous book, Principles of Geology, in 1830. This book, which influenced the thought of Charles Darwin, successfully promoted the doctrine of uniformitarianism. This theory states that slow geological processes have occurred throughout the Earth's history and are still occurring today. In contrast, catastrophism is the theory that Earth's features formed in single, catastrophic events and remained unchanged thereafter. Though Hutton believed in uniformitarianism, the idea was not widely accepted at the time.",
+      "question": "What idea by Charles Lyell was widely accepted at the time of publication?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5a2c116ebfd06b001a5ae9c4",
+      "title": "Sky_(United_Kingdom)",
+      "context": "BSkyB's direct-to-home satellite service became available in 10 million homes in 2010, Europe's first pay-TV platform in to achieve that milestone. Confirming it had reached its target, the broadcaster said its reach into 36% of households in the UK represented an audience of more than 25m people. The target was first announced in August 2004, since then an additional 2.4m customers had subscribed to BSkyB's direct-to-home service. Media commentators had debated whether the figure could be reached as the growth in subscriber numbers elsewhere in Europe flattened.",
+      "question": "What free TV platform was most popular in Europe at this time?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "56de15dbcffd8e1900b4b5ca",
+      "title": "Normans",
+      "context": "The Normans were in contact with England from an early date. Not only were their original Viking brethren still ravaging the English coasts, they occupied most of the important ports opposite England across the English Channel. This relationship eventually produced closer ties of blood through the marriage of Emma, sister of Duke Richard II of Normandy, and King Ethelred II of England. Because of this, Ethelred fled to Normandy in 1013, when he was forced from his kingdom by Sweyn Forkbeard. His stay in Normandy (until 1016) influenced him and his sons by Emma, who stayed in Normandy after Cnut the Great's conquest of the isle.",
+      "question": "To where did Ethelred flee?",
+      "answers": {
+        "text": [
+          "Normandy",
+          "Normandy",
+          "Normandy"
+        ],
+        "answer_start": [
+          423,
+          423,
+          423
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5725ce4d38643c19005acd4f",
+      "title": "Fresno,_California",
+      "context": "Fresno (/ˈfrɛznoʊ/ FREZ-noh), the county seat of Fresno County, is a city in the U.S. state of California. As of 2015, the city's population was 520,159, making it the fifth-largest city in California, the largest inland city in California and the 34th-largest in the nation. Fresno is in the center of the San Joaquin Valley and is the largest city in the Central Valley, which contains the San Joaquin Valley. It is approximately 220 miles (350 km) northwest of Los Angeles, 170 miles (270 km) south of the state capital, Sacramento, or 185 miles (300 km) south of San Francisco. The name Fresno means \"ash tree\" in Spanish, and an ash leaf is featured on the city's flag.",
+      "question": "What does the name Fresno mean in Spanish?",
+      "answers": {
+        "text": [
+          "ash tree",
+          "ash tree",
+          "ash tree"
+        ],
+        "answer_start": [
+          605,
+          605,
+          605
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "57286951ff5b5019007da212",
+      "title": "University_of_Chicago",
+      "context": "In business, notable alumni include Microsoft CEO Satya Nadella, Oracle Corporation founder and the third richest man in America Larry Ellison, Goldman Sachs and MF Global CEO as well as former Governor of New Jersey Jon Corzine, McKinsey & Company founder and author of the first management accounting textbook James O. McKinsey, Arley D. Cathey, Bloomberg L.P. CEO Daniel Doctoroff, Credit Suisse CEO Brady Dougan, Morningstar, Inc. founder and CEO Joe Mansueto, Chicago Cubs owner and chairman Thomas S. Ricketts, and NBA commissioner Adam Silver.",
+      "question": "Who founded McKinsey & Company?",
+      "answers": {
+        "text": [
+          "James O. McKinsey",
+          "James O. McKinsey",
+          "James O. McKinsey"
+        ],
+        "answer_start": [
+          312,
+          312,
+          312
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "572a058aaf94a219006aa755",
+      "title": "Immune_system",
+      "context": "When a T-cell encounters a foreign pathogen, it extends a vitamin D receptor. This is essentially a signaling device that allows the T-cell to bind to the active form of vitamin D, the steroid hormone calcitriol. T-cells have a symbiotic relationship with vitamin D. Not only does the T-cell extend a vitamin D receptor, in essence asking to bind to the steroid hormone version of vitamin D, calcitriol, but the T-cell expresses the gene CYP27B1, which is the gene responsible for converting the pre-hormone version of vitamin D, calcidiol into the steroid hormone version, calcitriol. Only after binding to calcitriol can T-cells perform their intended function. Other immune system cells that are known to express CYP27B1 and thus activate vitamin D calcidiol, are dendritic cells, keratinocytes and macrophages.",
+      "question": "Other than T cells, what other immune cells express CYP27B1?",
+      "answers": {
+        "text": [
+          "dendritic cells, keratinocytes and macrophages",
+          "dendritic cells, keratinocytes and macrophages",
+          "dendritic cells"
+        ],
+        "answer_start": [
+          767,
+          767,
+          767
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5733d7cbd058e614000b63ac",
+      "title": "French_and_Indian_War",
+      "context": "In between the French and the British, large areas were dominated by native tribes. To the north, the Mi'kmaq and the Abenaki were engaged in Father Le Loutre's War and still held sway in parts of Nova Scotia, Acadia, and the eastern portions of the province of Canada, as well as much of present-day Maine. The Iroquois Confederation dominated much of present-day Upstate New York and the Ohio Country, although the latter also included Algonquian-speaking populations of Delaware and Shawnee, as well as Iroquoian-speaking Mingo. These tribes were formally under Iroquois rule, and were limited by them in authority to make agreements.",
+      "question": "What tribes were in Father Le Loutre's War?",
+      "answers": {
+        "text": [
+          "Mi'kmaq and the Abenaki",
+          "Mi'kmaq and the Abenaki",
+          "the Mi'kmaq and the Abenaki",
+          "Mi'kmaq and the Abenaki",
+          "the Mi'kmaq and the Abenaki"
+        ],
+        "answer_start": [
+          102,
+          102,
+          98,
+          102,
+          98
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "56e1c3e1e3433e1400423149",
+      "title": "Computational_complexity_theory",
+      "context": "Many important complexity classes can be defined by bounding the time or space used by the algorithm. Some important complexity classes of decision problems defined in this manner are the following:",
+      "question": "What function is used by algorithms to define measurements like time or space?",
+      "answers": {
+        "text": [
+          "bounding",
+          "bounding",
+          "bounding"
+        ],
+        "answer_start": [
+          52,
+          52,
+          52
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "571cb010dd7acb1400e4c129",
+      "title": "Oxygen",
+      "context": "Singlet oxygen is a name given to several higher-energy species of molecular O\n2 in which all the electron spins are paired. It is much more reactive towards common organic molecules than is molecular oxygen per se. In nature, singlet oxygen is commonly formed from water during photosynthesis, using the energy of sunlight. It is also produced in the troposphere by the photolysis of ozone by light of short wavelength, and by the immune system as a source of active oxygen. Carotenoids in photosynthetic organisms (and possibly also in animals) play a major role in absorbing energy from singlet oxygen and converting it to the unexcited ground state before it can cause harm to tissues.",
+      "question": "To what is singlet oxygen more reactive?",
+      "answers": {
+        "text": [
+          "organic molecules",
+          "common organic molecules",
+          "common organic molecules",
+          "common organic molecules",
+          "common organic molecules"
+        ],
+        "answer_start": [
+          165,
+          158,
+          158,
+          158,
+          158
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5733a5f54776f41900660f45",
+      "title": "Warsaw",
+      "context": "One of the most famous people born in Warsaw was Maria Skłodowska-Curie, who achieved international recognition for her research on radioactivity and was the first female recipient of the Nobel Prize. Famous musicians include Władysław Szpilman and Frédéric Chopin. Though Chopin was born in the village of Żelazowa Wola, about 60 km (37 mi) from Warsaw, he moved to the city with his family when he was seven months old. Casimir Pulaski, a Polish general and hero of the American Revolutionary War, was born here in 1745.",
+      "question": "What was Maria Curie the first female recipient of?",
+      "answers": {
+        "text": [
+          "Nobel Prize",
+          "Nobel Prize",
+          "Nobel Prize"
+        ],
+        "answer_start": [
+          188,
+          188,
+          188
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5a38ab9fa4b263001a8c188b",
+      "title": "1973_oil_crisis",
+      "context": "On August 15, 1971, the United States unilaterally pulled out of the Bretton Woods Accord. The US abandoned the Gold Exchange Standard whereby the value of the dollar had been pegged to the price of gold and all other currencies were pegged to the dollar, whose value was left to \"float\" (rise and fall according to market demand). Shortly thereafter, Britain followed, floating the pound sterling. The other industrialized nations followed suit with their respective currencies. Anticipating that currency values would fluctuate unpredictably for a time, the industrialized nations increased their reserves (by expanding their money supplies) in amounts far greater than before. The result was a depreciation of the dollar and other industrialized nations' currencies. Because oil was priced in dollars, oil producers' real income decreased. In September 1971, OPEC issued a joint communiqué stating that, from then on, they would price oil in terms of a fixed amount of gold.",
+      "question": "What did Britain do in September 1971?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5ad26aedd7d075001a429332",
+      "title": "Force",
+      "context": "A static equilibrium between two forces is the most usual way of measuring forces, using simple devices such as weighing scales and spring balances. For example, an object suspended on a vertical spring scale experiences the force of gravity acting on the object balanced by a force applied by the \"spring reaction force\", which equals the object's weight. Using such tools, some quantitative force laws were discovered: that the force of gravity is proportional to volume for objects of constant density (widely exploited for millennia to define standard weights); Archimedes' principle for buoyancy; Archimedes' analysis of the lever; Boyle's law for gas pressure; and Hooke's law for springs. These were all formulated and experimentally verified before Isaac Newton expounded his Three Laws of Motion.",
+      "question": "A static equilibrium between three sources is a way of doing what?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5a6cee244eec6b001a80a6e8",
+      "title": "Pharmacy",
+      "context": "The reason for the majority rule is the high risk of a conflict of interest and/or the avoidance of absolute powers. Otherwise, the physician has a financial self-interest in \"diagnosing\" as many conditions as possible, and in exaggerating their seriousness, because he or she can then sell more medications to the patient. Such self-interest directly conflicts with the patient's interest in obtaining cost-effective medication and avoiding the unnecessary use of medication that may have side-effects. This system reflects much similarity to the checks and balances system of the U.S. and many other governments.[citation needed]",
+      "question": "Why is majority rule avoided?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5733647e4776f419006609b0",
+      "title": "Warsaw",
+      "context": "There are also many places commemorating the heroic history of Warsaw. Pawiak, an infamous German Gestapo prison now occupied by a Mausoleum of Memory of Martyrdom and the museum, is only the beginning of a walk in the traces of Heroic City. The Warsaw Citadel, an impressive 19th-century fortification built after the defeat of the November Uprising, was a place of martyr for the Poles. Another important monument, the statue of Little Insurgent located at the ramparts of the Old Town, commemorates the children who served as messengers and frontline troops in the Warsaw Uprising, while the impressive Warsaw Uprising Monument by Wincenty Kućma was erected in memory of the largest insurrection of World War II.",
+      "question": "What fortification was built in the 19th century after the defeat of the November Uprising?",
+      "answers": {
+        "text": [
+          "The Warsaw Citadel",
+          "Warsaw Citadel",
+          "The Warsaw Citadel"
+        ],
+        "answer_start": [
+          242,
+          246,
+          242
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5a75054b97ca42001a521dcd",
+      "title": "1973_oil_crisis",
+      "context": "On August 15, 1971, the United States unilaterally pulled out of the Bretton Woods Accord. The US abandoned the Gold Exchange Standard whereby the value of the dollar had been pegged to the price of gold and all other currencies were pegged to the dollar, whose value was left to \"float\" (rise and fall according to market demand). Shortly thereafter, Britain followed, floating the pound sterling. The other industrialized nations followed suit with their respective currencies. Anticipating that currency values would fluctuate unpredictably for a time, the industrialized nations increased their reserves (by expanding their money supplies) in amounts far greater than before. The result was a depreciation of the dollar and other industrialized nations' currencies. Because oil was priced in dollars, oil producers' real income decreased. In September 1971, OPEC issued a joint communiqué stating that, from then on, they would price oil in terms of a fixed amount of gold.",
+      "question": "What did the US withdraw from in 1971? ",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5a838a2ee60761001a2eb796",
+      "title": "Ctenophora",
+      "context": "The Cestida (\"belt animals\") are ribbon-shaped planktonic animals, with the mouth and aboral organ aligned in the middle of opposite edges of the ribbon. There is a pair of comb-rows along each aboral edge, and tentilla emerging from a groove all along the oral edge, which stream back across most of the wing-like body surface. Cestids can swim by undulating their bodies as well as by the beating of their comb-rows. There are two known species, with worldwide distribution in warm, and warm-temperate waters: Cestum veneris (\"Venus' girdle\") is among the largest ctenophores – up to 1.5 meters (4.9 ft) long, and can undulate slowly or quite rapidly. Velamen parallelum, which is typically less than 20 centimeters (0.66 ft) long, can move much faster in what has been described as a \"darting motion\".",
+      "question": "What shape does the Aboral usually have?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "56de4b5c4396321400ee2799",
+      "title": "Normans",
+      "context": "In the visual arts, the Normans did not have the rich and distinctive traditions of the cultures they conquered. However, in the early 11th century the dukes began a programme of church reform, encouraging the Cluniac reform of monasteries and patronising intellectual pursuits, especially the proliferation of scriptoria and the reconstitution of a compilation of lost illuminated manuscripts. The church was utilised by the dukes as a unifying force for their disparate duchy. The chief monasteries taking part in this \"renaissance\" of Norman art and scholarship were Mont-Saint-Michel, Fécamp, Jumièges, Bec, Saint-Ouen, Saint-Evroul, and Saint-Wandrille. These centres were in contact with the so-called \"Winchester school\", which channeled a pure Carolingian artistic tradition to Normandy. In the final decade of the 11th and first of the 12th century, Normandy experienced a golden age of illustrated manuscripts, but it was brief and the major scriptoria of Normandy ceased to function after the midpoint of the century.",
+      "question": "When did the church reform begin?",
+      "answers": {
+        "text": [
+          "early 11th century",
+          "11th century",
+          "in the early 11th century"
+        ],
+        "answer_start": [
+          129,
+          135,
+          122
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5ad40cac604f3c001a400087",
+      "title": "Yuan_dynasty",
+      "context": "Despite the high position given to Muslims, some policies of the Yuan Emperors severely discriminated against them, restricting Halal slaughter and other Islamic practices like circumcision, as well as Kosher butchering for Jews, forcing them to eat food the Mongol way. Toward the end, corruption and the persecution became so severe that Muslim generals joined Han Chinese in rebelling against the Mongols. The Ming founder Zhu Yuanzhang had Muslim generals like Lan Yu who rebelled against the Mongols and defeated them in combat. Some Muslim communities had a Chinese surname which meant \"barracks\" and could also mean \"thanks\". Many Hui Muslims claim this is because that they played an important role in overthrowing the Mongols and it was given in thanks by the Han Chinese for assisting them. During the war fighting the Mongols, among the Ming Emperor Zhu Yuanzhang's armies was the Hui Muslim Feng Sheng. The Muslims in the semu class also revolted against the Yuan dynasty in the Ispah Rebellion but the rebellion was crushed and the Muslims were massacred by the Yuan loyalist commander Chen Youding.",
+      "question": "What Yuan policies did Muslims like?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5ad0394877cf76001a686e59",
+      "title": "Southern_California",
+      "context": "Southern California consists of one of the more varied collections of geologic, topographic, and natural ecosystem landscapes in a diversity outnumbering other major regions in the state and country. The region spans from Pacific Ocean islands, shorelines, beaches, and coastal plains, through the Transverse and Peninsular Ranges with their peaks, into the large and small interior valleys, to the vast deserts of California.",
+      "question": "What area has the most diversity of anywhere in the country?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5ad3b6d8604f3c001a3fedff",
+      "title": "French_and_Indian_War",
+      "context": "The new British command was not in place until July. When he arrived in Albany, Abercrombie refused to take any significant actions until Loudoun approved them. Montcalm took bold action against his inertia. Building on Vaudreuil's work harassing the Oswego garrison, Montcalm executed a strategic feint by moving his headquarters to Ticonderoga, as if to presage another attack along Lake George. With Abercrombie pinned down at Albany, Montcalm slipped away and led the successful attack on Oswego in August. In the aftermath, Montcalm and the Indians under his command disagreed about the disposition of prisoners' personal effects. The Europeans did not consider them prizes and prevented the Indians from stripping the prisoners of their valuables, which angered the Indians.",
+      "question": "What agreement did Montcalm and Indians have?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5a8241e631013a001a335361",
+      "title": "Harvard_University",
+      "context": "Harvard has several athletic facilities, such as the Lavietes Pavilion, a multi-purpose arena and home to the Harvard basketball teams. The Malkin Athletic Center, known as the \"MAC\", serves both as the university's primary recreation facility and as a satellite location for several varsity sports. The five-story building includes two cardio rooms, an Olympic-size swimming pool, a smaller pool for aquaerobics and other activities, a mezzanine, where all types of classes are held, an indoor cycling studio, three weight rooms, and a three-court gym floor to play basketball. The MAC offers personal trainers and specialty classes. It is home to Harvard volleyball, fencing and wrestling. The offices of several of the school's varsity coaches are also in the MAC.",
+      "question": "At what building do Olympic athletes train?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5725bcb6271a42140099d0ef",
+      "title": "1973_oil_crisis",
+      "context": "In response to American aid to Israel, on October 16, 1973, OPEC raised the posted price of oil by 70%, to $5.11 a barrel. The following day, oil ministers agreed to the embargo, a cut in production by five percent from September's output and to continue to cut production in five percent monthly increments until their economic and political objectives were met. On October 19, Nixon requested Congress to appropriate $2.2 billion in emergency aid to Israel, including $1.5 billion in outright grants. George Lenczowski notes, \"Military supplies did not exhaust Nixon's eagerness to prevent Israel's collapse...This [$2.2 billion] decision triggered a collective OPEC response.\" Libya immediately announced it would embargo oil shipments to the United States. Saudi Arabia and the other Arab oil-producing states joined the embargo on October 20, 1973. At their Kuwait meeting, OAPEC proclaimed the embargo that curbed exports to various countries and blocked all oil deliveries to the US as a \"principal hostile country\".",
+      "question": "Why did OPEC block oil deliveries to the United States?",
+      "answers": {
+        "text": [
+          "American aid to Israel",
+          "Nixon requested Congress to appropriate $2.2 billion in emergency aid to Israel",
+          "OAPEC proclaimed the embargo that curbed exports to various countries and blocked all oil deliveries to the US as a \"principal hostile country",
+          "OAPEC proclaimed the embargo that curbed exports to various countries",
+          "American aid to Israel"
+        ],
+        "answer_start": [
+          15,
+          379,
+          879,
+          879,
+          15
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5ad568175b96ef001a10ae14",
+      "title": "Computational_complexity_theory",
+      "context": "The question of whether P equals NP is one of the most important open questions in theoretical computer science because of the wide implications of a solution. If the answer is yes, many important problems can be shown to have more efficient solutions. These include various types of integer programming problems in operations research, many problems in logistics, protein structure prediction in biology, and the ability to find formal proofs of pure mathematics theorems. The P versus NP problem is one of the Millennium Prize Problems proposed by the Clay Mathematics Institute. There is a US$1,000,000 prize for resolving the problem.",
+      "question": "What was the prize for finding a solution to P=NP at the the Alpha Prize Problems?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5ad408ed604f3c001a3fff0f",
+      "title": "Yuan_dynasty",
+      "context": "While the existence of these central government departments and the Six Ministries (which had been introduced since the Sui and Tang dynasties) gave a Sinicized image in the Yuan administration, the actual functions of these ministries also reflected how Mongolian priorities and policies reshaped and redirected those institutions. For example, the authority of the Yuan legal system, the Ministry of Justice, did not extend to legal cases involving Mongols and Semuren, who had separate courts of justice. Cases involving members of more than one ethnic group were decided by a mixed board consisting of Chinese and Mongols. Another example was the insignificance of the Ministry of War compared with native Chinese dynasties, as the real military authority in Yuan times resided in the Privy Council.",
+      "question": " Who had military control during the Yuan?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5727478cf1498d1400e8f59c",
+      "title": "Private_school",
+      "context": "The secondary level includes schools offering years 7 through 12 (year twelve is known as lower sixth) and year 13 (upper sixth). This category includes university-preparatory schools or \"prep schools\", boarding schools and day schools. Tuition at private secondary schools varies from school to school and depends on many factors, including the location of the school, the willingness of parents to pay, peer tuitions and the school's financial endowment. High tuition, schools claim, is used to pay higher salaries for the best teachers and also used to provide enriched learning environments, including a low student to teacher ratio, small class sizes and services, such as libraries, science laboratories and computers. Some private schools are boarding schools and many military academies are privately owned or operated as well.",
+      "question": "What is another term for university-preparatory schools?",
+      "answers": {
+        "text": [
+          "prep schools",
+          "prep schools",
+          "prep schools"
+        ],
+        "answer_start": [
+          188,
+          188,
+          188
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5ad2afe2d7d075001a429f1a",
+      "title": "Rhine",
+      "context": "The Rhine was not known to Herodotus and first enters the historical period in the 1st century BC in Roman-era geography. At that time, it formed the boundary between Gaul and Germania. The Upper Rhine had been part of the areal of the late Hallstatt culture since the 6th century BC, and by the 1st century BC, the areal of the La Tène culture covered almost its entire length, forming a contact zone with the Jastorf culture, i.e. the locus of early Celtic-Germanic cultural contact. In Roman geography, the Rhine formed the boundary between Gallia and Germania by definition; e.g. Maurus Servius Honoratus, Commentary on the Aeneid of Vergil (8.727) (Rhenus) fluvius Galliae, qui Germanos a Gallia dividit \"(The Rhine is a) river of Gaul, which divides the Germanic people from Gaul.\"",
+      "question": "When did Herodotus discover the Rhine?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "572970c11d04691400779464",
+      "title": "Prime_number",
+      "context": "There are infinitely many primes, as demonstrated by Euclid around 300 BC. There is no known simple formula that separates prime numbers from composite numbers. However, the distribution of primes, that is to say, the statistical behaviour of primes in the large, can be modelled. The first result in that direction is the prime number theorem, proven at the end of the 19th century, which says that the probability that a given, randomly chosen number n is prime is inversely proportional to its number of digits, or to the logarithm of n.",
+      "question": "Who established the amount of prime numbers in existence?",
+      "answers": {
+        "text": [
+          "Euclid",
+          "Euclid",
+          "Euclid",
+          "Euclid",
+          "Euclid"
+        ],
+        "answer_start": [
+          53,
+          53,
+          53,
+          53,
+          53
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5ad25af2d7d075001a428e55",
+      "title": "Economic_inequality",
+      "context": "Economist Joseph Stiglitz argues that rather than explaining concentrations of wealth and income, market forces should serve as a brake on such concentration, which may better be explained by the non-market force known as \"rent-seeking\". While the market will bid up compensation for rare and desired skills to reward wealth creation, greater productivity, etc., it will also prevent successful entrepreneurs from earning excess profits by fostering competition to cut prices, profits and large compensation. A better explainer of growing inequality, according to Stiglitz, is the use of political power generated by wealth by certain groups to shape government policies financially beneficial to them. This process, known to economists as rent-seeking, brings income not from creation of wealth but from \"grabbing a larger share of the wealth that would otherwise have been produced without their effort\"",
+      "question": "What is used by certain unwealthy groups to obtain policies financially beneficial for them?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5726bc1add62a815002e8ea7",
+      "title": "European_Union_law",
+      "context": "The Free Movement of Workers Regulation articles 1 to 7 set out the main provisions on equal treatment of workers. First, articles 1 to 4 generally require that workers can take up employment, conclude contracts, and not suffer discrimination compared to nationals of the member state. In a famous case, the Belgian Football Association v Bosman, a Belgian footballer named Jean-Marc Bosman claimed that he should be able to transfer from R.F.C. de Liège to USL Dunkerque when his contract finished, regardless of whether Dunkerque could afford to pay Liège the habitual transfer fees. The Court of Justice held \"the transfer rules constitute[d] an obstacle to free movement\" and were unlawful unless they could be justified in the public interest, but this was unlikely. In Groener v Minister for Education the Court of Justice accepted that a requirement to speak Gaelic to teach in a Dublin design college could be justified as part of the public policy of promoting the Irish language, but only if the measure was not disproportionate. By contrast in Angonese v Cassa di Risparmio di Bolzano SpA a bank in Bolzano, Italy, was not allowed to require Mr Angonese to have a bilingual certificate that could only be obtained in Bolzano. The Court of Justice, giving \"horizontal\" direct effect to TFEU article 45, reasoned that people from other countries would have little chance of acquiring the certificate, and because it was \"impossible to submit proof of the required linguistic knowledge by any other means\", the measure was disproportionate. Second, article 7(2) requires equal treatment in respect of tax. In Finanzamt Köln Altstadt v Schumacker the Court of Justice held that it contravened TFEU art 45 to deny tax benefits (e.g. for married couples, and social insurance expense deductions) to a man who worked in Germany, but was resident in Belgium when other German residents got the benefits. By contrast in Weigel v Finanzlandesdirektion für Vorarlberg the Court of Justice rejected Mr Weigel's claim that a re-registration charge upon bringing his car to Austria violated his right to free movement. Although the tax was \"likely to have a negative bearing on the decision of migrant workers to exercise their right to freedom of movement\", because the charge applied equally to Austrians, in absence of EU legislation on the matter it had to be regarded as justified. Third, people must receive equal treatment regarding \"social advantages\", although the Court has approved residential qualifying periods. In Hendrix v Employee Insurance Institute the Court of Justice held that a Dutch national was not entitled to continue receiving incapacity benefits when he moved to Belgium, because the benefit was \"closely linked to the socio-economic situation\" of the Netherlands. Conversely, in Geven v Land Nordrhein-Westfalen the Court of Justice held that a Dutch woman living in the Netherlands, but working between 3 and 14 hours a week in Germany, did not have a right to receive German child benefits, even though the wife of a man who worked full-time in Germany but was resident in Austria could. The general justifications for limiting free movement in TFEU article 45(3) are \"public policy, public security or public health\", and there is also a general exception in article 45(4) for \"employment in the public service\".",
+      "question": "Which Belgian footballer claimed that he should be allowed to transfer from one football club to another when his contract was fulfilled?",
+      "answers": {
+        "text": [
+          "Jean-Marc Bosman",
+          "the Belgian Football Association v Bosman",
+          "Jean-Marc Bosman"
+        ],
+        "answer_start": [
+          374,
+          304,
+          374
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "572646655951b619008f6ec0",
+      "title": "Ctenophora",
+      "context": "Ctenophores form an animal phylum that is more complex than sponges, about as complex as cnidarians (jellyfish, sea anemones, etc.), and less complex than bilaterians (which include almost all other animals). Unlike sponges, both ctenophores and cnidarians have: cells bound by inter-cell connections and carpet-like basement membranes; muscles; nervous systems; and some have sensory organs. Ctenophores are distinguished from all other animals by having colloblasts, which are sticky and adhere to prey, although a few ctenophore species lack them.",
+      "question": "What do ctenophores have that no other animals have?",
+      "answers": {
+        "text": [
+          "colloblasts",
+          "colloblasts",
+          "colloblasts"
+        ],
+        "answer_start": [
+          456,
+          456,
+          456
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5ad259fdd7d075001a428e29",
+      "title": "Economic_inequality",
+      "context": "Plotting the relationship between level of income and inequality, Kuznets saw middle-income developing economies level of inequality bulging out to form what is now known as the Kuznets curve. Kuznets demonstrated this relationship using cross-sectional data. However, more recent testing of this theory with superior panel data has shown it to be very weak. Kuznets' curve predicts that income inequality will eventually decrease given time. As an example, income inequality did fall in the United States during its High school movement from 1910 to 1940 and thereafter.[citation needed] However, recent data shows that the level of income inequality began to rise after the 1970s. This does not necessarily disprove Kuznets' theory.[citation needed] It may be possible that another Kuznets' cycle is occurring, specifically the move from the manufacturing sector to the service sector.[citation needed] This implies that it may be possible for multiple Kuznets' cycles to be in effect at any given time.",
+      "question": "In what sector are jobs beginning to increase?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5ad0415577cf76001a686f06",
+      "title": "Scottish_Parliament",
+      "context": "Under the Scotland Act 1998, ordinary general elections for the Scottish Parliament are held on the first Thursday in May every four years (1999, 2003, 2007 and so on). The date of the poll may be varied by up to one month either way by the Monarch on the proposal of the Presiding Officer. If the Parliament itself resolves that it should be dissolved (with at least two-thirds of the Members voting in favour), or if the Parliament fails to nominate one of its members to be First Minister within 28 days of a General Election or of the position becoming vacant, the Presiding Officer proposes a date for an extraordinary general election and the Parliament is dissolved by the Queen by royal proclamation. Extraordinary general elections are in addition to ordinary general elections, unless held less than six months before the due date of an ordinary general election, in which case they supplant it. The following ordinary election reverts to the first Thursday in May, a multiple of four years after 1999 (i.e., 5 May 2011, 7 May 2015, etc.).",
+      "question": "Who proposes the date of the poll not be varied?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5a6cb7ce4eec6b001a80a63b",
+      "title": "Pharmacy",
+      "context": "A Pharmacy Technician in the UK is considered a health care professional and often does not work under the direct supervision of a pharmacist (if employed in a hospital pharmacy) but instead is supervised and managed by other senior pharmacy technicians. In the UK the role of a PhT has grown and responsibility has been passed on to them to manage the pharmacy department and specialised areas in pharmacy practice allowing pharmacists the time to specialise in their expert field as medication consultants spending more time working with patients and in research. A pharmacy technician once qualified has to register as a professional on the General Pharmaceutical Council (GPhC) register. The GPhC is the governing body for pharmacy health care professionals and this is who regulates the practice of pharmacists and pharmacy technicians.",
+      "question": "What types of responsibilities might a pharmacy technician not be responsible for?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5ad3f7ac604f3c001a3ffa3c",
+      "title": "Normans",
+      "context": "One of the claimants of the English throne opposing William the Conqueror, Edgar Atheling, eventually fled to Scotland. King Malcolm III of Scotland married Edgar's sister Margaret, and came into opposition to William who had already disputed Scotland's southern borders. William invaded Scotland in 1072, riding as far as Abernethy where he met up with his fleet of ships. Malcolm submitted, paid homage to William and surrendered his son Duncan as a hostage, beginning a series of arguments as to whether the Scottish Crown owed allegiance to the King of England.",
+      "question": "Who invaded Scotland in the 10th century?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "572ffe6fb2c2fd14005686f0",
+      "title": "Islamism",
+      "context": "Islamist movements such as the Muslim Brotherhood, \"are well known for providing shelters, educational assistance, free or low cost medical clinics, housing assistance to students from out of town, student advisory groups, facilitation of inexpensive mass marriage ceremonies to avoid prohibitively costly dowry demands, legal assistance, sports facilities, and women's groups.\" All this compares very favourably against incompetent, inefficient, or neglectful governments whose commitment to social justice is limited to rhetoric.",
+      "question": "What type of assistance to out of town students is the Muslim Brotherhood known for?",
+      "answers": {
+        "text": [
+          "housing",
+          "shelters, educational assistance, free or low cost medical clinics, housing assistance",
+          "shelters, educational assistance, free or low cost medical clinics, housing assistance"
+        ],
+        "answer_start": [
+          149,
+          81,
+          81
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5ad0511577cf76001a686fcc",
+      "title": "Southern_California",
+      "context": "College sports are also popular in southern California. The UCLA Bruins and the USC Trojans both field teams in NCAA Division I in the Pac-12 Conference, and there is a longtime rivalry between the schools.",
+      "question": "What conference are both ULCA and UCS part of?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "57107d73b654c5140001f91f",
+      "title": "Huguenot",
+      "context": "Renewed religious warfare in the 1620s caused the political and military privileges of the Huguenots to be abolished following their defeat. They retained the religious provisions of the Edict of Nantes until the rule of Louis XIV, who progressively increased persecution of them until he issued the Edict of Fontainebleau (1685), which abolished all legal recognition of Protestantism in France, and forced the Huguenots to convert. While nearly three-quarters eventually were killed  or submitted, roughly 500,000 Huguenots had fled France by the early 18th century[citation needed].",
+      "question": "Which French kind issued this declaration?",
+      "answers": {
+        "text": [
+          "Louis XIV",
+          "Louis XIV",
+          "Louis XIV"
+        ],
+        "answer_start": [
+          221,
+          221,
+          221
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5ad542db5b96ef001a10abf6",
+      "title": "Computational_complexity_theory",
+      "context": "If the input size is n, the time taken can be expressed as a function of n. Since the time taken on different inputs of the same size can be different, the worst-case time complexity T(n) is defined to be the maximum time taken over all inputs of size n. If T(n) is a polynomial in n, then the algorithm is said to be a polynomial time algorithm. Cobham's thesis says that a problem can be solved with a feasible amount of resources if it admits a polynomial time algorithm.",
+      "question": "What term corresponds to the minimum measurement of the time across all functions of n?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5a667761846392001a1e1c3a",
+      "title": "Packet_switching",
+      "context": "Packet switching contrasts with another principal networking paradigm, circuit switching, a method which pre-allocates dedicated network bandwidth specifically for each communication session, each having a constant bit rate and latency between nodes. In cases of billable services, such as cellular communication services, circuit switching is characterized by a fee per unit of connection time, even when no data is transferred, while packet switching may be characterized by a fee per unit of information transmitted, such as characters, packets, or messages.",
+      "question": "What is special about communication sessions with packet switching?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "572a12381d0469140077972f",
+      "title": "Economic_inequality",
+      "context": "Research by Harvard economist Robert Barro, found that there is \"little overall relation between income inequality and rates of growth and investment\". According to work by Barro in 1999 and 2000, high levels of inequality reduce growth in relatively poor countries but encourage growth in richer countries. A study of Swedish counties between 1960 and 2000 found a positive impact of inequality on growth with lead times of five years or less, but no correlation after ten years. Studies of larger data sets have found no correlations for any fixed lead time, and a negative impact on the duration of growth.",
+      "question": "When was a study conducted of Swedish counties?",
+      "answers": {
+        "text": [
+          "between 1960 and 2000",
+          "between 1960 and 2000",
+          "between 1960 and 2000"
+        ],
+        "answer_start": [
+          336,
+          336,
+          336
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "57286b003acd2414000df9c1",
+      "title": "Yuan_dynasty",
+      "context": "Kublai readied the move of the Mongol capital from Karakorum in Mongolia to Khanbaliq in 1264, constructing a new city near the former Jurchen capital Zhongdu, now modern Beijing, in 1266. In 1271, Kublai formally claimed the Mandate of Heaven and declared that 1272 was the first year of the Great Yuan (Chinese: 大元) in the style of a traditional Chinese dynasty. The name of the dynasty originated from the I Ching and describes the \"origin of the universe\" or a \"primal force\". Kublai proclaimed Khanbaliq the \"Great Capital\" or Daidu (Dadu, Chinese: 大都 in Chinese) of the dynasty. The era name was changed to Zhiyuan to herald a new era of Chinese history. The adoption of a dynastic name legitimized Mongol rule by integrating the government into the narrative of traditional Chinese political succession. Khublai evoked his public image as a sage emperor by following the rituals of Confucian propriety and ancestor veneration, while simultaneously retaining his roots as a leader from the steppes.",
+      "question": "Where had the Mongol capital been before Kublai moved it?",
+      "answers": {
+        "text": [
+          "Karakorum",
+          "Karakorum",
+          "Karakorum"
+        ],
+        "answer_start": [
+          51,
+          51,
+          51
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5a665870846392001a1e1af3",
+      "title": "Civil_disobedience",
+      "context": "Non-revolutionary civil disobedience is a simple disobedience of laws on the grounds that they are judged \"wrong\" by an individual conscience, or as part of an effort to render certain laws ineffective, to cause their repeal, or to exert pressure to get one's political wishes on some other issue. Revolutionary civil disobedience is more of an active attempt to overthrow a government (or to change cultural traditions, social customs, religious beliefs, etc...revolution doesn't have to be political, i.e. \"cultural revolution\", it simply implies sweeping and widespread change to a section of the social fabric). Gandhi's acts have been described as revolutionary civil disobedience. It has been claimed that the Hungarians under Ferenc Deák directed revolutionary civil disobedience against the Austrian government. Thoreau also wrote of civil disobedience accomplishing \"peaceable revolution.\" Howard Zinn, Harvey Wheeler, and others have identified the right espoused in The Declaration of Independence to \"alter or abolish\" an unjust government to be a principle of civil disobedience. ",
+      "question": "What does non-revolutionary civil disobedience want to overthrow?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5725d42a89a1e219009abf5b",
+      "title": "Fresno,_California",
+      "context": "In the 1970s, the city was the subject of a song, \"Walking Into Fresno\", written by Hall Of Fame guitarist Bill Aken and recorded by Bob Gallion of the world-famous \"WWVA Jamboree\" radio and television show in Wheeling, West Virginia. Aken, adopted by Mexican movie actress Lupe Mayorga, grew up in the neighboring town of Madera and his song chronicled the hardships faced by the migrant farm workers he saw as a child. Aken also made his first TV appearance playing guitar on the old country-western show at The Fresno Barn.",
+      "question": "On what show did Bill Aiken make is television debut?",
+      "answers": {
+        "text": [
+          "The Fresno Barn",
+          "The Fresno Barn",
+          "the old country-western show at The Fresno Barn"
+        ],
+        "answer_start": [
+          510,
+          510,
+          478
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5ad4f4405b96ef001a10a77f",
+      "title": "Immune_system",
+      "context": "The success of any pathogen depends on its ability to elude host immune responses. Therefore, pathogens evolved several methods that allow them to successfully infect a host, while evading detection or destruction by the immune system. Bacteria often overcome physical barriers by secreting enzymes that digest the barrier, for example, by using a type II secretion system. Alternatively, using a type III secretion system, they may insert a hollow tube into the host cell, providing a direct route for proteins to move from the pathogen to the host. These proteins are often used to shut down host defenses.",
+      "question": "How do viruses overcome physical barriers?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5a6cb89e4eec6b001a80a640",
+      "title": "Pharmacy",
+      "context": "In Ancient Greece, Diocles of Carystus (4th century BC) was one of several men studying the medicinal properties of plants. He wrote several treatises on the topic. The Greek physician Pedanius Dioscorides is famous for writing a five volume book in his native Greek Περί ύλης ιατρικής in the 1st century AD. The Latin translation De Materia Medica (Concerning medical substances) was used a basis for many medieval texts, and was built upon by many middle eastern scientists during the Islamic Golden Age. The title coined the term materia medica.",
+      "question": "Who is a man studying medicinal applicants of plants in Modern Greece?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5acfa71b77cf76001a68572e",
+      "title": "University_of_Chicago",
+      "context": "In science, alumni include astronomers Carl Sagan, a prominent contributor to the scientific research of extraterrestrial life, and Edwin Hubble, known for \"Hubble's Law\", NASA astronaut John M. Grunsfeld, geneticist James Watson, best known as one of the co-discoverers of the structure of DNA, experimental physicist Luis Alvarez, popular environmentalist David Suzuki, balloonist Jeannette Piccard, biologists Ernest Everett Just and Lynn Margulis, computer scientist Richard Hamming, the creator of the Hamming Code, lithium-ion battery developer John B. Goodenough, mathematician and Fields Medal recipient Paul Joseph Cohen, and geochemist Clair Cameron Patterson, who developed the uranium-lead dating method into lead-lead dating. Nuclear physicist and researcher Stanton Friedman, who worked on some early projects involving nuclear-powered spacecraft propulsion systems, is also a graduate (M.Sc).",
+      "question": "Who was the developer of the Hamming battery?",
+      "answers": {
+        "text": [],
+        "answer_start": []
+      },
+      "has_answer": false
+    },
+    {
+      "id": "5725ca4389a1e219009abeb8",
+      "title": "European_Union_law",
+      "context": "The primary law of the EU consists mainly of the founding treaties, the \"core\" treaties being the Treaty on European Union (TEU) and the Treaty on the Functioning of the European Union (TFEU). The Treaties contain formal and substantive provisions, which frame policies of the European Union institutions and determine the division of competences between the European Union and its member states. The TEU establishes that European Union law applies to the metropolitan territories of the member states, as well as certain islands and overseas territories, including Madeira, the Canary Islands and the French overseas departments. European Union law also applies in territories where a member state is responsible for external relations, for example Gibraltar and the Åland islands. The TEU allows the European Council to make specific provisions for regions, as for example done for customs matters in Gibraltar and Saint-Pierre-et-Miquelon. The TEU specifically excludes certain regions, for example the Faroe Islands, from the jurisdiction of European Union law. Treaties apply as soon as they enter into force, unless stated otherwise, and are generally concluded for an unlimited period. The TEU provides that commitments entered into by the member states between themselves before the treaty was signed no longer apply.[vague] All EU member states are regarded as subject to the general obligation of the principle of cooperation, as stated in the TEU, whereby member states are obliged not to take measure which could jeopardise the attainment of the TEU objectives. The Court of Justice of the European Union can interpret the Treaties, but it cannot rule on their validity, which is subject to international law. Individuals may rely on primary law in the Court of Justice of the European Union if the Treaty provisions have a direct effect and they are sufficiently clear, precise and unconditional.",
+      "question": "When do treaties apply?",
+      "answers": {
+        "text": [
+          "as soon as they enter into force, unless stated otherwise",
+          "Treaties apply as soon as they enter into force",
+          "as soon as they enter into force",
+          "as soon as they enter into force"
+        ],
+        "answer_start": [
+          1081,
+          1066,
+          1081,
+          1081
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "57300200b2c2fd140056872d",
+      "title": "Islamism",
+      "context": "Maududi also believed that Muslim society could not be Islamic without Sharia, and Islam required the establishment of an Islamic state. This state should be a \"theo-democracy,\" based on the principles of: tawhid (unity of God), risala (prophethood) and khilafa (caliphate). Although Maududi talked about Islamic revolution, by \"revolution\" he meant not the violence or populist policies of the Iranian Revolution, but the gradual changing the hearts and minds of individuals from the top of society downward through an educational process or da'wah.",
+      "question": "By what method did Maududi want to change the hearts and minds of individuals?",
+      "answers": {
+        "text": [
+          "an educational process",
+          "an educational process or da'wah",
+          "educational process or da'wah"
+        ],
+        "answer_start": [
+          517,
+          517,
+          520
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "5726249538643c19005ad080",
+      "title": "Packet_switching",
+      "context": "Baran developed the concept of distributed adaptive message block switching during his research at the RAND Corporation for the US Air Force into survivable communications networks, first presented to the Air Force in the summer of 1961 as briefing B-265, later published as RAND report P-2626 in 1962, and finally in report RM 3420 in 1964. Report P-2626 described a general architecture for a large-scale, distributed, survivable communications network. The work focuses on three key ideas: use of a decentralized network with multiple paths between any two points, dividing user messages into message blocks, later called packets, and delivery of these messages by store and forward switching.",
+      "question": "What was developed for the Air Force ",
+      "answers": {
+        "text": [
+          "survivable communications networks",
+          "the concept of distributed adaptive message block switching",
+          "survivable communications networks"
+        ],
+        "answer_start": [
+          146,
+          16,
+          146
+        ]
+      },
+      "has_answer": true
+    },
+    {
+      "id": "57264a74708984140094c18d",
+      "title": "Black_Death",
+      "context": "Gasquet (1908) claimed that the Latin name atra mors (Black Death) for the 14th-century epidemic first appeared in modern times in 1631 in a book on Danish history by J.I. Pontanus: \"Vulgo & ab effectu atram mortem vocatibant. (\"Commonly and from its effects, they called it the black death\"). The name spread through Scandinavia and then Germany, gradually becoming attached to the mid 14th-century epidemic as a proper name. In England, it was not until 1823 that the medieval epidemic was first called the Black Death.",
+      "question": "Who allegedly coined the name Black Death?",
+      "answers": {
+        "text": [
+          "J.I. Pontanus",
+          "J.I. Pontanus",
+          "J.I. Pontanus"
+        ],
+        "answer_start": [
+          167,
+          167,
+          167
+        ]
+      },
+      "has_answer": true
+    }
+  ]
+}

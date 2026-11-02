@@ -1,0 +1,460 @@
+[
+  {
+    "name": "2wikimultihopqa_100.jsonl",
+    "title": "2Wikimultihopqa 100",
+    "count": 100,
+    "file_size_bytes": 418937,
+    "categories": [
+      {
+        "field": "type",
+        "values": [
+          "bridge_comparison",
+          "comparison",
+          "compositional",
+          "inference"
+        ]
+      }
+    ],
+    "metadata": {
+      "year": 2020,
+      "original_size": "192,606 questions",
+      "note": "Train 167,454 · Dev 12,576 · Test 12,576.",
+      "source": "https://aclanthology.org/2020.coling-main.580/",
+      "question_format": "Questions require reasoning across multiple Wikipedia facts, with supporting pages and an annotated reasoning path.",
+      "internal_organization": "Four types: bridge-comparison first links entities through an intermediate fact, then compares them; comparison directly compares entities; compositional combines multiple facts about linked entities; inference requires deriving an answer from a chain of facts. The sample includes all four, with supporting and distractor pages.",
+      "my_notes": {
+        "pros": "Distractor paragraphs make the task challenging enough. It covers four question types: bridge-comparison, comparison, compositional, and inference.",
+        "cons": "No specific con noted yet.",
+        "conclusion": "A very good dataset for the evaluation.",
+        "rating": "5/5"
+      },
+      "real_world_application": "No specific domain · general multi-hop QA",
+      "answer_format_summary": "Free-text answer",
+      "contains_tables": false,
+      "rating": "5/5"
+    }
+  },
+  {
+    "name": "averitec_100.jsonl",
+    "title": "Averitec 100",
+    "count": 84,
+    "file_size_bytes": 2033680,
+    "categories": [
+      {
+        "field": "label",
+        "values": [
+          "Conflicting Evidence/Cherrypicking",
+          "Not Enough Evidence",
+          "Refuted",
+          "Supported"
+        ]
+      }
+    ],
+    "metadata": {
+      "year": 2023,
+      "original_size": "4,568 Claims",
+      "note": "The local file only includes examples with retrieved source text, so it may contain fewer than 100 examples.",
+      "source": "https://papers.neurips.cc/paper_files/paper/2023/hash/cd86a30526cd1aff61d6f89f107634e4-Abstract-Datasets_and_Benchmarks.html",
+      "question_format": "Real-world claims are checked using question-answer evidence gathered from the web, with a written justification.",
+      "internal_organization": "Four verdicts: Supported (evidence backs the claim), Refuted (evidence contradicts it), Not Enough Evidence (cannot decide), and Conflicting Evidence/Cherrypicking (sources conflict or the claim selectively uses evidence). This local sample keeps examples with retrieved source text.",
+      "my_notes": {
+        "pros": "Real-world fact-checking application. The task is challenging, but judging is straightforward because answers use one of four verdicts.",
+        "cons": "The Conflicting Evidence/Cherrypicking subset may be difficult to judge.",
+        "conclusion": "Test how the model performs on it.",
+        "rating": "4.5/5"
+      },
+      "real_world_application": "Real-world web fact-checking",
+      "answer_format_summary": "Categorical · 4 verdicts",
+      "contains_tables": false,
+      "rating": "4.5/5"
+    }
+  },
+  {
+    "name": "fever_100.jsonl",
+    "title": "Fever 100",
+    "count": 100,
+    "file_size_bytes": 6446217,
+    "categories": [
+      {
+        "field": "label",
+        "values": [
+          "NOT ENOUGH INFO",
+          "REFUTES",
+          "SUPPORTS"
+        ]
+      }
+    ],
+    "metadata": {
+      "year": 2018,
+      "original_size": "185,445 Claims",
+      "note": "Train, dev, and test combined. The local file is a 100-example sample.",
+      "source": "https://github.com/awslabs/fever",
+      "question_format": "Short factual claims adapted from Wikipedia sentences; each claim is labeled SUPPORTS, REFUTES, or NOT ENOUGH INFO.",
+      "internal_organization": "Three verdict tabs: SUPPORTS means Wikipedia evidence confirms the claim; REFUTES means it contradicts it; NOT ENOUGH INFO means the supplied evidence cannot decide. Gold evidence pages are annotated for the first two.",
+      "my_notes": {
+        "pros": "Useful for RAG testing.",
+        "cons": "The task may be too easy. FEVEROUS is very similar but also includes tables.",
+        "conclusion": "Prefer FEVEROUS, which adds structured table evidence.",
+        "rating": "2/5"
+      },
+      "real_world_application": "Fact-checking claims",
+      "answer_format_summary": "Categorical · 3 verdicts",
+      "contains_tables": false,
+      "rating": "2/5"
+    }
+  },
+  {
+    "name": "feverous_100.jsonl",
+    "title": "Feverous 100",
+    "count": 100,
+    "file_size_bytes": 3493759,
+    "categories": [
+      {
+        "field": "label",
+        "values": [
+          "",
+          "NOT ENOUGH INFO",
+          "REFUTES",
+          "SUPPORTS"
+        ]
+      },
+      {
+        "field": "challenge",
+        "values": [
+          "",
+          "Combining Tables and Text",
+          "Entity Disambiguation",
+          "Multi-hop Reasoning",
+          "Numerical Reasoning",
+          "Other",
+          "Search terms not in claim"
+        ]
+      }
+    ],
+    "metadata": {
+      "year": 2021,
+      "original_size": "87,026 Claims",
+      "note": "Original benchmark with textual and tabular evidence.",
+      "source": "https://github.com/Raldir/FEVEROUS",
+      "question_format": "Factual claims checked against Wikipedia prose, tables, and lists; verification can require combining several evidence items.",
+      "internal_organization": "Verdicts are SUPPORTS, REFUTES, or NOT ENOUGH INFO. Challenge tabs describe the reasoning: numerical reasoning uses quantities; multi-hop combines facts; entity disambiguation resolves who/what a mention refers to; table-text combination uses both formats; search-terms-not-in-claim tests retrieval beyond claim wording; Other covers remaining cases.",
+      "my_notes": {
+        "pros": "Good for RAG testing and easy to evaluate with three verdict classes. NOT ENOUGH INFO is a useful category, and evidence can include both tables and text.",
+        "cons": "The examples may be too easy.",
+        "conclusion": "Test how many hallucinations the model actually produces and whether the dataset is sufficiently challenging.",
+        "rating": "4.5/5"
+      },
+      "real_world_application": "Fact-checking with text and table evidence",
+      "answer_format_summary": "Categorical · 3 verdicts",
+      "contains_tables": true,
+      "rating": "4.5/5"
+    }
+  },
+  {
+    "name": "gsm8k_100.jsonl",
+    "title": "Gsm8K 100",
+    "count": 100,
+    "file_size_bytes": 87345,
+    "categories": [],
+    "metadata": {
+      "year": 2021,
+      "original_size": "8,792 problems",
+      "note": "7,473 Train · 1,319 Test.",
+      "source": "https://huggingface.co/datasets/openai/gsm8k",
+      "question_format": "Grade-school math word problems with a worked solution and final numeric answer, typically requiring several arithmetic steps.",
+      "internal_organization": "The original split has train problems for learning and test problems for evaluation. This local sample comes from test; there are no further topic/type tabs. Each answer includes a worked solution ending in the numeric result.",
+      "my_notes": {
+        "pros": "A calculation-focused dataset that is frequently used in other papers.",
+        "cons": "It is unclear whether calculation mistakes count as the hallucinations we want to study, and it can be hard to identify exactly where a solution goes wrong.",
+        "conclusion": "Probably include it because it is widely used and easy to evaluate, while recognizing that it may not be the best measure of hallucination.",
+        "rating": "3.5/5"
+      },
+      "real_world_application": "Education · arithmetic problem solving",
+      "answer_format_summary": "Free-text / numeric answer",
+      "contains_tables": false,
+      "rating": "3.5/5"
+    }
+  },
+  {
+    "name": "hotpotqa_100.jsonl",
+    "title": "Hotpotqa 100",
+    "count": 100,
+    "file_size_bytes": 616860,
+    "categories": [
+      {
+        "field": "type",
+        "values": [
+          "bridge",
+          "comparison"
+        ]
+      }
+    ],
+    "metadata": {
+      "year": 2018,
+      "original_size": "112,779 questions",
+      "note": "Wikipedia-based multi-hop questions with annotated supporting facts.",
+      "source": "https://hotpotqa.github.io/",
+      "question_format": "Natural questions require combining information from multiple Wikipedia paragraphs; supporting facts identify the evidence used to answer.",
+      "internal_organization": "Bridge questions connect facts through an intermediate entity; comparison questions compare two entities or their attributes. The local distractor sample has 50 of each and provides 10 paragraphs per question, including supporting paragraphs and distractors.",
+      "my_notes": {
+        "pros": "Includes distractors, a clear bridge/comparison split, and free-text answers rather than only fixed answer categories.",
+        "cons": "Answers may be somewhat more difficult to judge.",
+        "conclusion": "A good dataset for the evaluation.",
+        "rating": "4/5"
+      },
+      "real_world_application": "No specific domain · multi-hop information QA",
+      "answer_format_summary": "Free-text answer",
+      "contains_tables": false,
+      "rating": "4/5"
+    }
+  },
+  {
+    "name": "hybridqa_100.jsonl",
+    "title": "Hybridqa 100",
+    "count": 100,
+    "file_size_bytes": 7602002,
+    "categories": [],
+    "metadata": {
+      "year": 2020,
+      "original_size": "Approx. 70,000 questions",
+      "note": "Questions requiring tables, Wikipedia passages, and links between them.",
+      "source": "https://hybridqa.github.io/",
+      "question_format": "Questions require reasoning over a Wikipedia table together with passages linked from its cells.",
+      "internal_organization": "Each example combines a Wikipedia table with linked passages, so answers may require both a table lookup and passage reasoning. The local sample comes from dev; no additional subset tabs are included.",
+      "my_notes": {
+        "pros": "Combines table-based evidence with free-text answers.",
+        "cons": "No specific con noted yet.",
+        "conclusion": "A promising dataset for the evaluation.",
+        "rating": "4.5/5"
+      },
+      "real_world_application": "Table-and-text question answering",
+      "answer_format_summary": "Free-text answer",
+      "contains_tables": true,
+      "rating": "4.5/5"
+    }
+  },
+  {
+    "name": "medhallu_100.jsonl",
+    "title": "Medhallu 100",
+    "count": 100,
+    "file_size_bytes": 366399,
+    "categories": [
+      {
+        "field": "source_split",
+        "values": [
+          "pqa_artificial",
+          "pqa_labeled"
+        ]
+      },
+      {
+        "field": "Category of Hallucination",
+        "values": [
+          "Incomplete Information",
+          "Mechanism and Pathway Misattribution",
+          "Misinterpretation of #Question#"
+        ]
+      },
+      {
+        "field": "Difficulty Level",
+        "values": [
+          "easy",
+          "hard",
+          "medium"
+        ]
+      }
+    ],
+    "metadata": {
+      "year": 2025,
+      "original_size": "10,000 QA examples",
+      "note": "Includes ground truth, generated answers, difficulty, and hallucination category.",
+      "source": "https://huggingface.co/datasets/UTAustin-AIHealth/MedHallu",
+      "question_format": "Medical questions include relevant knowledge, a ground-truth answer, and a generated answer that may contain a hallucination.",
+      "internal_organization": "Two source tabs: pqa_labeled contains labeled medical QA items; pqa_artificial contains artificially constructed items. The sample has 50 from each. Difficulty tabs are easy/medium/hard, and hallucination-category tabs identify the error type.",
+      "my_notes": {
+        "pros": "Real-world medical application. It includes examples across difficulty levels, from easy to hard.",
+        "cons": "Judging answers may be difficult because the gold answers are often long and complicated.",
+        "conclusion": "This would be a good dataset if models perform well and the judging process proves reliable, but judging is very complex.",
+        "rating": "4/5",
+        "note": "The categories Incomplete Information, Mechanism and Pathway Misattribution, Misinterpretation of Question, and Methodological and Evidence Fabrication describe hallucinated answers that are already generated in the dataset. We do not want to use those pre-generated hallucinated answers."
+      },
+      "real_world_application": "Medical QA and hallucination evaluation",
+      "answer_format_summary": "Free-text answers with hallucination labels",
+      "contains_tables": false,
+      "rating": "4/5"
+    }
+  },
+  {
+    "name": "natural_questions_100.jsonl",
+    "title": "Natural Questions 100",
+    "count": 100,
+    "file_size_bytes": 102714,
+    "categories": [],
+    "metadata": {
+      "year": 2019,
+      "original_size": "323,045 questions · approx. 42 GB for the original data",
+      "note": "Local examples come from a simplified, passage-based version.",
+      "source": "https://ai.google.com/research/NaturalQuestions/download",
+      "question_format": "Real anonymized search queries are paired with Wikipedia pages and human answer annotations; the local file is a simplified passage-based version.",
+      "internal_organization": "Original answer annotations distinguish long answers (a passage), short answers (a span or yes/no), and null/no-answer cases. The local sample is from train and has no separate subset tabs.",
+      "my_notes": {
+        "pros": "A simple RAG setting and a somewhat established benchmark.",
+        "cons": "The examples seem very easy.",
+        "conclusion": "It probably needs distractors, but other datasets offer a clearer unanswerable split or hallucination labels.",
+        "rating": "Not rated"
+      },
+      "real_world_application": "Search and information retrieval QA",
+      "answer_format_summary": "Free-text span, yes/no, or no answer",
+      "contains_tables": false,
+      "rating": "Not rated"
+    }
+  },
+  {
+    "name": "squad_v2_100.jsonl",
+    "title": "Squad V2 100",
+    "count": 100,
+    "file_size_bytes": 107930,
+    "categories": [
+      {
+        "field": "has_answer",
+        "values": [
+          "False",
+          "True"
+        ]
+      }
+    ],
+    "metadata": {
+      "year": 2018,
+      "original_size": "Approx. 150,000 questions",
+      "note": "Includes answerable and adversarially unanswerable questions.",
+      "source": "https://arxiv.org/abs/1806.03822",
+      "question_format": "Crowd-written questions refer to a Wikipedia paragraph; some have an answer in the paragraph and others are deliberately unanswerable.",
+      "internal_organization": "Answerability tabs separate answerable questions, where the paragraph contains an answer, from adversarially written unanswerable questions, where it does not. The local sample contains 50 of each.",
+      "my_notes": {
+        "pros": "Clear split between answerable and unanswerable questions.",
+        "cons": "The examples may be quite easy.",
+        "conclusion": "Add distractor snippets if the examples prove too easy for the models.",
+        "rating": "3/4"
+      },
+      "real_world_application": "Reading comprehension",
+      "answer_format_summary": "Free-text span or unanswerable",
+      "contains_tables": false,
+      "rating": "3/4"
+    }
+  },
+  {
+    "name": "t2_ragbench_100.jsonl",
+    "title": "T2 Ragbench 100",
+    "count": 100,
+    "file_size_bytes": 764408,
+    "categories": [
+      {
+        "field": "subset",
+        "values": [
+          "ConvFinQA",
+          "FinQA",
+          "TAT-DQA"
+        ]
+      },
+      {
+        "field": "split",
+        "values": [
+          "all",
+          "dev",
+          "test",
+          "train"
+        ]
+      },
+      {
+        "field": "answer_verbatim_in_context",
+        "values": [
+          "No",
+          "Yes"
+        ]
+      }
+    ],
+    "metadata": {
+      "year": 2025,
+      "original_size": "23,088 question-answer pairs · 8,095 financial documents",
+      "note": "100 examples: 34 FinQA, 33 ConvFinQA, and 33 TAT-DQA. Context includes text and tables. EACL publication: 2026.",
+      "source": "https://huggingface.co/datasets/G4KMU/t2-ragbench",
+      "question_format": "Financial questions are paired with report context and answers that can require reasoning over prose and tables.",
+      "internal_organization": "FinQA focuses on financial-report numerical questions; ConvFinQA organizes financial QA as multi-turn conversations; TAT-DQA asks questions over tables and surrounding text. The sample has 34/33/33 examples, plus a filter for whether the gold answer appears verbatim in context.",
+      "my_notes": {
+        "pros": "Very good for testing real-world financial problems.",
+        "cons": "Some questions require calculations. We have already tested math with GSM8K, and calculation errors are not the hallucinations we are primarily targeting here.",
+        "conclusion": "Use only examples where the gold answer appears verbatim in the context, to focus the evaluation on retrieval rather than calculation.",
+        "rating": "5/5"
+      },
+      "real_world_application": "Financial report question answering",
+      "answer_format_summary": "Free-text / numeric answer",
+      "contains_tables": true,
+      "rating": "5/5"
+    }
+  },
+  {
+    "name": "triviaqa_100.jsonl",
+    "title": "Triviaqa 100",
+    "count": 100,
+    "file_size_bytes": 5220967,
+    "categories": [],
+    "metadata": {
+      "year": 2017,
+      "original_size": "95,000 QA pairs · 650,000+ evidence documents",
+      "note": "The local sample retains the available Wikipedia context.",
+      "source": "https://nlp.cs.washington.edu/triviaqa/",
+      "question_format": "Trivia questions written by enthusiasts are paired with evidence documents used to find the answer.",
+      "internal_organization": "The original resource provides Web and Wikipedia evidence documents. This local reading-comprehension validation sample keeps Wikipedia context only; no further subset tabs are included.",
+      "my_notes": {
+        "pros": "An established benchmark that is used frequently.",
+        "cons": "The context can make many questions relatively easy.",
+        "conclusion": "It may make more sense to use TriviaQA without context and choose other datasets for RAG evaluation.",
+        "rating": "4/5"
+      },
+      "real_world_application": "Open-domain trivia QA",
+      "answer_format_summary": "Free-text answer",
+      "contains_tables": false,
+      "rating": "4/5"
+    }
+  },
+  {
+    "name": "vitaminc_100.jsonl",
+    "title": "Vitaminc 100",
+    "count": 100,
+    "file_size_bytes": 74608,
+    "categories": [
+      {
+        "field": "label",
+        "values": [
+          "NOT ENOUGH INFO",
+          "REFUTES",
+          "SUPPORTS"
+        ]
+      },
+      {
+        "field": "revision_type",
+        "values": [
+          "real",
+          "synthetic"
+        ]
+      }
+    ],
+    "metadata": {
+      "year": 2021,
+      "original_size": "488,904 claim-evidence pairs",
+      "note": "The local sample contains 25 revision groups with four pairs each.",
+      "source": "https://github.com/TalSchuster/VitaminC",
+      "question_format": "A claim is paired with a Wikipedia sentence before or after a factual revision, creating contrastive evidence whose truth relation can change.",
+      "internal_organization": "Each local revision group has four related claim-evidence pairs. Real revisions come from Wikipedia edits; synthetic revisions are constructed edits. Verdict tabs are SUPPORTS (evidence entails the claim), REFUTES (contradicts it), and NOT ENOUGH INFO (does not settle it).",
+      "my_notes": {
+        "pros": "Small sentence changes (for example, changing a date) lead to short questions. The labels have a clear three-way split: SUPPORTS, REFUTES, and NOT ENOUGH INFO.",
+        "cons": "Examples may be relatively easy; adding distractor sentences could make them harder.",
+        "conclusion": "Test how often hallucinations actually occur. Consider adding four or five distractor sentences to increase difficulty.",
+        "rating": "4/5"
+      },
+      "real_world_application": "Evidence-sensitive fact-checking",
+      "answer_format_summary": "Categorical · 3 verdicts",
+      "contains_tables": false,
+      "rating": "4/5"
+    }
+  }
+]
